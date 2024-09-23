@@ -1,0 +1,57 @@
+{
+  "RootObject": {
+    "__guid": "79417acc-52ae-44c7-af34-f224be3ba133",
+    "Flags": 0,
+    "Name": "Coin",
+    "Position": "0.00002586452,522.7977,290",
+    "Rotation": "0.5,-0.5,-0.5,0.5",
+    "Tags": "coin",
+    "Enabled": true,
+    "Components": [
+      {
+        "__type": "SpriteTools.SpriteComponent",
+        "__guid": "0af5a6dc-222f-460f-81c3-9fc80fd5de26",
+        "__version": 1,
+        "BroadcastEvents": {},
+        "CastShadows": "On",
+        "CreateAttachPoints": false,
+        "FlashTint": "1,1,1,0",
+        "PlaybackSpeed": 1,
+        "Sprite": "tilemap/coin.sprite",
+        "SpriteFlags": "None",
+        "StartingAnimationName": "default",
+        "Tint": "1,1,1,1",
+        "UpDirection": "YPositive",
+        "UsePixelScale": false
+      },
+      {
+        "__type": "Sandbox.BoxCollider",
+        "__guid": "0418619b-58e1-4ebe-b657-f0ff0e0406bd",
+        "Center": "0,0,0",
+        "IsTrigger": true,
+        "Scale": "50,50,50",
+        "Static": false
+      },
+      {
+        "__type": "CoinMove",
+        "__guid": "fed7e298-c89c-4397-b5fb-454de24cca74",
+        "coin": {
+          "_type": "gameobject",
+          "go": "79417acc-52ae-44c7-af34-f224be3ba133"
+        },
+        "score": {
+          "_type": "component",
+          "component_id": "a9173d2e-80da-438d-9388-5ce13cd9d3a5",
+          "go": "cb015494-24bd-4be3-a7eb-ddfb73aaed57",
+          "component_type": "ScoreScript"
+        }
+      }
+    ]
+  },
+  "ShowInMenu": false,
+  "MenuPath": null,
+  "MenuIcon": null,
+  "ResourceVersion": 1,
+  "__references": [],
+  "__version": 1
+}

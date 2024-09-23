@@ -1,0 +1,17 @@
+@using Sandbox;
+@using Sandbox.UI;
+@inherits PanelComponent
+
+<root>
+	<div class="title">@score.score</div>
+</root>
+
+@code
+{
+    [Property] public ScoreScript score;
+    public float lastHighScore;
+    protected override int BuildHash()
+    {
+       return System.HashCode.Combine(score.score);
+    }
+}

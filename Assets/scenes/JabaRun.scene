@@ -1,0 +1,873 @@
+{
+  "__guid": "5a91405e-36d4-4b24-9b78-1618300b214e",
+  "GameObjects": [
+    {
+      "__guid": "ea9f2412-9ecb-4951-b001-a3efbdc36f24",
+      "Flags": 0,
+      "Name": "Sun",
+      "Tags": "light_directional,light",
+      "Enabled": true,
+      "Components": [
+        {
+          "__type": "Sandbox.DirectionalLight",
+          "__guid": "7c9dd079-83c6-4bed-980e-2bc356b1b05c",
+          "FogMode": "Enabled",
+          "FogStrength": 1,
+          "LightColor": "0.91373,0.98039,1,1",
+          "Shadows": true,
+          "SkyColor": "0,0,0,0"
+        }
+      ]
+    },
+    {
+      "__guid": "fd8cec88-cbaf-4059-9162-80a7e3b1d01e",
+      "Flags": 0,
+      "Name": "Camera",
+      "Position": "-500,0,210",
+      "Tags": "maincamera",
+      "Enabled": true,
+      "Components": [
+        {
+          "__type": "Sandbox.CameraComponent",
+          "__guid": "5544621b-7126-4792-8411-5478bf2ed037",
+          "BackgroundColor": "1,1,1,1",
+          "ClearFlags": "All",
+          "FieldOfView": 85,
+          "IsMainCamera": true,
+          "Orthographic": false,
+          "OrthographicHeight": 1204,
+          "Priority": 1,
+          "RenderExcludeTags": "",
+          "RenderTags": "",
+          "TargetEye": "None",
+          "Viewport": "0,0,1,1",
+          "ZFar": 10000,
+          "ZNear": 10
+        }
+      ]
+    },
+    {
+      "__guid": "d6364ad5-b0dd-4488-bf49-5e1444b8f9cb",
+      "Flags": 0,
+      "Name": "GroundMap",
+      "Enabled": true,
+      "Children": [
+        {
+          "__guid": "311b4321-7bab-464d-b760-812f3680215d",
+          "Flags": 0,
+          "Name": "ground",
+          "Position": "0,377.7976,0",
+          "Rotation": "0.5,-0.5,-0.5,0.5",
+          "Enabled": true,
+          "Components": [
+            {
+              "__type": "SpriteTools.SpriteComponent",
+              "__guid": "3790437e-52f0-4f99-ab46-21d84ff54283",
+              "__version": 1,
+              "BroadcastEvents": {},
+              "CastShadows": "On",
+              "CreateAttachPoints": false,
+              "FlashTint": "1,1,1,0",
+              "PlaybackSpeed": 1,
+              "Sprite": "tilemap/ground.sprite",
+              "SpriteFlags": "None",
+              "StartingAnimationName": "default",
+              "Tint": "1,1,1,1",
+              "UpDirection": "YPositive",
+              "UsePixelScale": false
+            }
+          ]
+        },
+        {
+          "__guid": "3b2c07a6-313d-40e7-a065-9818f6eb3e7c",
+          "Flags": 0,
+          "Name": "ground",
+          "Position": "0,430.5614,0",
+          "Rotation": "0.5,-0.5,-0.5,0.5",
+          "Enabled": true,
+          "Components": [
+            {
+              "__type": "SpriteTools.SpriteComponent",
+              "__guid": "6672a039-096b-4ec5-a83e-27d81008dfa8",
+              "__version": 1,
+              "BroadcastEvents": {},
+              "CastShadows": "On",
+              "CreateAttachPoints": false,
+              "FlashTint": "1,1,1,0",
+              "PlaybackSpeed": 1,
+              "Sprite": "tilemap/ground.sprite",
+              "SpriteFlags": "None",
+              "StartingAnimationName": "default",
+              "Tint": "1,1,1,1",
+              "UpDirection": "YPositive",
+              "UsePixelScale": false
+            }
+          ]
+        },
+        {
+          "__guid": "3ac109ef-bfca-4c50-810d-f372452da04a",
+          "Flags": 0,
+          "Name": "ground",
+          "Position": "0,491.7675,0",
+          "Rotation": "0.5,-0.5,-0.5,0.5",
+          "Enabled": true,
+          "Components": [
+            {
+              "__type": "SpriteTools.SpriteComponent",
+              "__guid": "0a44657d-a45b-4572-ac1e-d0e4d0bc182f",
+              "__version": 1,
+              "BroadcastEvents": {},
+              "CastShadows": "On",
+              "CreateAttachPoints": false,
+              "FlashTint": "1,1,1,0",
+              "PlaybackSpeed": 1,
+              "Sprite": "tilemap/ground.sprite",
+              "SpriteFlags": "None",
+              "StartingAnimationName": "default",
+              "Tint": "1,1,1,1",
+              "UpDirection": "YPositive",
+              "UsePixelScale": false
+            }
+          ]
+        },
+        {
+          "__guid": "56726c8d-744b-481e-8b4b-5c8e01417e65",
+          "Flags": 0,
+          "Name": "ground",
+          "Position": "0,213.1746,0",
+          "Rotation": "0.5,-0.5,-0.5,0.5",
+          "Enabled": true,
+          "Components": [
+            {
+              "__type": "SpriteTools.SpriteComponent",
+              "__guid": "183087e3-0952-444c-9613-5d0e173613e6",
+              "__version": 1,
+              "BroadcastEvents": {},
+              "CastShadows": "On",
+              "CreateAttachPoints": false,
+              "FlashTint": "1,1,1,0",
+              "PlaybackSpeed": 1,
+              "Sprite": "tilemap/ground.sprite",
+              "SpriteFlags": "None",
+              "StartingAnimationName": "default",
+              "Tint": "1,1,1,1",
+              "UpDirection": "YPositive",
+              "UsePixelScale": false
+            }
+          ]
+        },
+        {
+          "__guid": "9eef3503-afb4-4202-8e9a-d8595347321a",
+          "Flags": 0,
+          "Name": "ground",
+          "Position": "0,42.21989,0",
+          "Rotation": "0.5,-0.5,-0.5,0.5",
+          "Enabled": true,
+          "Components": [
+            {
+              "__type": "SpriteTools.SpriteComponent",
+              "__guid": "24c8cc9b-9609-4a5d-ba4a-0056c62ecd68",
+              "__version": 1,
+              "BroadcastEvents": {},
+              "CastShadows": "On",
+              "CreateAttachPoints": false,
+              "FlashTint": "1,1,1,0",
+              "PlaybackSpeed": 1,
+              "Sprite": "tilemap/ground.sprite",
+              "SpriteFlags": "None",
+              "StartingAnimationName": "default",
+              "Tint": "1,1,1,1",
+              "UpDirection": "YPositive",
+              "UsePixelScale": false
+            }
+          ]
+        },
+        {
+          "__guid": "723228c9-16ae-421e-ae1a-ba7611207d33",
+          "Flags": 0,
+          "Name": "ground",
+          "Position": "0,-120.2926,0",
+          "Rotation": "0.5,-0.5,-0.5,0.5",
+          "Enabled": true,
+          "Components": [
+            {
+              "__type": "SpriteTools.SpriteComponent",
+              "__guid": "fa98209a-3881-438f-b571-63c56cac6498",
+              "__version": 1,
+              "BroadcastEvents": {},
+              "CastShadows": "On",
+              "CreateAttachPoints": false,
+              "FlashTint": "1,1,1,0",
+              "PlaybackSpeed": 1,
+              "Sprite": "tilemap/ground.sprite",
+              "SpriteFlags": "None",
+              "StartingAnimationName": "default",
+              "Tint": "1,1,1,1",
+              "UpDirection": "YPositive",
+              "UsePixelScale": false
+            }
+          ]
+        },
+        {
+          "__guid": "aa290497-258d-4ba9-95ce-06555e8ba735",
+          "Flags": 0,
+          "Name": "ground",
+          "Position": "0,-276.4734,0",
+          "Rotation": "0.5,-0.5,-0.5,0.5",
+          "Enabled": true,
+          "Components": [
+            {
+              "__type": "SpriteTools.SpriteComponent",
+              "__guid": "637137ed-69b8-4811-a7bb-eddd382c0ab5",
+              "__version": 1,
+              "BroadcastEvents": {},
+              "CastShadows": "On",
+              "CreateAttachPoints": false,
+              "FlashTint": "1,1,1,0",
+              "PlaybackSpeed": 1,
+              "Sprite": "tilemap/ground.sprite",
+              "SpriteFlags": "None",
+              "StartingAnimationName": "default",
+              "Tint": "1,1,1,1",
+              "UpDirection": "YPositive",
+              "UsePixelScale": false
+            }
+          ]
+        },
+        {
+          "__guid": "4c1531fd-197b-499c-ac44-fd77dec93f66",
+          "Flags": 0,
+          "Name": "ground",
+          "Position": "0,-356.6744,0",
+          "Rotation": "0.5,-0.5,-0.5,0.5",
+          "Enabled": true,
+          "Components": [
+            {
+              "__type": "SpriteTools.SpriteComponent",
+              "__guid": "ed601c02-f1cd-4a2b-9013-2c5cf83515a2",
+              "__version": 1,
+              "BroadcastEvents": {},
+              "CastShadows": "On",
+              "CreateAttachPoints": false,
+              "FlashTint": "1,1,1,0",
+              "PlaybackSpeed": 1,
+              "Sprite": "tilemap/ground.sprite",
+              "SpriteFlags": "None",
+              "StartingAnimationName": "default",
+              "Tint": "1,1,1,1",
+              "UpDirection": "YPositive",
+              "UsePixelScale": false
+            }
+          ]
+        },
+        {
+          "__guid": "c987caf9-bd26-454c-8448-e9bee45af279",
+          "Flags": 0,
+          "Name": "ground",
+          "Position": "0,306.0388,0",
+          "Rotation": "0.5,-0.5,-0.5,0.5",
+          "Enabled": true,
+          "Components": [
+            {
+              "__type": "SpriteTools.SpriteComponent",
+              "__guid": "aafbebbd-b5e4-43ae-8a9b-a5107d6a9119",
+              "__version": 1,
+              "BroadcastEvents": {},
+              "CastShadows": "On",
+              "CreateAttachPoints": false,
+              "FlashTint": "1,1,1,0",
+              "PlaybackSpeed": 1,
+              "Sprite": "tilemap/ground.sprite",
+              "SpriteFlags": "None",
+              "StartingAnimationName": "default",
+              "Tint": "1,1,1,1",
+              "UpDirection": "YPositive",
+              "UsePixelScale": false
+            }
+          ]
+        },
+        {
+          "__guid": "bb2bbea7-3ec9-4f56-a57d-1ff49649d0b9",
+          "Flags": 0,
+          "Name": "ground",
+          "Position": "0,141.4158,0",
+          "Rotation": "0.5,-0.5,-0.5,0.5",
+          "Enabled": true,
+          "Components": [
+            {
+              "__type": "SpriteTools.SpriteComponent",
+              "__guid": "1ed1ab99-c047-4f10-afd3-cbc2c69822d1",
+              "__version": 1,
+              "BroadcastEvents": {},
+              "CastShadows": "On",
+              "CreateAttachPoints": false,
+              "FlashTint": "1,1,1,0",
+              "PlaybackSpeed": 1,
+              "Sprite": "tilemap/ground.sprite",
+              "SpriteFlags": "None",
+              "StartingAnimationName": "default",
+              "Tint": "1,1,1,1",
+              "UpDirection": "YPositive",
+              "UsePixelScale": false
+            }
+          ]
+        },
+        {
+          "__guid": "ca658127-23e7-48aa-9759-470f1e6eaa89",
+          "Flags": 0,
+          "Name": "ground",
+          "Position": "0,-29.53891,0",
+          "Rotation": "0.5,-0.5,-0.5,0.5",
+          "Enabled": true,
+          "Components": [
+            {
+              "__type": "SpriteTools.SpriteComponent",
+              "__guid": "e7889741-5397-4867-ae33-7be47d5ddcde",
+              "__version": 1,
+              "BroadcastEvents": {},
+              "CastShadows": "On",
+              "CreateAttachPoints": false,
+              "FlashTint": "1,1,1,0",
+              "PlaybackSpeed": 1,
+              "Sprite": "tilemap/ground.sprite",
+              "SpriteFlags": "None",
+              "StartingAnimationName": "default",
+              "Tint": "1,1,1,1",
+              "UpDirection": "YPositive",
+              "UsePixelScale": false
+            }
+          ]
+        },
+        {
+          "__guid": "b68b353f-d068-405b-ad94-41e867e59400",
+          "Flags": 0,
+          "Name": "ground",
+          "Position": "0,-192.0515,0",
+          "Rotation": "0.5,-0.5,-0.5,0.5",
+          "Enabled": true,
+          "Components": [
+            {
+              "__type": "SpriteTools.SpriteComponent",
+              "__guid": "0fe420e5-2707-47ef-9f95-9126fdefd772",
+              "__version": 1,
+              "BroadcastEvents": {},
+              "CastShadows": "On",
+              "CreateAttachPoints": false,
+              "FlashTint": "1,1,1,0",
+              "PlaybackSpeed": 1,
+              "Sprite": "tilemap/ground.sprite",
+              "SpriteFlags": "None",
+              "StartingAnimationName": "default",
+              "Tint": "1,1,1,1",
+              "UpDirection": "YPositive",
+              "UsePixelScale": false
+            }
+          ]
+        },
+        {
+          "__guid": "24f18adb-890e-4ff7-b8ec-6ac566a220f2",
+          "Flags": 0,
+          "Name": "ground",
+          "Position": "0,-348.2323,0",
+          "Rotation": "0.5,-0.5,-0.5,0.5",
+          "Enabled": true,
+          "Components": [
+            {
+              "__type": "SpriteTools.SpriteComponent",
+              "__guid": "2c82f794-c28f-49e6-af84-96605be0e303",
+              "__version": 1,
+              "BroadcastEvents": {},
+              "CastShadows": "On",
+              "CreateAttachPoints": false,
+              "FlashTint": "1,1,1,0",
+              "PlaybackSpeed": 1,
+              "Sprite": "tilemap/ground.sprite",
+              "SpriteFlags": "None",
+              "StartingAnimationName": "default",
+              "Tint": "1,1,1,1",
+              "UpDirection": "YPositive",
+              "UsePixelScale": false
+            }
+          ]
+        },
+        {
+          "__guid": "85c87924-1d0d-4643-a652-546ca403e1e7",
+          "Flags": 0,
+          "Name": "ground",
+          "Position": "0,-428.4333,0",
+          "Rotation": "0.5,-0.5,-0.5,0.5",
+          "Enabled": true,
+          "Components": [
+            {
+              "__type": "SpriteTools.SpriteComponent",
+              "__guid": "ecafeace-5f40-493b-9897-e361df6c3b5e",
+              "__version": 1,
+              "BroadcastEvents": {},
+              "CastShadows": "On",
+              "CreateAttachPoints": false,
+              "FlashTint": "1,1,1,0",
+              "PlaybackSpeed": 1,
+              "Sprite": "tilemap/ground.sprite",
+              "SpriteFlags": "None",
+              "StartingAnimationName": "default",
+              "Tint": "1,1,1,1",
+              "UpDirection": "YPositive",
+              "UsePixelScale": false
+            }
+          ]
+        },
+        {
+          "__guid": "0dd7c66c-5c4b-4610-9af2-e9fc18d4e13d",
+          "Flags": 0,
+          "Name": "ground",
+          "Position": "0,263.8278,0",
+          "Rotation": "0.5,-0.5,-0.5,0.5",
+          "Enabled": true,
+          "Components": [
+            {
+              "__type": "SpriteTools.SpriteComponent",
+              "__guid": "4b26b612-6e82-40a2-9e3e-5b3c1a03ce84",
+              "__version": 1,
+              "BroadcastEvents": {},
+              "CastShadows": "On",
+              "CreateAttachPoints": false,
+              "FlashTint": "1,1,1,0",
+              "PlaybackSpeed": 1,
+              "Sprite": "tilemap/ground.sprite",
+              "SpriteFlags": "None",
+              "StartingAnimationName": "default",
+              "Tint": "1,1,1,1",
+              "UpDirection": "YPositive",
+              "UsePixelScale": false
+            }
+          ]
+        },
+        {
+          "__guid": "e0bf3bdc-c757-49d7-84e5-c1ba99e66734",
+          "Flags": 0,
+          "Name": "ground",
+          "Position": "0,99.20479,0",
+          "Rotation": "0.5,-0.5,-0.5,0.5",
+          "Enabled": true,
+          "Components": [
+            {
+              "__type": "SpriteTools.SpriteComponent",
+              "__guid": "cbc2dd12-ce6b-4f19-a294-129471a2666c",
+              "__version": 1,
+              "BroadcastEvents": {},
+              "CastShadows": "On",
+              "CreateAttachPoints": false,
+              "FlashTint": "1,1,1,0",
+              "PlaybackSpeed": 1,
+              "Sprite": "tilemap/ground.sprite",
+              "SpriteFlags": "None",
+              "StartingAnimationName": "default",
+              "Tint": "1,1,1,1",
+              "UpDirection": "YPositive",
+              "UsePixelScale": false
+            }
+          ]
+        },
+        {
+          "__guid": "fd0ae974-1b45-4286-8e35-a0438ef511e6",
+          "Flags": 0,
+          "Name": "ground",
+          "Position": "0,-71.74992,0",
+          "Rotation": "0.5,-0.5,-0.5,0.5",
+          "Enabled": true,
+          "Components": [
+            {
+              "__type": "SpriteTools.SpriteComponent",
+              "__guid": "8cf7478d-43ff-40ee-bb66-0dd8a5eb8013",
+              "__version": 1,
+              "BroadcastEvents": {},
+              "CastShadows": "On",
+              "CreateAttachPoints": false,
+              "FlashTint": "1,1,1,0",
+              "PlaybackSpeed": 1,
+              "Sprite": "tilemap/ground.sprite",
+              "SpriteFlags": "None",
+              "StartingAnimationName": "default",
+              "Tint": "1,1,1,1",
+              "UpDirection": "YPositive",
+              "UsePixelScale": false
+            }
+          ]
+        },
+        {
+          "__guid": "2049f2d4-c19d-43a5-81dc-4d19e4179f38",
+          "Flags": 0,
+          "Name": "ground",
+          "Position": "0,-234.2625,0",
+          "Rotation": "0.5,-0.5,-0.5,0.5",
+          "Enabled": true,
+          "Components": [
+            {
+              "__type": "SpriteTools.SpriteComponent",
+              "__guid": "ebbffa71-5ccb-4595-b3da-2833301409cc",
+              "__version": 1,
+              "BroadcastEvents": {},
+              "CastShadows": "On",
+              "CreateAttachPoints": false,
+              "FlashTint": "1,1,1,0",
+              "PlaybackSpeed": 1,
+              "Sprite": "tilemap/ground.sprite",
+              "SpriteFlags": "None",
+              "StartingAnimationName": "default",
+              "Tint": "1,1,1,1",
+              "UpDirection": "YPositive",
+              "UsePixelScale": false
+            }
+          ]
+        },
+        {
+          "__guid": "f01960e7-2f57-4550-a861-8429ac1a7339",
+          "Flags": 0,
+          "Name": "ground",
+          "Position": "0,-390.4433,0",
+          "Rotation": "0.5,-0.5,-0.5,0.5",
+          "Enabled": true,
+          "Components": [
+            {
+              "__type": "SpriteTools.SpriteComponent",
+              "__guid": "fbfe6166-cfa4-4584-ae60-bd84439f27da",
+              "__version": 1,
+              "BroadcastEvents": {},
+              "CastShadows": "On",
+              "CreateAttachPoints": false,
+              "FlashTint": "1,1,1,0",
+              "PlaybackSpeed": 1,
+              "Sprite": "tilemap/ground.sprite",
+              "SpriteFlags": "None",
+              "StartingAnimationName": "default",
+              "Tint": "1,1,1,1",
+              "UpDirection": "YPositive",
+              "UsePixelScale": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "__guid": "79417acc-52ae-44c7-af34-f224be3ba133",
+      "Flags": 0,
+      "Name": "Coin",
+      "Position": "0.00002586452,522.7977,290",
+      "Rotation": "0.5,-0.5,-0.5,0.5",
+      "Tags": "coin",
+      "Enabled": true,
+      "__Prefab": "prefab/coin.prefab",
+      "__PrefabVariables": {}
+    },
+    {
+      "__guid": "88628a94-518e-4fe3-85c2-0b4bd0a46972",
+      "Flags": 0,
+      "Name": "wood2",
+      "Position": "0,617.7079,90",
+      "Rotation": "0.5,-0.5,-0.5,0.5",
+      "Scale": "0.6,0.6,1",
+      "Tags": "enemy",
+      "Enabled": true,
+      "__Prefab": "prefab/wood2.prefab",
+      "__PrefabVariables": {}
+    },
+    {
+      "__guid": "958334bb-0105-48d8-96c0-f0594bb3f49d",
+      "Flags": 0,
+      "Name": "wood1",
+      "Position": "0,608.2065,90",
+      "Rotation": "0.5,-0.5,-0.5,0.5",
+      "Tags": "enemy",
+      "Enabled": true,
+      "__Prefab": "prefab/wood1.prefab",
+      "__PrefabVariables": {}
+    },
+    {
+      "__guid": "cb015494-24bd-4be3-a7eb-ddfb73aaed57",
+      "Flags": 0,
+      "Name": "Jaba",
+      "Position": "-0.0001953417,370,85",
+      "Rotation": "0.5,-0.5,-0.5,0.5",
+      "Tags": "player",
+      "Enabled": true,
+      "Components": [
+        {
+          "__type": "SpriteTools.SpriteComponent",
+          "__guid": "1c1c5e83-a65c-4cee-894a-dc5d0abdb648",
+          "__version": 1,
+          "BroadcastEvents": {},
+          "CastShadows": "On",
+          "CreateAttachPoints": false,
+          "FlashTint": "1,1,1,0",
+          "PlaybackSpeed": 1,
+          "Sprite": "characters/jaba.sprite",
+          "SpriteFlags": "None",
+          "StartingAnimationName": "Jump",
+          "Tint": "1,1,1,1",
+          "UpDirection": "YPositive",
+          "UsePixelScale": false
+        },
+        {
+          "__type": "Sandbox.Rigidbody",
+          "__guid": "5b2ab4ad-35df-494d-831c-2a85d881e1ce",
+          "AngularDamping": 0,
+          "Gravity": true,
+          "LinearDamping": 0,
+          "Locking": {
+            "X": true,
+            "Y": true,
+            "Pitch": true,
+            "Yaw": true,
+            "Roll": true
+          },
+          "MassCenterOverride": "0,0,0",
+          "MassOverride": 0,
+          "MotionEnabled": true,
+          "OverrideMassCenter": false,
+          "RigidbodyFlags": 0,
+          "StartAsleep": false
+        },
+        {
+          "__type": "Sandbox.BoxCollider",
+          "__guid": "998a5f45-e5b2-4b48-8785-1932903f549e",
+          "Center": "0,0,0",
+          "IsTrigger": false,
+          "Scale": "80,70,5",
+          "Static": false
+        },
+        {
+          "__type": "Movement",
+          "__guid": "ab86fd97-885e-4332-850b-b528a19c0bec",
+          "rb": {
+            "_type": "component",
+            "component_id": "5b2ab4ad-35df-494d-831c-2a85d881e1ce",
+            "go": "cb015494-24bd-4be3-a7eb-ddfb73aaed57",
+            "component_type": "Rigidbody"
+          },
+          "sprite": {
+            "_type": "component",
+            "component_id": "1c1c5e83-a65c-4cee-894a-dc5d0abdb648",
+            "go": "cb015494-24bd-4be3-a7eb-ddfb73aaed57",
+            "component_type": "SpriteComponent"
+          }
+        },
+        {
+          "__type": "ScoreScript",
+          "__guid": "a9173d2e-80da-438d-9388-5ce13cd9d3a5",
+          "coin": {
+            "_type": "gameobject",
+            "go": "79417acc-52ae-44c7-af34-f224be3ba133"
+          },
+          "died": "scenes/restart.scene",
+          "player": {
+            "_type": "gameobject",
+            "go": "cb015494-24bd-4be3-a7eb-ddfb73aaed57"
+          },
+          "wood": {
+            "_type": "gameobject",
+            "go": "958334bb-0105-48d8-96c0-f0594bb3f49d"
+          }
+        }
+      ]
+    },
+    {
+      "__guid": "9f5c3805-de53-4844-82f0-422f7987957f",
+      "Flags": 0,
+      "Name": "Ground",
+      "Position": "0,376.1102,10",
+      "Enabled": true,
+      "Components": [
+        {
+          "__type": "Sandbox.BoxCollider",
+          "__guid": "1e6ad449-7104-44ed-9326-c725c7b623b1",
+          "Center": "0,0,0",
+          "IsTrigger": false,
+          "Scale": "100,100,50",
+          "Static": false
+        },
+        {
+          "__type": "Sandbox.PlaneCollider",
+          "__guid": "02135cfe-2c7c-4cd8-ac6a-9383fec3b616",
+          "Center": "0,0,0",
+          "IsTrigger": false,
+          "Scale": "50,50",
+          "Static": true
+        }
+      ]
+    },
+    {
+      "__guid": "219e91b9-8a5b-4ec6-bff7-7b5a1c4b61f5",
+      "Flags": 0,
+      "Name": "Score Table",
+      "Position": "256.9129,-22.68884,0",
+      "Enabled": true,
+      "Components": [
+        {
+          "__type": "Sandbox.ScreenPanel",
+          "__guid": "535b951d-db9d-4dd1-b647-bf6d6f7152e6",
+          "AutoScreenScale": true,
+          "Opacity": 1,
+          "Scale": 1,
+          "ScaleStrategy": "ConsistentHeight",
+          "ZIndex": 100
+        },
+        {
+          "__type": "Score",
+          "__guid": "e89d0e74-2c21-4dfd-9231-96ec0d994532",
+          "score": {
+            "_type": "component",
+            "component_id": "a9173d2e-80da-438d-9388-5ce13cd9d3a5",
+            "go": "cb015494-24bd-4be3-a7eb-ddfb73aaed57",
+            "component_type": "ScoreScript"
+          }
+        },
+        {
+          "__type": "Sandbox.SoundPointComponent",
+          "__guid": "720b01f5-ba25-40a4-8566-4d130028c6f7",
+          "DistanceAttenuation": false,
+          "DistanceAttenuationOverride": false,
+          "Force2d": true,
+          "MaxRepeatTime": 1,
+          "MinRepeatTime": 1,
+          "Occlusion": false,
+          "OcclusionOverride": false,
+          "OcclusionRadius": 32,
+          "Pitch": 1,
+          "PlayOnStart": true,
+          "ReflectionOverride": false,
+          "Reflections": false,
+          "Repeat": false,
+          "SoundEvent": "sound/purpleweed - in game.sound",
+          "SoundOverride": true,
+          "StopOnNew": false,
+          "TargetMixer": {
+            "Name": "unknown",
+            "Id": "00000000-0000-0000-0000-000000000000"
+          },
+          "Volume": 1
+        }
+      ]
+    },
+    {
+      "__guid": "50901791-0580-4102-b619-2bd1c7e52334",
+      "Flags": 0,
+      "Name": "SpawnCoin",
+      "Position": "0,-466.5637,226.3384",
+      "Rotation": "-0.5,-0.5,0.5,0.5",
+      "Enabled": true,
+      "Components": [
+        {
+          "__type": "Sandbox.BoxCollider",
+          "__guid": "64220e4e-7c68-4c9a-a6a4-76c28e47de35",
+          "Center": "0,0,0",
+          "IsTrigger": false,
+          "Scale": "50,5,50",
+          "Static": false
+        },
+        {
+          "__type": "CoinSpawn",
+          "__guid": "07620750-32d6-479a-be56-121d14a13fda",
+          "coin": {
+            "_type": "gameobject",
+            "go": "79417acc-52ae-44c7-af34-f224be3ba133"
+          },
+          "spawnPoint": {
+            "_type": "gameobject",
+            "go": "50901791-0580-4102-b619-2bd1c7e52334"
+          }
+        }
+      ]
+    },
+    {
+      "__guid": "3e97967f-1193-4941-8b71-38a9a00e9f67",
+      "Flags": 0,
+      "Name": "SpawnWood",
+      "Position": "0.00006626362,-555.8594,70.158",
+      "Rotation": "0.5,-0.5,-0.5,0.5",
+      "Enabled": true,
+      "Components": [
+        {
+          "__type": "Sandbox.BoxCollider",
+          "__guid": "055b291c-b396-4b74-954c-7bf7528f87d8",
+          "Center": "0,0,0",
+          "IsTrigger": false,
+          "Scale": "50,5,150",
+          "Static": false
+        },
+        {
+          "__type": "WoodSpawn",
+          "__guid": "aea64cd5-7291-4bb8-bc62-39e111dafa79",
+          "score": {
+            "_type": "component",
+            "component_id": "a9173d2e-80da-438d-9388-5ce13cd9d3a5",
+            "go": "cb015494-24bd-4be3-a7eb-ddfb73aaed57",
+            "component_type": "ScoreScript"
+          },
+          "spawnPoint": {
+            "_type": "gameobject",
+            "go": "3e97967f-1193-4941-8b71-38a9a00e9f67"
+          },
+          "wood1": {
+            "_type": "gameobject",
+            "go": "958334bb-0105-48d8-96c0-f0594bb3f49d"
+          },
+          "wood2": {
+            "_type": "gameobject",
+            "go": "88628a94-518e-4fe3-85c2-0b4bd0a46972"
+          }
+        }
+      ]
+    },
+    {
+      "__guid": "4b35064c-d296-4aee-a7ef-240dba33fc06",
+      "Flags": 0,
+      "Name": "ground",
+      "Rotation": "0.5,-0.5,-0.5,0.5",
+      "Enabled": true,
+      "Components": [
+        {
+          "__type": "SpriteTools.SpriteComponent",
+          "__guid": "3ede43d7-50a7-4208-90fd-e5153d534b9a",
+          "__version": 1,
+          "BroadcastEvents": {},
+          "CastShadows": "On",
+          "CreateAttachPoints": false,
+          "FlashTint": "1,1,1,0",
+          "PlaybackSpeed": 1,
+          "Sprite": "tilemap/ground.sprite",
+          "SpriteFlags": "None",
+          "StartingAnimationName": "default",
+          "Tint": "1,1,1,1",
+          "UpDirection": "YPositive",
+          "UsePixelScale": false
+        }
+      ]
+    }
+  ],
+  "SceneProperties": {
+    "FixedUpdateFrequency": 50,
+    "MaxFixedUpdates": 5,
+    "NetworkFrequency": 30,
+    "NetworkInterpolation": true,
+    "ThreadedAnimation": true,
+    "TimeScale": 1,
+    "UseFixedUpdate": true,
+    "NavMesh": {
+      "Enabled": false,
+      "IncludeStaticBodies": true,
+      "IncludeKeyframedBodies": true,
+      "EditorAutoUpdate": true,
+      "AgentHeight": 64,
+      "AgentRadius": 16,
+      "AgentStepSize": 18,
+      "AgentMaxSlope": 40,
+      "ExcludedBodies": "",
+      "IncludedBodies": ""
+    }
+  },
+  "Title": "jabarun",
+  "Description": "",
+  "ResourceVersion": 1,
+  "__references": [],
+  "__version": 1
+}

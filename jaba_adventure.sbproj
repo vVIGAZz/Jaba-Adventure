@@ -1,0 +1,28 @@
+{
+  "Title": "Jaba Adventure",
+  "Type": "game",
+  "Org": "baldpig",
+  "Ident": "jaba_adventure",
+  "Schema": 1,
+  "IncludeSourceFiles": false,
+  "Resources": "\ntilemap/*\ncharacters/*",
+  "PackageReferences": [],
+  "EditorReferences": null,
+  "IsWhitelistDisabled": false,
+  "Metadata": {
+    "MaxPlayers": 1,
+    "MinPlayers": 1,
+    "TickRate": 50,
+    "GameNetworkType": "Multiplayer",
+    "MapSelect": "Unrestricted",
+    "MapList": [
+      "facepunch.flatgrass"
+    ],
+    "RankType": "None",
+    "PerMapRanking": false,
+    "LeaderboardType": "None",
+    "CsProjName": "",
+    "StartupScene": "scenes/main menu.scene",
+    "LaunchMode": "Normal"
+  }
+}

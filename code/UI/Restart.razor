@@ -1,0 +1,25 @@
+@using Sandbox;
+@using Sandbox.UI;
+@inherits PanelComponent
+
+<root>
+    <div class="Died">You Died</div>
+    <button type="button" class="restart" onclick=@restart> Restart</button>
+    <button type="button" class="menu" onclick=@menu> Main Menu</button>
+</root>
+
+@code
+{
+    [Property] SceneFile mainmenu;
+    [Property] SceneFile currentGame;
+    void restart()
+    {
+        Scene.Load(currentGame);
+    }
+    void menu()
+    {
+        Scene.Load(mainmenu);
+    }
+
+
+}

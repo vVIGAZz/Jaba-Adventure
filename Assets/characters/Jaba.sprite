@@ -1,0 +1,68 @@
+{
+  "Animations": [
+    {
+      "FrameRate": 7,
+      "Origin": "0.5,0.5",
+      "Looping": true,
+      "Name": "Jump",
+      "Frames": [
+        {
+          "FilePath": "characters/jaba1.png",
+          "Events": []
+        },
+        {
+          "FilePath": "characters/jaba2.png",
+          "Events": []
+        },
+        {
+          "FilePath": "characters/jaba3.png",
+          "Events": []
+        },
+        {
+          "FilePath": "characters/jaba4.png",
+          "Events": []
+        },
+        {
+          "FilePath": "characters/jaba5.png",
+          "Events": []
+        },
+        {
+          "FilePath": "characters/jaba6.png",
+          "Events": []
+        },
+        {
+          "FilePath": "characters/jaba7.png",
+          "Events": []
+        }
+      ],
+      "Attachments": []
+    },
+    {
+      "FrameRate": 4,
+      "Origin": "0.5,0.5",
+      "Looping": true,
+      "Name": "Idle",
+      "Frames": [
+        {
+          "FilePath": "characters/jabaidle1.png",
+          "Events": []
+        },
+        {
+          "FilePath": "characters/jabaidle2.png",
+          "Events": []
+        },
+        {
+          "FilePath": "characters/jabaidle3.png",
+          "Events": []
+        },
+        {
+          "FilePath": "characters/jabaidle4.png",
+          "Events": []
+        }
+      ],
+      "Attachments": []
+    }
+  ],
+  "__references": [],
+  "__version": 0
+}

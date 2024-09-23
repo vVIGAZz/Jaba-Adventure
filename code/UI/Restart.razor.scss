@@ -1,0 +1,36 @@
+Restart {
+	font-family: 'Dogica Pixel';
+	pointer-events: all;
+
+	.Died {
+		position: absolute;
+		font-size: 64px;
+		color: green;
+		top: 150px;
+		left: 670px;
+	}
+
+	.restart {
+		position: absolute;
+		font-size: 42px;
+		color: #fff;
+		top: 420px;
+		left: 770px;
+	}
+
+	.restart:hover {
+		color: gray;
+	}
+
+	.menu {
+		position: absolute;
+		font-size: 42px;
+		color: #fff;
+		top: 510px;
+		left: 730px;
+	}
+
+	.menu:hover {
+		color: gray;
+	}
+}

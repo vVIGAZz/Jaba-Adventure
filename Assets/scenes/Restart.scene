@@ -1,0 +1,410 @@
+{
+  "__guid": "ffc6e2f7-19b4-4973-a147-928dc74bc210",
+  "GameObjects": [
+    {
+      "__guid": "7632fcb1-62f7-4610-81f1-449124b2a530",
+      "Flags": 0,
+      "Name": "Screen",
+      "Enabled": true,
+      "Components": [
+        {
+          "__type": "Sandbox.ScreenPanel",
+          "__guid": "e57672f7-cf2b-4196-9660-c494a1d17b81",
+          "AutoScreenScale": true,
+          "Opacity": 1,
+          "Scale": 1,
+          "ScaleStrategy": "ConsistentHeight",
+          "ZIndex": 100
+        },
+        {
+          "__type": "Restart",
+          "__guid": "e35db496-f175-4015-ba06-f27f9c3206fa",
+          "currentGame": "scenes/jabarun.scene",
+          "mainmenu": "scenes/main menu.scene"
+        },
+        {
+          "__type": "Sandbox.SoundPointComponent",
+          "__guid": "dd5d79cd-5795-4b76-927e-a54e0f33d149",
+          "DistanceAttenuation": false,
+          "DistanceAttenuationOverride": false,
+          "Force2d": true,
+          "MaxRepeatTime": 1,
+          "MinRepeatTime": 1,
+          "Occlusion": false,
+          "OcclusionOverride": false,
+          "OcclusionRadius": 32,
+          "Pitch": 1,
+          "PlayOnStart": true,
+          "ReflectionOverride": false,
+          "Reflections": false,
+          "Repeat": false,
+          "SoundEvent": "sound/purpleweed - restart.sound",
+          "SoundOverride": true,
+          "StopOnNew": false,
+          "TargetMixer": {
+            "Name": "unknown",
+            "Id": "00000000-0000-0000-0000-000000000000"
+          },
+          "Volume": 1
+        }
+      ]
+    },
+    {
+      "__guid": "3d676791-6d96-458b-86a3-8792095339b4",
+      "Flags": 0,
+      "Name": "Sun",
+      "Tags": "light_directional,light",
+      "Enabled": true,
+      "Components": [
+        {
+          "__type": "Sandbox.DirectionalLight",
+          "__guid": "39eb21b4-0522-4a55-8525-e348703f7977",
+          "FogMode": "Enabled",
+          "FogStrength": 1,
+          "LightColor": "0.91373,0.98039,1,1",
+          "Shadows": true,
+          "SkyColor": "0,0,0,0"
+        }
+      ]
+    },
+    {
+      "__guid": "1ecf19db-9fe3-438f-bb80-8bf319f5cceb",
+      "Flags": 0,
+      "Name": "Camera",
+      "Position": "-500,0,0",
+      "Tags": "maincamera",
+      "Enabled": true,
+      "Components": [
+        {
+          "__type": "Sandbox.CameraComponent",
+          "__guid": "1a2a2616-ce79-4e40-9ab6-c06668da08e7",
+          "BackgroundColor": "1,1,1,1",
+          "ClearFlags": "All",
+          "FieldOfView": 60,
+          "IsMainCamera": true,
+          "Orthographic": false,
+          "OrthographicHeight": 1204,
+          "Priority": 1,
+          "RenderExcludeTags": "",
+          "RenderTags": "",
+          "TargetEye": "None",
+          "Viewport": "0,0,1,1",
+          "ZFar": 10000,
+          "ZNear": 10
+        }
+      ]
+    },
+    {
+      "__guid": "ba5114e7-14f3-4ca7-9601-c66bfa2ceba4",
+      "Flags": 0,
+      "Name": "ground",
+      "Position": "-0.0001297684,247.3215,-122.9442",
+      "Rotation": "0.5,-0.5,-0.5,0.5",
+      "Enabled": true,
+      "Components": [
+        {
+          "__type": "SpriteTools.SpriteComponent",
+          "__guid": "d4a5885d-5a3a-425e-9253-e8569b73febc",
+          "__version": 1,
+          "BroadcastEvents": {},
+          "CastShadows": "On",
+          "CreateAttachPoints": false,
+          "FlashTint": "1,1,1,0",
+          "PlaybackSpeed": 1,
+          "Sprite": "tilemap/ground.sprite",
+          "SpriteFlags": "None",
+          "StartingAnimationName": "default",
+          "Tint": "1,1,1,1",
+          "UpDirection": "YPositive",
+          "UsePixelScale": false
+        }
+      ]
+    },
+    {
+      "__guid": "a507649f-57e8-4f28-b685-bd03a2fec66d",
+      "Flags": 0,
+      "Name": "ground (2)",
+      "Position": "-0.0001293438,122.6604,-122.9442",
+      "Rotation": "0.5,-0.5,-0.5,0.5",
+      "Enabled": true,
+      "Components": [
+        {
+          "__type": "SpriteTools.SpriteComponent",
+          "__guid": "51c03490-7227-4db2-9bdb-dad7a0fc40c6",
+          "__version": 1,
+          "BroadcastEvents": {},
+          "CastShadows": "On",
+          "CreateAttachPoints": false,
+          "FlashTint": "1,1,1,0",
+          "PlaybackSpeed": 1,
+          "Sprite": "tilemap/ground.sprite",
+          "SpriteFlags": "None",
+          "StartingAnimationName": "default",
+          "Tint": "1,1,1,1",
+          "UpDirection": "YPositive",
+          "UsePixelScale": false
+        }
+      ]
+    },
+    {
+      "__guid": "2a7b557a-f93f-41d7-b7fb-c8ac6a4aa5bc",
+      "Flags": 0,
+      "Name": "ground (4)",
+      "Position": "-0.0001293438,-16.24762,-122.9442",
+      "Rotation": "0.5,-0.5,-0.5,0.5",
+      "Enabled": true,
+      "Components": [
+        {
+          "__type": "SpriteTools.SpriteComponent",
+          "__guid": "ceb2e3fa-d6fa-4cfb-b7f5-a068a8fa85c4",
+          "__version": 1,
+          "BroadcastEvents": {},
+          "CastShadows": "On",
+          "CreateAttachPoints": false,
+          "FlashTint": "1,1,1,0",
+          "PlaybackSpeed": 1,
+          "Sprite": "tilemap/ground.sprite",
+          "SpriteFlags": "None",
+          "StartingAnimationName": "default",
+          "Tint": "1,1,1,1",
+          "UpDirection": "YPositive",
+          "UsePixelScale": false
+        }
+      ]
+    },
+    {
+      "__guid": "2a551455-789c-40ef-9aa0-93d80faa2cbf",
+      "Flags": 0,
+      "Name": "ground (6)",
+      "Position": "-0.0001293438,-144.4703,-122.9442",
+      "Rotation": "0.5,-0.5,-0.5,0.5",
+      "Enabled": true,
+      "Components": [
+        {
+          "__type": "SpriteTools.SpriteComponent",
+          "__guid": "9834e47d-cf75-4603-aa47-354326b8b729",
+          "__version": 1,
+          "BroadcastEvents": {},
+          "CastShadows": "On",
+          "CreateAttachPoints": false,
+          "FlashTint": "1,1,1,0",
+          "PlaybackSpeed": 1,
+          "Sprite": "tilemap/ground.sprite",
+          "SpriteFlags": "None",
+          "StartingAnimationName": "default",
+          "Tint": "1,1,1,1",
+          "UpDirection": "YPositive",
+          "UsePixelScale": false
+        }
+      ]
+    },
+    {
+      "__guid": "0302845e-4a08-40a5-9e90-868316f02120",
+      "Flags": 0,
+      "Name": "ground (1)",
+      "Position": "-0.0001295561,167.1823,-122.9442",
+      "Rotation": "0.5,-0.5,-0.5,0.5",
+      "Enabled": true,
+      "Components": [
+        {
+          "__type": "SpriteTools.SpriteComponent",
+          "__guid": "de1c5fcf-4346-4e11-8c2c-dbaec83f6018",
+          "__version": 1,
+          "BroadcastEvents": {},
+          "CastShadows": "On",
+          "CreateAttachPoints": false,
+          "FlashTint": "1,1,1,0",
+          "PlaybackSpeed": 1,
+          "Sprite": "tilemap/ground.sprite",
+          "SpriteFlags": "None",
+          "StartingAnimationName": "default",
+          "Tint": "1,1,1,1",
+          "UpDirection": "YPositive",
+          "UsePixelScale": false
+        }
+      ]
+    },
+    {
+      "__guid": "76fee770-9151-48cf-abc7-e778cf607295",
+      "Flags": 0,
+      "Name": "ground (3)",
+      "Position": "-0.0001291315,42.52124,-122.9442",
+      "Rotation": "0.5,-0.5,-0.5,0.5",
+      "Enabled": true,
+      "Components": [
+        {
+          "__type": "SpriteTools.SpriteComponent",
+          "__guid": "5dab1455-db09-4e39-8cd2-6f9c0588ad08",
+          "__version": 1,
+          "BroadcastEvents": {},
+          "CastShadows": "On",
+          "CreateAttachPoints": false,
+          "FlashTint": "1,1,1,0",
+          "PlaybackSpeed": 1,
+          "Sprite": "tilemap/ground.sprite",
+          "SpriteFlags": "None",
+          "StartingAnimationName": "default",
+          "Tint": "1,1,1,1",
+          "UpDirection": "YPositive",
+          "UsePixelScale": false
+        }
+      ]
+    },
+    {
+      "__guid": "c9b46781-8ee6-4612-9829-8b81edf0392c",
+      "Flags": 0,
+      "Name": "ground (5)",
+      "Position": "-0.0001291315,-96.38678,-122.9442",
+      "Rotation": "0.5,-0.5,-0.5,0.5",
+      "Enabled": true,
+      "Components": [
+        {
+          "__type": "SpriteTools.SpriteComponent",
+          "__guid": "92001114-3962-4f8a-a3b7-46861d921d10",
+          "__version": 1,
+          "BroadcastEvents": {},
+          "CastShadows": "On",
+          "CreateAttachPoints": false,
+          "FlashTint": "1,1,1,0",
+          "PlaybackSpeed": 1,
+          "Sprite": "tilemap/ground.sprite",
+          "SpriteFlags": "None",
+          "StartingAnimationName": "default",
+          "Tint": "1,1,1,1",
+          "UpDirection": "YPositive",
+          "UsePixelScale": false
+        }
+      ]
+    },
+    {
+      "__guid": "3e29f7e5-ce09-4687-95c3-a76f63353105",
+      "Flags": 0,
+      "Name": "ground (7)",
+      "Position": "-0.0001291315,-224.6094,-122.9442",
+      "Rotation": "0.5,-0.5,-0.5,0.5",
+      "Enabled": true,
+      "Components": [
+        {
+          "__type": "SpriteTools.SpriteComponent",
+          "__guid": "0568e1dc-04b7-4f5c-b489-036dff2b0139",
+          "__version": 1,
+          "BroadcastEvents": {},
+          "CastShadows": "On",
+          "CreateAttachPoints": false,
+          "FlashTint": "1,1,1,0",
+          "PlaybackSpeed": 1,
+          "Sprite": "tilemap/ground.sprite",
+          "SpriteFlags": "None",
+          "StartingAnimationName": "default",
+          "Tint": "1,1,1,1",
+          "UpDirection": "YPositive",
+          "UsePixelScale": false
+        }
+      ]
+    },
+    {
+      "__guid": "37343774-2ff6-40c4-a34b-9d6ef75619b3",
+      "Flags": 0,
+      "Name": "ground (8)",
+      "Position": "-0.0001291315,-315.4339,-122.9442",
+      "Rotation": "0.5,-0.5,-0.5,0.5",
+      "Enabled": true,
+      "Components": [
+        {
+          "__type": "SpriteTools.SpriteComponent",
+          "__guid": "76dcf753-76a8-463a-8ac7-4c4df080e23e",
+          "__version": 1,
+          "BroadcastEvents": {},
+          "CastShadows": "On",
+          "CreateAttachPoints": false,
+          "FlashTint": "1,1,1,0",
+          "PlaybackSpeed": 1,
+          "Sprite": "tilemap/ground.sprite",
+          "SpriteFlags": "None",
+          "StartingAnimationName": "default",
+          "Tint": "1,1,1,1",
+          "UpDirection": "YPositive",
+          "UsePixelScale": false
+        }
+      ]
+    },
+    {
+      "__guid": "88d6a709-90c3-4d16-b9f7-7962e960db75",
+      "Flags": 0,
+      "Name": "wood2",
+      "Position": "-0.0000343397,144.0311,-37.4624",
+      "Rotation": "0.5,-0.5,-0.5,0.5",
+      "Enabled": true,
+      "Components": [
+        {
+          "__type": "SpriteTools.SpriteComponent",
+          "__guid": "6017db51-5e10-41a4-9d38-5bdf25fd042e",
+          "__version": 1,
+          "BroadcastEvents": {},
+          "CastShadows": "On",
+          "CreateAttachPoints": false,
+          "FlashTint": "1,1,1,0",
+          "PlaybackSpeed": 1,
+          "Sprite": "tilemap/wood2.sprite",
+          "SpriteFlags": "None",
+          "StartingAnimationName": "default",
+          "Tint": "1,1,1,1",
+          "UpDirection": "YPositive",
+          "UsePixelScale": false
+        }
+      ]
+    },
+    {
+      "__guid": "53dd82f0-3c8f-40bb-a2be-1a164815ac19",
+      "Flags": 0,
+      "Name": "wood1",
+      "Position": "0.0000274124,-229.9518,-51.7094",
+      "Rotation": "0.5,-0.5,-0.5,0.5",
+      "Enabled": true,
+      "Components": [
+        {
+          "__type": "SpriteTools.SpriteComponent",
+          "__guid": "8e9427be-c0dd-4ada-a62d-cd07ed518b7e",
+          "__version": 1,
+          "BroadcastEvents": {},
+          "CastShadows": "On",
+          "CreateAttachPoints": false,
+          "FlashTint": "1,1,1,0",
+          "PlaybackSpeed": 1,
+          "Sprite": "tilemap/wood1.sprite",
+          "SpriteFlags": "None",
+          "StartingAnimationName": "default",
+          "Tint": "1,1,1,1",
+          "UpDirection": "YPositive",
+          "UsePixelScale": false
+        }
+      ]
+    }
+  ],
+  "SceneProperties": {
+    "FixedUpdateFrequency": 50,
+    "MaxFixedUpdates": 5,
+    "NetworkFrequency": 30,
+    "NetworkInterpolation": true,
+    "ThreadedAnimation": true,
+    "TimeScale": 1,
+    "UseFixedUpdate": true,
+    "NavMesh": {
+      "Enabled": false,
+      "IncludeStaticBodies": true,
+      "IncludeKeyframedBodies": true,
+      "EditorAutoUpdate": true,
+      "AgentHeight": 64,
+      "AgentRadius": 16,
+      "AgentStepSize": 18,
+      "AgentMaxSlope": 40,
+      "ExcludedBodies": "",
+      "IncludedBodies": ""
+    }
+  },
+  "Title": "restart",
+  "Description": "",
+  "ResourceVersion": 1,
+  "__references": [],
+  "__version": 1
+}

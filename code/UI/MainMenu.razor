@@ -1,0 +1,27 @@
+@using Sandbox;
+@using Sandbox.UI;
+@inherits PanelComponent
+
+<root>
+	<div class="GameName">Jaba Adventure</div>
+    <button type="button" class="jabaRun" onclick=@jabaRun> Jaba Run</button>
+    <button type="button" class="close" onclick=@Close> Close</button>
+
+
+</root>
+
+@code
+{
+    [Property] public SceneFile game1;
+
+    void jabaRun()
+    {
+        Scene.Load(game1);
+    }
+    void Close()
+    {
+        Game.Close();
+    }
+
+
+}

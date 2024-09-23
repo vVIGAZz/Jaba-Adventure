@@ -1,0 +1,57 @@
+{
+  "RootObject": {
+    "__guid": "958334bb-0105-48d8-96c0-f0594bb3f49d",
+    "Flags": 0,
+    "Name": "wood1",
+    "Position": "0,608.2065,90",
+    "Rotation": "0.5,-0.5,-0.5,0.5",
+    "Tags": "enemy",
+    "Enabled": true,
+    "Components": [
+      {
+        "__type": "Sandbox.BoxCollider",
+        "__guid": "5df15068-9b03-4915-9c79-142b339f8ad9",
+        "Center": "0,-25,0",
+        "IsTrigger": true,
+        "Scale": "50,50,50",
+        "Static": false
+      },
+      {
+        "__type": "WoodMove",
+        "__guid": "b204a101-24b8-465f-b2ab-8f0b28e25cd6",
+        "score": {
+          "_type": "component",
+          "component_id": "a9173d2e-80da-438d-9388-5ce13cd9d3a5",
+          "go": "cb015494-24bd-4be3-a7eb-ddfb73aaed57",
+          "component_type": "ScoreScript"
+        },
+        "wood": {
+          "_type": "gameobject",
+          "go": "958334bb-0105-48d8-96c0-f0594bb3f49d"
+        }
+      },
+      {
+        "__type": "SpriteTools.SpriteComponent",
+        "__guid": "1bcb689d-0b39-471d-b954-43885e9aeec8",
+        "__version": 1,
+        "BroadcastEvents": {},
+        "CastShadows": "On",
+        "CreateAttachPoints": false,
+        "FlashTint": "1,1,1,0",
+        "PlaybackSpeed": 1,
+        "Sprite": "tilemap/wood1.sprite",
+        "SpriteFlags": "None",
+        "StartingAnimationName": "default",
+        "Tint": "1,1,1,1",
+        "UpDirection": "YPositive",
+        "UsePixelScale": false
+      }
+    ]
+  },
+  "ShowInMenu": false,
+  "MenuPath": null,
+  "MenuIcon": null,
+  "ResourceVersion": 1,
+  "__references": [],
+  "__version": 1
+}
