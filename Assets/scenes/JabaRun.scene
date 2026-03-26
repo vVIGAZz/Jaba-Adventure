@@ -403,6 +403,33 @@
           "UseCollisionRules": false
         },
         {
+          "__type": "Sandbox.CapsuleCollider",
+          "__guid": "81611f2e-ed4f-409b-aa3c-e32389c63747",
+          "__enabled": true,
+          "Flags": 0,
+          "ColliderFlags": 0,
+          "Elasticity": null,
+          "End": "0,0,55",
+          "Friction": null,
+          "IsTrigger": true,
+          "OnComponentDestroy": null,
+          "OnComponentDisabled": null,
+          "OnComponentEnabled": null,
+          "OnComponentFixedUpdate": null,
+          "OnComponentStart": null,
+          "OnComponentUpdate": null,
+          "OnObjectTriggerEnter": null,
+          "OnObjectTriggerExit": null,
+          "OnTriggerEnter": null,
+          "OnTriggerExit": null,
+          "Radius": 16,
+          "RollingResistance": null,
+          "Start": "0,0,0",
+          "Static": false,
+          "Surface": null,
+          "SurfaceVelocity": "0,0,0"
+        },
+        {
           "__type": "Movement",
           "__guid": "cf378e00-6b17-4aaa-8282-fd4e0c1c4b9e",
           "__enabled": true,
@@ -425,6 +452,19 @@
           "OnComponentFixedUpdate": null,
           "OnComponentStart": null,
           "OnComponentUpdate": null
+        },
+        {
+          "__type": "Player",
+          "__guid": "af55e6d0-532e-4c6d-828a-4c9fe4857e8d",
+          "__enabled": true,
+          "Flags": 0,
+          "OnComponentDestroy": null,
+          "OnComponentDisabled": null,
+          "OnComponentEnabled": null,
+          "OnComponentFixedUpdate": null,
+          "OnComponentStart": null,
+          "OnComponentUpdate": null,
+          "Score": 0
         }
       ],
       "Children": [
@@ -520,7 +560,7 @@
           ],
           "Children": [
             {
-              "__guid": "6c0ae7ac-661b-4788-821e-189dc9c6f8a0",
+              "__guid": "544019a4-4200-40c3-88c7-987a20cae7d7",
               "__version": 2,
               "Flags": 0,
               "Name": "Clothing - nerdy_glasses",
@@ -537,7 +577,7 @@
               "Components": [
                 {
                   "__type": "Sandbox.SkinnedModelRenderer",
-                  "__guid": "ea6c6c12-4d85-495c-a3d4-3981a50673ac",
+                  "__guid": "2b341dcd-7d08-4e0f-b3e4-0b7945223fdf",
                   "__enabled": true,
                   "Flags": 0,
                   "AnimationGraph": null,
@@ -589,7 +629,7 @@
               "Children": []
             },
             {
-              "__guid": "a903c8c0-e428-466d-912e-8f9ece861c98",
+              "__guid": "632a82f7-a2fe-40c1-acc9-ef7555aefde3",
               "__version": 2,
               "Flags": 0,
               "Name": "Clothing - eyebrows",
@@ -606,7 +646,7 @@
               "Components": [
                 {
                   "__type": "Sandbox.SkinnedModelRenderer",
-                  "__guid": "c1e20085-6871-41cd-8d1d-3b486b254a34",
+                  "__guid": "788666c7-2e28-47d5-99d0-936d9ad6e722",
                   "__enabled": true,
                   "Flags": 0,
                   "AnimationGraph": null,
@@ -658,7 +698,7 @@
               "Children": []
             },
             {
-              "__guid": "31acc401-29d8-404c-8ca1-e0a0bd6ef2ce",
+              "__guid": "d13a51ed-c6ef-49db-9117-9845e8d1c4e6",
               "__version": 2,
               "Flags": 0,
               "Name": "Clothing - sneakers",
@@ -675,7 +715,7 @@
               "Components": [
                 {
                   "__type": "Sandbox.SkinnedModelRenderer",
-                  "__guid": "60ff2ecc-5101-4b5b-aa96-84a23d9991d1",
+                  "__guid": "8f77a8a4-564c-4cd6-bf0c-c574538ee24b",
                   "__enabled": true,
                   "Flags": 0,
                   "AnimationGraph": null,
@@ -727,7 +767,7 @@
               "Children": []
             },
             {
-              "__guid": "b23a7598-e172-4e05-a99e-6431be136d09",
+              "__guid": "dfba7129-5765-4e11-bf1d-ac2bd3aac6a8",
               "__version": 2,
               "Flags": 0,
               "Name": "Clothing - jeans",
@@ -744,7 +784,7 @@
               "Components": [
                 {
                   "__type": "Sandbox.SkinnedModelRenderer",
-                  "__guid": "ee03ee92-4442-4e7f-af8f-e281a9837f02",
+                  "__guid": "095de474-f096-4c82-98d4-241368aad56f",
                   "__enabled": true,
                   "Flags": 0,
                   "AnimationGraph": null,
@@ -796,7 +836,7 @@
               "Children": []
             },
             {
-              "__guid": "f2373d48-672e-41a2-b872-0056d994811e",
+              "__guid": "61ff3760-239e-4398-81cc-84f0409a0493",
               "__version": 2,
               "Flags": 0,
               "Name": "Clothing - raincoat_cap_navycheck",
@@ -813,7 +853,7 @@
               "Components": [
                 {
                   "__type": "Sandbox.SkinnedModelRenderer",
-                  "__guid": "39ed346e-0fea-4439-a8b6-8de107cb9d77",
+                  "__guid": "e662ade2-208c-4d93-abf2-7b7c3cb05f87",
                   "__enabled": true,
                   "Flags": 0,
                   "AnimationGraph": null,
@@ -865,7 +905,7 @@
               "Children": []
             },
             {
-              "__guid": "11e919ea-c2b1-4b1d-bda1-380df66d0323",
+              "__guid": "2cde63e2-8a39-456a-8b8c-43703839bd5f",
               "__version": 2,
               "Flags": 0,
               "Name": "Clothing - sports_bandage",
@@ -882,7 +922,7 @@
               "Components": [
                 {
                   "__type": "Sandbox.SkinnedModelRenderer",
-                  "__guid": "fe6294c3-3453-4bc3-bbae-2f67b6340112",
+                  "__guid": "710d2393-27be-42f1-9ec9-d2f1c4826784",
                   "__enabled": true,
                   "Flags": 0,
                   "AnimationGraph": null,
@@ -953,7 +993,44 @@
       "NetworkTransmit": true,
       "OwnerTransfer": 1,
       "Components": [],
-      "Children": []
+      "Children": [
+        {
+          "__guid": "090bfb10-06ba-4c82-95f8-867b5df1e6ca",
+          "__version": 2,
+          "Flags": 0,
+          "Name": "Coin Spawn",
+          "Position": "0,-569.8653,300.0528",
+          "Rotation": "0,0,0,1",
+          "Scale": "1,1,1",
+          "Tags": "",
+          "Enabled": true,
+          "NetworkMode": 2,
+          "NetworkFlags": 0,
+          "NetworkOrphaned": 0,
+          "NetworkTransmit": true,
+          "OwnerTransfer": 1,
+          "Components": [],
+          "Children": []
+        },
+        {
+          "__guid": "7d208759-ade9-415e-a6ca-c97ac5f7c4c0",
+          "__version": 2,
+          "Flags": 0,
+          "Name": "Traps Spawn",
+          "Position": "0,-569.8653,162.3466",
+          "Rotation": "0,0,0,1",
+          "Scale": "1,1,1",
+          "Tags": "",
+          "Enabled": true,
+          "NetworkMode": 2,
+          "NetworkFlags": 0,
+          "NetworkOrphaned": 0,
+          "NetworkTransmit": true,
+          "OwnerTransfer": 1,
+          "Components": [],
+          "Children": []
+        }
+      ]
     },
     {
       "__guid": "980498f8-b353-4b54-aad8-a123aa6b5026",
@@ -1040,6 +1117,18 @@
               "Static": false,
               "Surface": null,
               "SurfaceVelocity": "0,0,0"
+            },
+            {
+              "__type": "EndTrigger",
+              "__guid": "4ed87ff9-6b09-4f95-99bc-ce3195e9cea0",
+              "__enabled": true,
+              "Flags": 0,
+              "OnComponentDestroy": null,
+              "OnComponentDisabled": null,
+              "OnComponentEnabled": null,
+              "OnComponentFixedUpdate": null,
+              "OnComponentStart": null,
+              "OnComponentUpdate": null
             }
           ],
           "Children": []
@@ -1051,10 +1140,10 @@
       "__version": 2,
       "Flags": 0,
       "Name": "Coin",
-      "Position": "0,224.3071,317.3203",
+      "Position": "0,-386.3726,269.9375",
       "Rotation": "0,0,0,1",
       "Scale": "1,1,1",
-      "Tags": "",
+      "Tags": "coin",
       "Enabled": true,
       "NetworkMode": 2,
       "NetworkFlags": 0,
@@ -1073,6 +1162,46 @@
           "OnComponentFixedUpdate": null,
           "OnComponentStart": null,
           "OnComponentUpdate": null
+        },
+        {
+          "__type": "Sandbox.SphereCollider",
+          "__guid": "b31eb548-91cd-4531-9561-e98c418f7f2a",
+          "__enabled": true,
+          "Flags": 0,
+          "Center": "0,0,0",
+          "ColliderFlags": 0,
+          "Elasticity": null,
+          "Friction": null,
+          "IsTrigger": true,
+          "OnComponentDestroy": null,
+          "OnComponentDisabled": null,
+          "OnComponentEnabled": null,
+          "OnComponentFixedUpdate": null,
+          "OnComponentStart": null,
+          "OnComponentUpdate": null,
+          "OnObjectTriggerEnter": null,
+          "OnObjectTriggerExit": null,
+          "OnTriggerEnter": null,
+          "OnTriggerExit": null,
+          "Radius": 10,
+          "RollingResistance": null,
+          "Static": false,
+          "Surface": null,
+          "SurfaceVelocity": "0,0,0"
+        },
+        {
+          "__type": "PropsMovement",
+          "__guid": "5e6b1898-6b3d-4ce8-a8f9-ab9e8df72e20",
+          "__enabled": true,
+          "Flags": 0,
+          "OnComponentDestroy": null,
+          "OnComponentDisabled": null,
+          "OnComponentEnabled": null,
+          "OnComponentFixedUpdate": null,
+          "OnComponentStart": null,
+          "OnComponentUpdate": null,
+          "Speed": 0.01,
+          "WishDir": "0,0,0"
         }
       ],
       "Children": [
@@ -1129,24 +1258,65 @@
       "__version": 2,
       "Flags": 0,
       "Name": "Binbag",
-      "Position": "0,7.930414,309.6374",
+      "Position": "0,-505.681,128.8923",
       "Rotation": "0,0,0,1",
       "Scale": "1,1,1",
-      "Tags": "",
+      "Tags": "traps",
       "Enabled": true,
       "NetworkMode": 2,
       "NetworkFlags": 0,
       "NetworkOrphaned": 0,
       "NetworkTransmit": true,
       "OwnerTransfer": 1,
-      "Components": [],
+      "Components": [
+        {
+          "__type": "Sandbox.BoxCollider",
+          "__guid": "703822e6-ac77-4248-8faa-ea9a4e5dece5",
+          "__enabled": true,
+          "Flags": 0,
+          "Center": "0,1.181641,9.449219",
+          "ColliderFlags": 0,
+          "Elasticity": null,
+          "Friction": null,
+          "IsTrigger": true,
+          "OnComponentDestroy": null,
+          "OnComponentDisabled": null,
+          "OnComponentEnabled": null,
+          "OnComponentFixedUpdate": null,
+          "OnComponentStart": null,
+          "OnComponentUpdate": null,
+          "OnObjectTriggerEnter": null,
+          "OnObjectTriggerExit": null,
+          "OnTriggerEnter": null,
+          "OnTriggerExit": null,
+          "RollingResistance": null,
+          "Scale": "50,26.37891,19.29102",
+          "Static": false,
+          "Surface": null,
+          "SurfaceVelocity": "0,0,0"
+        },
+        {
+          "__type": "PropsMovement",
+          "__guid": "8130fa36-5612-4553-bc13-ce45eea89450",
+          "__enabled": true,
+          "Flags": 0,
+          "OnComponentDestroy": null,
+          "OnComponentDisabled": null,
+          "OnComponentEnabled": null,
+          "OnComponentFixedUpdate": null,
+          "OnComponentStart": null,
+          "OnComponentUpdate": null,
+          "Speed": 0.01,
+          "WishDir": "0,0,0"
+        }
+      ],
       "Children": [
         {
           "__guid": "e7666940-ee29-4d82-ad65-406288e42f10",
           "__version": 2,
           "Flags": 0,
           "Name": "Body",
-          "Position": "0,113.5586,-29.58109",
+          "Position": "0,0,0",
           "Rotation": "0,0,0,1",
           "Scale": "1,1,1",
           "Tags": "",
@@ -1194,17 +1364,58 @@
       "__version": 2,
       "Flags": 0,
       "Name": "Park Bin",
-      "Position": "0,-33.39108,274.4977",
+      "Position": "0,-389.0631,128.8456",
       "Rotation": "0,0,0.7071068,0.7071068",
       "Scale": "1,1,1",
-      "Tags": "",
+      "Tags": "traps",
       "Enabled": true,
       "NetworkMode": 2,
       "NetworkFlags": 0,
       "NetworkOrphaned": 0,
       "NetworkTransmit": true,
       "OwnerTransfer": 1,
-      "Components": [],
+      "Components": [
+        {
+          "__type": "Sandbox.BoxCollider",
+          "__guid": "fbee5ddc-1edb-4526-9f3a-cf6f83e0b040",
+          "__enabled": true,
+          "Flags": 0,
+          "Center": "0,0,42.05672",
+          "ColliderFlags": 0,
+          "Elasticity": null,
+          "Friction": null,
+          "IsTrigger": true,
+          "OnComponentDestroy": null,
+          "OnComponentDisabled": null,
+          "OnComponentEnabled": null,
+          "OnComponentFixedUpdate": null,
+          "OnComponentStart": null,
+          "OnComponentUpdate": null,
+          "OnObjectTriggerEnter": null,
+          "OnObjectTriggerExit": null,
+          "OnTriggerEnter": null,
+          "OnTriggerExit": null,
+          "RollingResistance": null,
+          "Scale": "50,50,83.96692",
+          "Static": false,
+          "Surface": null,
+          "SurfaceVelocity": "0,0,0"
+        },
+        {
+          "__type": "PropsMovement",
+          "__guid": "ce2fcccb-5333-46b9-acbb-8347525953a8",
+          "__enabled": true,
+          "Flags": 0,
+          "OnComponentDestroy": null,
+          "OnComponentDisabled": null,
+          "OnComponentEnabled": null,
+          "OnComponentFixedUpdate": null,
+          "OnComponentStart": null,
+          "OnComponentUpdate": null,
+          "Speed": 0.01,
+          "WishDir": "0,0,0"
+        }
+      ],
       "Children": [
         {
           "__guid": "392530f6-0f78-47c9-989a-6a8051bd659f",
@@ -1278,7 +1489,7 @@
     "GameObjectSystems": {
       "Sandbox.Clutter.ClutterGridSystem": {
         "Storage": {
-          "$blob": "83039876-136b-4448-8a26-67aebd56dde5"
+          "$blob": "8dba2597-8a93-4435-b944-fbb408d50b1e"
         }
       }
     }

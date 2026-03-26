@@ -2046,7 +2046,7 @@
         "projectName": "jaba_adventure",
         "projectPath": "C:\\S&box Project\\Jaba-Adventure\\code\\jaba_adventure.csproj",
         "packagesPath": "C:\\Users\\devba\\.nuget\\packages\\",
-        "outputPath": "C:\\s&box project\\jaba-adventure\\code\\obj\\",
+        "outputPath": "C:\\S&box Project\\Jaba-Adventure\\code\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -2384,7 +2384,7 @@
         "projectName": "jaba_adventure.editor",
         "projectPath": "C:\\S&box Project\\Jaba-Adventure\\Editor\\jaba_adventure.editor.csproj",
         "packagesPath": "C:\\Users\\devba\\.nuget\\packages\\",
-        "outputPath": "C:\\s&box project\\jaba-adventure\\Editor\\obj\\",
+        "outputPath": "C:\\S&box Project\\Jaba-Adventure\\Editor\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

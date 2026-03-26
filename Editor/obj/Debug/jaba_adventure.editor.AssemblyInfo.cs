@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("jaba_adventure.editor")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+cd9a21c76a108ef5973d564bbac829cd4acc1dd0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+05aa34a959f2b562c1860974531decec390f7610")]
 [assembly: System.Reflection.AssemblyProductAttribute("jaba_adventure.editor")]
 [assembly: System.Reflection.AssemblyTitleAttribute("jaba_adventure.editor")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

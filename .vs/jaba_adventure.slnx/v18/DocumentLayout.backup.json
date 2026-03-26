@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\S\u0026box Project\\Jaba-Adventure\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3E23C584-5D38-ECD6-F532-4EE65C9C4C86}|code\\jaba_adventure.csproj|c:\\s\u0026box project\\jaba-adventure\\code\\game\\data\\rotate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3E23C584-5D38-ECD6-F532-4EE65C9C4C86}|code\\jaba_adventure.csproj|solutionrelative:code\\game\\data\\rotate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\S\u0026box Project\\Jaba-Adventure\\code\\Game\\Data\\EndTrigger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:code\\Game\\Data\\EndTrigger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\S\u0026box Project\\Jaba-Adventure\\code\\Game\\Player\\Movement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:code\\Game\\Player\\Movement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\S\u0026box Project\\Jaba-Adventure\\code\\Game\\Data\\EndTrigget.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:code\\Game\\Data\\EndTrigget.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,32 +18,31 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Rotate.cs",
-              "DocumentMoniker": "C:\\S\u0026box Project\\Jaba-Adventure\\code\\Game\\Data\\Rotate.cs",
-              "RelativeDocumentMoniker": "code\\Game\\Data\\Rotate.cs",
-              "ToolTip": "C:\\S\u0026box Project\\Jaba-Adventure\\code\\Game\\Data\\Rotate.cs",
-              "RelativeToolTip": "code\\Game\\Data\\Rotate.cs",
+              "DocumentIndex": 1,
+              "Title": "EndTrigget.cs",
+              "DocumentMoniker": "C:\\S\u0026box Project\\Jaba-Adventure\\code\\Game\\Data\\EndTrigget.cs",
+              "RelativeDocumentMoniker": "code\\Game\\Data\\EndTrigget.cs",
+              "ToolTip": "C:\\S\u0026box Project\\Jaba-Adventure\\code\\Game\\Data\\EndTrigget.cs",
+              "RelativeToolTip": "code\\Game\\Data\\EndTrigget.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-26T16:47:52.203Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-26T19:33:56.019Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Movement.cs",
-              "DocumentMoniker": "C:\\S\u0026box Project\\Jaba-Adventure\\code\\Game\\Player\\Movement.cs",
-              "RelativeDocumentMoniker": "code\\Game\\Player\\Movement.cs",
-              "ToolTip": "C:\\S\u0026box Project\\Jaba-Adventure\\code\\Game\\Player\\Movement.cs",
-              "RelativeToolTip": "code\\Game\\Player\\Movement.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAwAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "EndTrigger.cs",
+              "DocumentMoniker": "C:\\S\u0026box Project\\Jaba-Adventure\\code\\Game\\Data\\EndTrigger.cs",
+              "RelativeDocumentMoniker": "code\\Game\\Data\\EndTrigger.cs",
+              "ToolTip": "C:\\S\u0026box Project\\Jaba-Adventure\\code\\Game\\Data\\EndTrigger.cs",
+              "RelativeToolTip": "code\\Game\\Data\\EndTrigger.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-26T16:29:15.249Z",
+              "WhenOpened": "2026-03-26T19:34:25.959Z",
               "EditorCaption": ""
             }
           ]
