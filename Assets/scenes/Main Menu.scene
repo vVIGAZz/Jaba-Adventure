@@ -2,63 +2,160 @@
   "__guid": "a167e833-fbfb-44b5-a987-69df7a3078ff",
   "GameObjects": [
     {
+      "__guid": "ee3395a1-205b-4a43-bc12-77920b2608dc",
+      "__version": 2,
+      "Flags": 0,
+      "Name": "Scene Information",
+      "Position": "0,0,0",
+      "Rotation": "0,0,0,1",
+      "Scale": "1,1,1",
+      "Tags": "",
+      "Enabled": true,
+      "NetworkMode": 2,
+      "NetworkFlags": 0,
+      "NetworkOrphaned": 0,
+      "NetworkTransmit": true,
+      "OwnerTransfer": 1,
+      "Components": [
+        {
+          "__type": "Sandbox.SceneInformation",
+          "__guid": "824d955f-de37-485d-af1b-30a511f0e94d",
+          "__enabled": true,
+          "Flags": 0,
+          "Author": null,
+          "Changes": null,
+          "Description": "",
+          "Group": null,
+          "OnComponentDestroy": null,
+          "OnComponentDisabled": null,
+          "OnComponentEnabled": null,
+          "OnComponentFixedUpdate": null,
+          "OnComponentStart": null,
+          "OnComponentUpdate": null,
+          "SceneTags": "",
+          "Title": "main menu",
+          "Version": null
+        }
+      ],
+      "Children": []
+    },
+    {
       "__guid": "e4147fd1-b500-4c50-9428-1d73354e9ea7",
+      "__version": 2,
       "Flags": 0,
       "Name": "Camera",
       "Position": "-500,0,0",
+      "Rotation": "0,0,0,1",
+      "Scale": "1,1,1",
       "Tags": "maincamera",
       "Enabled": true,
+      "NetworkMode": 2,
+      "NetworkFlags": 0,
+      "NetworkOrphaned": 0,
+      "NetworkTransmit": true,
+      "OwnerTransfer": 1,
       "Components": [
         {
           "__type": "Sandbox.CameraComponent",
           "__guid": "223e81db-d42c-4d30-8815-43b1346be159",
+          "__enabled": true,
+          "Flags": 0,
           "BackgroundColor": "1,1,1,1",
           "ClearFlags": "All",
+          "EnablePostProcessing": true,
           "FieldOfView": 60,
+          "FovAxis": "Horizontal",
           "IsMainCamera": true,
+          "OnComponentDestroy": null,
+          "OnComponentDisabled": null,
+          "OnComponentEnabled": null,
+          "OnComponentFixedUpdate": null,
+          "OnComponentStart": null,
+          "OnComponentUpdate": null,
           "Orthographic": false,
           "OrthographicHeight": 1204,
+          "PostProcessAnchor": null,
           "Priority": 1,
           "RenderExcludeTags": "",
           "RenderTags": "",
+          "RenderTexture": null,
           "TargetEye": "None",
           "Viewport": "0,0,1,1",
           "ZFar": 10000,
           "ZNear": 10
         }
-      ]
+      ],
+      "Children": []
     },
     {
       "__guid": "fc43f5df-d6df-4dcc-9471-a037aa0e6435",
+      "__version": 2,
       "Flags": 0,
       "Name": "Object",
-      "Enabled": true
+      "Position": "0,0,0",
+      "Rotation": "0,0,0,1",
+      "Scale": "1,1,1",
+      "Tags": "",
+      "Enabled": true,
+      "NetworkMode": 2,
+      "NetworkFlags": 0,
+      "NetworkOrphaned": 0,
+      "NetworkTransmit": true,
+      "OwnerTransfer": 1,
+      "Components": [],
+      "Children": []
     },
     {
       "__guid": "1ece4c3a-44ea-4aea-a526-1371133ad32b",
+      "__version": 2,
       "Flags": 0,
       "Name": "Sun",
+      "Position": "0,0,0",
+      "Rotation": "0,0,0,1",
+      "Scale": "1,1,1",
       "Tags": "light_directional,light",
       "Enabled": true,
+      "NetworkMode": 2,
+      "NetworkFlags": 0,
+      "NetworkOrphaned": 0,
+      "NetworkTransmit": true,
+      "OwnerTransfer": 1,
       "Components": [
         {
           "__type": "Sandbox.DirectionalLight",
           "__guid": "aafc4e10-b802-44b5-8f64-d2cab9d223b8",
+          "__enabled": true,
+          "Flags": 0,
           "FogMode": "Enabled",
           "FogStrength": 1,
           "LightColor": "0.91373,0.98039,1,1",
+          "OnComponentDestroy": null,
+          "OnComponentDisabled": null,
+          "OnComponentEnabled": null,
+          "OnComponentFixedUpdate": null,
+          "OnComponentStart": null,
+          "OnComponentUpdate": null,
           "Shadows": true,
           "SkyColor": "0,0,0,0"
         }
-      ]
+      ],
+      "Children": []
     },
     {
       "__guid": "18d1ddff-f123-40eb-a5d8-5224fd340cd7",
+      "__version": 2,
       "Flags": 0,
       "Name": "ground",
       "Position": "-0.00009956665,260.4137,-126.3376",
       "Rotation": "0.5,-0.5,-0.5,0.5",
+      "Scale": "1,1,1",
+      "Tags": "",
       "Enabled": true,
+      "NetworkMode": 2,
+      "NetworkFlags": 0,
+      "NetworkOrphaned": 0,
+      "NetworkTransmit": true,
+      "OwnerTransfer": 1,
       "Components": [
         {
           "__type": "SpriteTools.SpriteComponent",
@@ -76,15 +173,24 @@
           "UpDirection": "YPositive",
           "UsePixelScale": false
         }
-      ]
+      ],
+      "Children": []
     },
     {
       "__guid": "6327f84d-bad4-4fc2-ab0d-fcd7811d026f",
+      "__version": 2,
       "Flags": 0,
       "Name": "ground (5)",
       "Position": "-0.00009956665,82.32655,-126.3376",
       "Rotation": "0.5,-0.5,-0.5,0.5",
+      "Scale": "1,1,1",
+      "Tags": "",
       "Enabled": true,
+      "NetworkMode": 2,
+      "NetworkFlags": 0,
+      "NetworkOrphaned": 0,
+      "NetworkTransmit": true,
+      "OwnerTransfer": 1,
       "Components": [
         {
           "__type": "SpriteTools.SpriteComponent",
@@ -102,15 +208,24 @@
           "UpDirection": "YPositive",
           "UsePixelScale": false
         }
-      ]
+      ],
+      "Children": []
     },
     {
       "__guid": "96e32e2b-610c-4fcd-a4ae-f940478e5518",
+      "__version": 2,
       "Flags": 0,
       "Name": "ground (8)",
       "Position": "-0.00009956665,-92.19887,-126.3376",
       "Rotation": "0.5,-0.5,-0.5,0.5",
+      "Scale": "1,1,1",
+      "Tags": "",
       "Enabled": true,
+      "NetworkMode": 2,
+      "NetworkFlags": 0,
+      "NetworkOrphaned": 0,
+      "NetworkTransmit": true,
+      "OwnerTransfer": 1,
       "Components": [
         {
           "__type": "SpriteTools.SpriteComponent",
@@ -128,15 +243,24 @@
           "UpDirection": "YPositive",
           "UsePixelScale": false
         }
-      ]
+      ],
+      "Children": []
     },
     {
       "__guid": "3723edd4-246f-45d3-9162-d9371acdf1b8",
+      "__version": 2,
       "Flags": 0,
       "Name": "ground (11)",
       "Position": "-0.00009956665,-291.6565,-126.3376",
       "Rotation": "0.5,-0.5,-0.5,0.5",
+      "Scale": "1,1,1",
+      "Tags": "",
       "Enabled": true,
+      "NetworkMode": 2,
+      "NetworkFlags": 0,
+      "NetworkOrphaned": 0,
+      "NetworkTransmit": true,
+      "OwnerTransfer": 1,
       "Components": [
         {
           "__type": "SpriteTools.SpriteComponent",
@@ -154,15 +278,24 @@
           "UpDirection": "YPositive",
           "UsePixelScale": false
         }
-      ]
+      ],
+      "Children": []
     },
     {
       "__guid": "fb6c86ee-466f-46bd-ba0b-158477711feb",
+      "__version": 2,
       "Flags": 0,
       "Name": "ground (1)",
       "Position": "-0.00009900557,183.5387,-126.3376",
       "Rotation": "0.5,-0.5,-0.5,0.5",
+      "Scale": "1,1,1",
+      "Tags": "",
       "Enabled": true,
+      "NetworkMode": 2,
+      "NetworkFlags": 0,
+      "NetworkOrphaned": 0,
+      "NetworkTransmit": true,
+      "OwnerTransfer": 1,
       "Components": [
         {
           "__type": "SpriteTools.SpriteComponent",
@@ -180,15 +313,24 @@
           "UpDirection": "YPositive",
           "UsePixelScale": false
         }
-      ]
+      ],
+      "Children": []
     },
     {
       "__guid": "38e2154f-b91b-47df-bfd8-075f96c19f64",
+      "__version": 2,
       "Flags": 0,
       "Name": "ground (4)",
       "Position": "-0.00009900557,5.451553,-126.3376",
       "Rotation": "0.5,-0.5,-0.5,0.5",
+      "Scale": "1,1,1",
+      "Tags": "",
       "Enabled": true,
+      "NetworkMode": 2,
+      "NetworkFlags": 0,
+      "NetworkOrphaned": 0,
+      "NetworkTransmit": true,
+      "OwnerTransfer": 1,
       "Components": [
         {
           "__type": "SpriteTools.SpriteComponent",
@@ -206,15 +348,24 @@
           "UpDirection": "YPositive",
           "UsePixelScale": false
         }
-      ]
+      ],
+      "Children": []
     },
     {
       "__guid": "f2ad0a0a-3c91-4030-8040-c4fd5ee7143b",
+      "__version": 2,
       "Flags": 0,
       "Name": "ground (7)",
       "Position": "-0.00009900557,-169.0739,-126.3376",
       "Rotation": "0.5,-0.5,-0.5,0.5",
+      "Scale": "1,1,1",
+      "Tags": "",
       "Enabled": true,
+      "NetworkMode": 2,
+      "NetworkFlags": 0,
+      "NetworkOrphaned": 0,
+      "NetworkTransmit": true,
+      "OwnerTransfer": 1,
       "Components": [
         {
           "__type": "SpriteTools.SpriteComponent",
@@ -232,15 +383,24 @@
           "UpDirection": "YPositive",
           "UsePixelScale": false
         }
-      ]
+      ],
+      "Children": []
     },
     {
       "__guid": "5cd93898-250a-414f-bcfa-d26bd5ed979c",
+      "__version": 2,
       "Flags": 0,
       "Name": "ground (10)",
       "Position": "-0.00009900557,-368.5315,-126.3376",
       "Rotation": "0.5,-0.5,-0.5,0.5",
+      "Scale": "1,1,1",
+      "Tags": "",
       "Enabled": true,
+      "NetworkMode": 2,
+      "NetworkFlags": 0,
+      "NetworkOrphaned": 0,
+      "NetworkTransmit": true,
+      "OwnerTransfer": 1,
       "Components": [
         {
           "__type": "SpriteTools.SpriteComponent",
@@ -258,15 +418,24 @@
           "UpDirection": "YPositive",
           "UsePixelScale": false
         }
-      ]
+      ],
+      "Children": []
     },
     {
       "__guid": "6ee2d1e7-5a30-4e67-aa8b-39e06f131e68",
+      "__version": 2,
       "Flags": 0,
       "Name": "ground (2)",
       "Position": "-0.00009900557,93.32817,-126.3376",
       "Rotation": "0.5,-0.5,-0.5,0.5",
+      "Scale": "1,1,1",
+      "Tags": "",
       "Enabled": true,
+      "NetworkMode": 2,
+      "NetworkFlags": 0,
+      "NetworkOrphaned": 0,
+      "NetworkTransmit": true,
+      "OwnerTransfer": 1,
       "Components": [
         {
           "__type": "SpriteTools.SpriteComponent",
@@ -284,15 +453,24 @@
           "UpDirection": "YPositive",
           "UsePixelScale": false
         }
-      ]
+      ],
+      "Children": []
     },
     {
       "__guid": "30266d16-9d90-4630-a67e-77e91e8b4383",
+      "__version": 2,
       "Flags": 0,
       "Name": "ground (3)",
       "Position": "-0.00009900557,-84.75897,-126.3376",
       "Rotation": "0.5,-0.5,-0.5,0.5",
+      "Scale": "1,1,1",
+      "Tags": "",
       "Enabled": true,
+      "NetworkMode": 2,
+      "NetworkFlags": 0,
+      "NetworkOrphaned": 0,
+      "NetworkTransmit": true,
+      "OwnerTransfer": 1,
       "Components": [
         {
           "__type": "SpriteTools.SpriteComponent",
@@ -310,15 +488,24 @@
           "UpDirection": "YPositive",
           "UsePixelScale": false
         }
-      ]
+      ],
+      "Children": []
     },
     {
       "__guid": "8910dd82-e605-4f76-885e-aa2d930752be",
+      "__version": 2,
       "Flags": 0,
       "Name": "ground (6)",
       "Position": "-0.00009900557,-259.2844,-126.3376",
       "Rotation": "0.5,-0.5,-0.5,0.5",
+      "Scale": "1,1,1",
+      "Tags": "",
       "Enabled": true,
+      "NetworkMode": 2,
+      "NetworkFlags": 0,
+      "NetworkOrphaned": 0,
+      "NetworkTransmit": true,
+      "OwnerTransfer": 1,
       "Components": [
         {
           "__type": "SpriteTools.SpriteComponent",
@@ -336,15 +523,24 @@
           "UpDirection": "YPositive",
           "UsePixelScale": false
         }
-      ]
+      ],
+      "Children": []
     },
     {
       "__guid": "d9c48d15-690e-4ace-8d82-0c5e0e15fca3",
+      "__version": 2,
       "Flags": 0,
       "Name": "ground (9)",
       "Position": "-0.00009900557,-458.742,-126.3376",
       "Rotation": "0.5,-0.5,-0.5,0.5",
+      "Scale": "1,1,1",
+      "Tags": "",
       "Enabled": true,
+      "NetworkMode": 2,
+      "NetworkFlags": 0,
+      "NetworkOrphaned": 0,
+      "NetworkTransmit": true,
+      "OwnerTransfer": 1,
       "Components": [
         {
           "__type": "SpriteTools.SpriteComponent",
@@ -362,15 +558,24 @@
           "UpDirection": "YPositive",
           "UsePixelScale": false
         }
-      ]
+      ],
+      "Children": []
     },
     {
       "__guid": "6a37c579-e502-4b50-b06a-b19ef9c6f830",
+      "__version": 2,
       "Flags": 0,
       "Name": "wood2",
       "Position": "-0.00005797296,218.6492,-44.21409",
       "Rotation": "0.5,-0.5,-0.5,0.5",
+      "Scale": "1,1,1",
+      "Tags": "",
       "Enabled": true,
+      "NetworkMode": 2,
+      "NetworkFlags": 0,
+      "NetworkOrphaned": 0,
+      "NetworkTransmit": true,
+      "OwnerTransfer": 1,
       "Components": [
         {
           "__type": "SpriteTools.SpriteComponent",
@@ -388,15 +593,24 @@
           "UpDirection": "YPositive",
           "UsePixelScale": false
         }
-      ]
+      ],
+      "Children": []
     },
     {
       "__guid": "e13ebdda-a234-41d6-8958-4a61854e9d37",
+      "__version": 2,
       "Flags": 0,
       "Name": "coin",
       "Position": "0.0000650437,-249.2136,100.7022",
       "Rotation": "0.5,-0.5,-0.5,0.5",
+      "Scale": "1,1,1",
+      "Tags": "",
       "Enabled": true,
+      "NetworkMode": 2,
+      "NetworkFlags": 0,
+      "NetworkOrphaned": 0,
+      "NetworkTransmit": true,
+      "OwnerTransfer": 1,
       "Components": [
         {
           "__type": "SpriteTools.SpriteComponent",
@@ -414,15 +628,24 @@
           "UpDirection": "YPositive",
           "UsePixelScale": false
         }
-      ]
+      ],
+      "Children": []
     },
     {
       "__guid": "cee940fb-dd56-4bb9-b661-f7eb65734b9e",
+      "__version": 2,
       "Flags": 0,
       "Name": "coin",
       "Position": "0.00001750222,-184.2528,-6.715607",
       "Rotation": "0.5,-0.5,-0.5,0.5",
+      "Scale": "1,1,1",
+      "Tags": "",
       "Enabled": true,
+      "NetworkMode": 2,
+      "NetworkFlags": 0,
+      "NetworkOrphaned": 0,
+      "NetworkTransmit": true,
+      "OwnerTransfer": 1,
       "Components": [
         {
           "__type": "SpriteTools.SpriteComponent",
@@ -440,15 +663,24 @@
           "UpDirection": "YPositive",
           "UsePixelScale": false
         }
-      ]
+      ],
+      "Children": []
     },
     {
       "__guid": "98290668-acea-4d32-adb6-d68a11f6b232",
+      "__version": 2,
       "Flags": 0,
       "Name": "coin",
       "Position": "0.00001750222,-194.018,208.1201",
       "Rotation": "0.5,-0.5,-0.5,0.5",
+      "Scale": "1,1,1",
+      "Tags": "",
       "Enabled": true,
+      "NetworkMode": 2,
+      "NetworkFlags": 0,
+      "NetworkOrphaned": 0,
+      "NetworkTransmit": true,
+      "OwnerTransfer": 1,
       "Components": [
         {
           "__type": "SpriteTools.SpriteComponent",
@@ -466,21 +698,41 @@
           "UpDirection": "YPositive",
           "UsePixelScale": false
         }
-      ]
+      ],
+      "Children": []
     },
     {
       "__guid": "4211a810-35f2-4c46-a516-7d51cb5a4136",
+      "__version": 2,
       "Flags": 0,
       "Name": "Screen",
+      "Position": "0,0,0",
+      "Rotation": "0,0,0,1",
+      "Scale": "1,1,1",
+      "Tags": "",
       "Enabled": true,
+      "NetworkMode": 2,
+      "NetworkFlags": 0,
+      "NetworkOrphaned": 0,
+      "NetworkTransmit": true,
+      "OwnerTransfer": 1,
       "Components": [
         {
           "__type": "Sandbox.ScreenPanel",
           "__guid": "f5dee822-1018-43ae-8e91-5a8359337488",
+          "__enabled": true,
+          "Flags": 0,
           "AutoScreenScale": true,
+          "OnComponentDestroy": null,
+          "OnComponentDisabled": null,
+          "OnComponentEnabled": null,
+          "OnComponentFixedUpdate": null,
+          "OnComponentStart": null,
+          "OnComponentUpdate": null,
           "Opacity": 1,
           "Scale": 1,
           "ScaleStrategy": "ConsistentHeight",
+          "TargetCamera": null,
           "ZIndex": 100
         },
         {
@@ -491,14 +743,39 @@
         {
           "__type": "Sandbox.SoundPointComponent",
           "__guid": "dd322fce-6078-42be-9630-f50f3bdf356f",
+          "__enabled": true,
+          "Flags": 0,
+          "Distance": 512,
           "DistanceAttenuation": false,
           "DistanceAttenuationOverride": false,
+          "Falloff": [
+            {
+              "x": 0,
+              "y": 1,
+              "in": 3.1415927,
+              "out": -3.1415927,
+              "mode": "Mirrored"
+            },
+            {
+              "x": 1,
+              "y": 0,
+              "in": 0,
+              "out": 0,
+              "mode": "Mirrored"
+            }
+          ],
           "Force2d": true,
           "MaxRepeatTime": 1,
           "MinRepeatTime": 1,
           "Occlusion": false,
           "OcclusionOverride": false,
           "OcclusionRadius": 32,
+          "OnComponentDestroy": null,
+          "OnComponentDisabled": null,
+          "OnComponentEnabled": null,
+          "OnComponentFixedUpdate": null,
+          "OnComponentStart": null,
+          "OnComponentUpdate": null,
           "Pitch": 1,
           "PlayOnStart": true,
           "ReflectionOverride": false,
@@ -513,15 +790,24 @@
           },
           "Volume": 1
         }
-      ]
+      ],
+      "Children": []
     },
     {
       "__guid": "058be4eb-fc2a-4fc1-a506-1ec488f483d1",
+      "__version": 2,
       "Flags": 0,
       "Name": "jaba",
       "Position": "-0.00004848924,135.5857,30.897",
       "Rotation": "0.5,-0.5,-0.5,0.5",
+      "Scale": "1,1,1",
+      "Tags": "",
       "Enabled": true,
+      "NetworkMode": 2,
+      "NetworkFlags": 0,
+      "NetworkOrphaned": 0,
+      "NetworkTransmit": true,
+      "OwnerTransfer": 1,
       "Components": [
         {
           "__type": "SpriteTools.SpriteComponent",
@@ -539,17 +825,17 @@
           "UpDirection": "YPositive",
           "UsePixelScale": false
         }
-      ]
+      ],
+      "Children": []
     }
   ],
   "SceneProperties": {
-    "FixedUpdateFrequency": 50,
-    "MaxFixedUpdates": 5,
-    "NetworkFrequency": 30,
     "NetworkInterpolation": true,
-    "ThreadedAnimation": true,
     "TimeScale": 1,
-    "UseFixedUpdate": true,
+    "WantsSystemScene": true,
+    "Metadata": {
+      "Title": "main menu"
+    },
     "NavMesh": {
       "Enabled": false,
       "IncludeStaticBodies": true,
@@ -560,12 +846,20 @@
       "AgentStepSize": 18,
       "AgentMaxSlope": 40,
       "ExcludedBodies": "",
-      "IncludedBodies": ""
+      "IncludedBodies": "",
+      "CustomBounds": false
+    },
+    "GameObjectSystems": {
+      "Sandbox.Clutter.ClutterGridSystem": {
+        "Storage": {
+          "$blob": "1f74949f-2290-4510-91e6-de277d3fe7c3"
+        }
+      }
     }
   },
+  "ResourceVersion": 3,
   "Title": "main menu",
-  "Description": "",
-  "ResourceVersion": 1,
+  "Description": null,
   "__references": [],
-  "__version": 1
+  "__version": 3
 }

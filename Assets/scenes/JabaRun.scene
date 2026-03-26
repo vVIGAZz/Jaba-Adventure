@@ -2,856 +2,1266 @@
   "__guid": "5a91405e-36d4-4b24-9b78-1618300b214e",
   "GameObjects": [
     {
+      "__guid": "37f38140-36f9-4746-b1b0-9de1e82bf773",
+      "__version": 2,
+      "Flags": 0,
+      "Name": "Scene Information",
+      "Position": "0,0,0",
+      "Rotation": "0,0,0,1",
+      "Scale": "1,1,1",
+      "Tags": "",
+      "Enabled": true,
+      "NetworkMode": 2,
+      "NetworkFlags": 0,
+      "NetworkOrphaned": 0,
+      "NetworkTransmit": true,
+      "OwnerTransfer": 1,
+      "Components": [
+        {
+          "__type": "Sandbox.SceneInformation",
+          "__guid": "4d9f8797-bf92-4118-af50-89b72bb54032",
+          "__enabled": true,
+          "Flags": 0,
+          "Author": null,
+          "Changes": null,
+          "Description": "",
+          "Group": null,
+          "OnComponentDestroy": null,
+          "OnComponentDisabled": null,
+          "OnComponentEnabled": null,
+          "OnComponentFixedUpdate": null,
+          "OnComponentStart": null,
+          "OnComponentUpdate": null,
+          "SceneTags": "",
+          "Title": "jabarun",
+          "Version": null
+        }
+      ],
+      "Children": []
+    },
+    {
       "__guid": "ea9f2412-9ecb-4951-b001-a3efbdc36f24",
+      "__version": 2,
       "Flags": 0,
       "Name": "Sun",
+      "Position": "0,0,0",
+      "Rotation": "0,0.3826833,0,0.9238796",
+      "Scale": "1,1,1",
       "Tags": "light_directional,light",
       "Enabled": true,
+      "NetworkMode": 2,
+      "NetworkFlags": 0,
+      "NetworkOrphaned": 0,
+      "NetworkTransmit": true,
+      "OwnerTransfer": 1,
       "Components": [
         {
           "__type": "Sandbox.DirectionalLight",
           "__guid": "7c9dd079-83c6-4bed-980e-2bc356b1b05c",
+          "__enabled": true,
+          "Flags": 0,
           "FogMode": "Enabled",
           "FogStrength": 1,
           "LightColor": "0.91373,0.98039,1,1",
+          "OnComponentDestroy": null,
+          "OnComponentDisabled": null,
+          "OnComponentEnabled": null,
+          "OnComponentFixedUpdate": null,
+          "OnComponentStart": null,
+          "OnComponentUpdate": null,
           "Shadows": true,
           "SkyColor": "0,0,0,0"
         }
-      ]
+      ],
+      "Children": []
+    },
+    {
+      "__guid": "72f72f1d-6459-49d7-82a9-82761edf3ce1",
+      "__version": 2,
+      "Flags": 0,
+      "Name": "Ground",
+      "Position": "0.5918884,-70.99893,64",
+      "Rotation": "0,0,0,1",
+      "Scale": "1,1,1",
+      "Tags": "",
+      "Enabled": true,
+      "NetworkMode": 2,
+      "NetworkFlags": 0,
+      "NetworkOrphaned": 0,
+      "NetworkTransmit": true,
+      "OwnerTransfer": 1,
+      "Components": [
+        {
+          "__type": "Sandbox.MeshComponent",
+          "__guid": "9c05a9a2-8775-4bac-bcd4-da40edf1876e",
+          "__enabled": true,
+          "Flags": 0,
+          "ColliderFlags": 0,
+          "Collision": "Mesh",
+          "Color": "1,1,1,1",
+          "Elasticity": null,
+          "Friction": null,
+          "HideInGame": false,
+          "IsTrigger": false,
+          "Mesh": {
+            "Topology": "H4sIAAAAAAAACk2RVwrDMBAFR3Gq03vP/Y8ZBp5gDfqw9MpoNQI/YAG8gQkwBebAExiBDbADHsALaFlq66d/lv0hORTtJftDdHZQOu/FI0//hmhP0epdha3FswxvZ1+Hu0Wv9pYss7e5U4te7TVaM/bJbNGrPURr9xH45t9zz8zUr+8MfMosZO/ZeuyS0TM7nE1n1eMs6qxkt1e/y7vKaJZ9vo2dfX6+hVxm6fPdZO6zk909z/XLaoZ5Lu/rnr2yyKvnD7YxhWAwAgAA",
+            "Position": "0.5918884,-70.99893,64",
+            "Rotation": "0,0,0,1",
+            "Positions": [
+              "-26.91428,-496.5168,64",
+              "26.91428,-496.5168,64",
+              "26.91428,666.0928,64",
+              "-26.91428,666.0928,64",
+              "-26.91428,666.0928,-63.99998",
+              "26.91428,666.0928,-63.99998",
+              "26.91428,-496.5168,-63.99999",
+              "-26.91428,-496.5168,-63.99999",
+              "-26.91428,666.0928,32",
+              "-26.91428,-496.5168,32.00001"
+            ],
+            "Blends": [
+              "0,0,0,0",
+              "0,0,0,0",
+              "0,0,0,0",
+              "0,0,0,0",
+              "0,0,0,0",
+              "0,0,0,0",
+              "0,0,0,0",
+              "0,0,0,0",
+              "0,0,0,0",
+              "0,0,0,0",
+              "0,0,0,0",
+              "0,0,0,0",
+              "0,0,0,0",
+              "0,0,0,0",
+              "0,0,0,0",
+              "0,0,0,0",
+              "0,0,0,0",
+              "0,0,0,0",
+              "0,0,0,0",
+              "0,0,0,0",
+              "0,0,0,0",
+              "0,0,0,0",
+              "0,0,0,0",
+              "0,0,0,0",
+              "0,0,0,0",
+              "0,0,0,0",
+              "0,0,0,0",
+              "0,0,0,0",
+              "0,0,0,0",
+              "0,0,0,0"
+            ],
+            "Colors": [
+              "0,0,0,0",
+              "0,0,0,0",
+              "0,0,0,0",
+              "0,0,0,0",
+              "0,0,0,0",
+              "0,0,0,0",
+              "0,0,0,0",
+              "0,0,0,0",
+              "0,0,0,0",
+              "0,0,0,0",
+              "0,0,0,0",
+              "0,0,0,0",
+              "0,0,0,0",
+              "0,0,0,0",
+              "0,0,0,0",
+              "0,0,0,0",
+              "0,0,0,0",
+              "0,0,0,0",
+              "0,0,0,0",
+              "0,0,0,0",
+              "0,0,0,0",
+              "0,0,0,0",
+              "0,0,0,0",
+              "0,0,0,0",
+              "0,0,0,0",
+              "0,0,0,0",
+              "0,0,0,0",
+              "0,0,0,0",
+              "0,0,0,0",
+              "0,0,0,0"
+            ],
+            "TextureCoord": [
+              "0.2148919,4.433717",
+              "-0.2056437,-1",
+              "0.2148919,-4.649171",
+              "-4.433717,-1",
+              "-0.2056437,-4.649171",
+              "-0.2148919,-1",
+              "-0.2056437,4.433717",
+              "-4.649171,-1",
+              "0.2148919,-4.649171",
+              "0.2056437,-0.0000001490116",
+              "0.2148919,4.433717",
+              "4.649171,-0.0000001490116",
+              "-0.2056437,4.433717",
+              "0.2148919,-0.00000008940697",
+              "-0.2056437,-4.649171",
+              "4.433717,-0.00000008940697",
+              "4.433717,-0.7500001",
+              "-0.2056437,-0.00000008940697",
+              "-4.649171,-0.75",
+              "0.2056437,-1",
+              "-4.433717,-0.00000008940697",
+              "0.2148919,-1",
+              "4.649171,-1",
+              "-0.2148919,-0.0000001490116",
+              "-4.649171,-0.0000001490116",
+              "0.2056437,-0.75",
+              "4.433717,-1",
+              "-0.2056437,-0.7500001",
+              "4.433717,-0.7500001",
+              "-4.649171,-0.75"
+            ],
+            "TextureUAxis": [
+              "1,0,0",
+              "1,0,-0",
+              "0,-1,0",
+              "0,1,0",
+              "-1,0,0",
+              "1,-0,0",
+              "0,-1,0"
+            ],
+            "TextureVAxis": [
+              "0,-1,0",
+              "0,-1,0",
+              "0,0,-1",
+              "-0,0,-1",
+              "0,0,-1",
+              "-0,0,-1",
+              "0,0,-1"
+            ],
+            "TextureScale": [
+              "0.25,0.25",
+              "0.25,0.25",
+              "0.25,0.25",
+              "0.25,0.25",
+              "0.25,0.25",
+              "0.25,0.25",
+              "0.25,0.25"
+            ],
+            "TextureOffset": [
+              "0,0",
+              "0,0",
+              "0,0",
+              "0,0",
+              "0,0",
+              "0,0",
+              "0,0"
+            ],
+            "MaterialIndex": [
+              0,
+              0,
+              2,
+              0,
+              0,
+              0,
+              1
+            ],
+            "EdgeFlags": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            "Materials": [
+              "materials/dev/reflectivity_30.vmat",
+              "materials/generic/floor_dirt_b.vmat",
+              "materials/generic/floor_slick_asphalt.vmat"
+            ]
+          },
+          "OnComponentDestroy": null,
+          "OnComponentDisabled": null,
+          "OnComponentEnabled": null,
+          "OnComponentFixedUpdate": null,
+          "OnComponentStart": null,
+          "OnComponentUpdate": null,
+          "OnObjectTriggerEnter": null,
+          "OnObjectTriggerExit": null,
+          "OnTriggerEnter": null,
+          "OnTriggerExit": null,
+          "RenderType": "On",
+          "RollingResistance": null,
+          "SmoothingAngle": 40,
+          "Static": true,
+          "Surface": null,
+          "SurfaceVelocity": "0,0,0"
+        }
+      ],
+      "Children": []
     },
     {
       "__guid": "fd8cec88-cbaf-4059-9162-80a7e3b1d01e",
+      "__version": 2,
       "Flags": 0,
       "Name": "Camera",
-      "Position": "-500,0,210",
+      "Position": "-500,0,253.5518",
+      "Rotation": "0,0,0,1",
+      "Scale": "1,1,1",
       "Tags": "maincamera",
       "Enabled": true,
+      "NetworkMode": 2,
+      "NetworkFlags": 0,
+      "NetworkOrphaned": 0,
+      "NetworkTransmit": true,
+      "OwnerTransfer": 1,
       "Components": [
         {
           "__type": "Sandbox.CameraComponent",
           "__guid": "5544621b-7126-4792-8411-5478bf2ed037",
+          "__enabled": true,
+          "Flags": 0,
           "BackgroundColor": "1,1,1,1",
           "ClearFlags": "All",
+          "EnablePostProcessing": true,
           "FieldOfView": 85,
+          "FovAxis": "Horizontal",
           "IsMainCamera": true,
-          "Orthographic": false,
-          "OrthographicHeight": 1204,
+          "OnComponentDestroy": null,
+          "OnComponentDisabled": null,
+          "OnComponentEnabled": null,
+          "OnComponentFixedUpdate": null,
+          "OnComponentStart": null,
+          "OnComponentUpdate": null,
+          "Orthographic": true,
+          "OrthographicHeight": 500,
+          "PostProcessAnchor": null,
           "Priority": 1,
           "RenderExcludeTags": "",
           "RenderTags": "",
+          "RenderTexture": null,
           "TargetEye": "None",
           "Viewport": "0,0,1,1",
           "ZFar": 10000,
           "ZNear": 10
         }
-      ]
+      ],
+      "Children": []
     },
     {
-      "__guid": "d6364ad5-b0dd-4488-bf49-5e1444b8f9cb",
+      "__guid": "8a1a031e-d09a-479a-84db-4de4f83cb46c",
+      "__version": 2,
       "Flags": 0,
-      "Name": "GroundMap",
+      "Name": "Player",
+      "Position": "0.00001525879,350,249.1736",
+      "Rotation": "0,0,-0.7071068,0.7071068",
+      "Scale": "1,1,1",
+      "Tags": "",
       "Enabled": true,
-      "Children": [
-        {
-          "__guid": "311b4321-7bab-464d-b760-812f3680215d",
-          "Flags": 0,
-          "Name": "ground",
-          "Position": "0,377.7976,0",
-          "Rotation": "0.5,-0.5,-0.5,0.5",
-          "Enabled": true,
-          "Components": [
-            {
-              "__type": "SpriteTools.SpriteComponent",
-              "__guid": "3790437e-52f0-4f99-ab46-21d84ff54283",
-              "__version": 1,
-              "BroadcastEvents": {},
-              "CastShadows": "On",
-              "CreateAttachPoints": false,
-              "FlashTint": "1,1,1,0",
-              "PlaybackSpeed": 1,
-              "Sprite": "tilemap/ground.sprite",
-              "SpriteFlags": "None",
-              "StartingAnimationName": "default",
-              "Tint": "1,1,1,1",
-              "UpDirection": "YPositive",
-              "UsePixelScale": false
-            }
-          ]
-        },
-        {
-          "__guid": "3b2c07a6-313d-40e7-a065-9818f6eb3e7c",
-          "Flags": 0,
-          "Name": "ground",
-          "Position": "0,430.5614,0",
-          "Rotation": "0.5,-0.5,-0.5,0.5",
-          "Enabled": true,
-          "Components": [
-            {
-              "__type": "SpriteTools.SpriteComponent",
-              "__guid": "6672a039-096b-4ec5-a83e-27d81008dfa8",
-              "__version": 1,
-              "BroadcastEvents": {},
-              "CastShadows": "On",
-              "CreateAttachPoints": false,
-              "FlashTint": "1,1,1,0",
-              "PlaybackSpeed": 1,
-              "Sprite": "tilemap/ground.sprite",
-              "SpriteFlags": "None",
-              "StartingAnimationName": "default",
-              "Tint": "1,1,1,1",
-              "UpDirection": "YPositive",
-              "UsePixelScale": false
-            }
-          ]
-        },
-        {
-          "__guid": "3ac109ef-bfca-4c50-810d-f372452da04a",
-          "Flags": 0,
-          "Name": "ground",
-          "Position": "0,491.7675,0",
-          "Rotation": "0.5,-0.5,-0.5,0.5",
-          "Enabled": true,
-          "Components": [
-            {
-              "__type": "SpriteTools.SpriteComponent",
-              "__guid": "0a44657d-a45b-4572-ac1e-d0e4d0bc182f",
-              "__version": 1,
-              "BroadcastEvents": {},
-              "CastShadows": "On",
-              "CreateAttachPoints": false,
-              "FlashTint": "1,1,1,0",
-              "PlaybackSpeed": 1,
-              "Sprite": "tilemap/ground.sprite",
-              "SpriteFlags": "None",
-              "StartingAnimationName": "default",
-              "Tint": "1,1,1,1",
-              "UpDirection": "YPositive",
-              "UsePixelScale": false
-            }
-          ]
-        },
-        {
-          "__guid": "56726c8d-744b-481e-8b4b-5c8e01417e65",
-          "Flags": 0,
-          "Name": "ground",
-          "Position": "0,213.1746,0",
-          "Rotation": "0.5,-0.5,-0.5,0.5",
-          "Enabled": true,
-          "Components": [
-            {
-              "__type": "SpriteTools.SpriteComponent",
-              "__guid": "183087e3-0952-444c-9613-5d0e173613e6",
-              "__version": 1,
-              "BroadcastEvents": {},
-              "CastShadows": "On",
-              "CreateAttachPoints": false,
-              "FlashTint": "1,1,1,0",
-              "PlaybackSpeed": 1,
-              "Sprite": "tilemap/ground.sprite",
-              "SpriteFlags": "None",
-              "StartingAnimationName": "default",
-              "Tint": "1,1,1,1",
-              "UpDirection": "YPositive",
-              "UsePixelScale": false
-            }
-          ]
-        },
-        {
-          "__guid": "9eef3503-afb4-4202-8e9a-d8595347321a",
-          "Flags": 0,
-          "Name": "ground",
-          "Position": "0,42.21989,0",
-          "Rotation": "0.5,-0.5,-0.5,0.5",
-          "Enabled": true,
-          "Components": [
-            {
-              "__type": "SpriteTools.SpriteComponent",
-              "__guid": "24c8cc9b-9609-4a5d-ba4a-0056c62ecd68",
-              "__version": 1,
-              "BroadcastEvents": {},
-              "CastShadows": "On",
-              "CreateAttachPoints": false,
-              "FlashTint": "1,1,1,0",
-              "PlaybackSpeed": 1,
-              "Sprite": "tilemap/ground.sprite",
-              "SpriteFlags": "None",
-              "StartingAnimationName": "default",
-              "Tint": "1,1,1,1",
-              "UpDirection": "YPositive",
-              "UsePixelScale": false
-            }
-          ]
-        },
-        {
-          "__guid": "723228c9-16ae-421e-ae1a-ba7611207d33",
-          "Flags": 0,
-          "Name": "ground",
-          "Position": "0,-120.2926,0",
-          "Rotation": "0.5,-0.5,-0.5,0.5",
-          "Enabled": true,
-          "Components": [
-            {
-              "__type": "SpriteTools.SpriteComponent",
-              "__guid": "fa98209a-3881-438f-b571-63c56cac6498",
-              "__version": 1,
-              "BroadcastEvents": {},
-              "CastShadows": "On",
-              "CreateAttachPoints": false,
-              "FlashTint": "1,1,1,0",
-              "PlaybackSpeed": 1,
-              "Sprite": "tilemap/ground.sprite",
-              "SpriteFlags": "None",
-              "StartingAnimationName": "default",
-              "Tint": "1,1,1,1",
-              "UpDirection": "YPositive",
-              "UsePixelScale": false
-            }
-          ]
-        },
-        {
-          "__guid": "aa290497-258d-4ba9-95ce-06555e8ba735",
-          "Flags": 0,
-          "Name": "ground",
-          "Position": "0,-276.4734,0",
-          "Rotation": "0.5,-0.5,-0.5,0.5",
-          "Enabled": true,
-          "Components": [
-            {
-              "__type": "SpriteTools.SpriteComponent",
-              "__guid": "637137ed-69b8-4811-a7bb-eddd382c0ab5",
-              "__version": 1,
-              "BroadcastEvents": {},
-              "CastShadows": "On",
-              "CreateAttachPoints": false,
-              "FlashTint": "1,1,1,0",
-              "PlaybackSpeed": 1,
-              "Sprite": "tilemap/ground.sprite",
-              "SpriteFlags": "None",
-              "StartingAnimationName": "default",
-              "Tint": "1,1,1,1",
-              "UpDirection": "YPositive",
-              "UsePixelScale": false
-            }
-          ]
-        },
-        {
-          "__guid": "4c1531fd-197b-499c-ac44-fd77dec93f66",
-          "Flags": 0,
-          "Name": "ground",
-          "Position": "0,-356.6744,0",
-          "Rotation": "0.5,-0.5,-0.5,0.5",
-          "Enabled": true,
-          "Components": [
-            {
-              "__type": "SpriteTools.SpriteComponent",
-              "__guid": "ed601c02-f1cd-4a2b-9013-2c5cf83515a2",
-              "__version": 1,
-              "BroadcastEvents": {},
-              "CastShadows": "On",
-              "CreateAttachPoints": false,
-              "FlashTint": "1,1,1,0",
-              "PlaybackSpeed": 1,
-              "Sprite": "tilemap/ground.sprite",
-              "SpriteFlags": "None",
-              "StartingAnimationName": "default",
-              "Tint": "1,1,1,1",
-              "UpDirection": "YPositive",
-              "UsePixelScale": false
-            }
-          ]
-        },
-        {
-          "__guid": "c987caf9-bd26-454c-8448-e9bee45af279",
-          "Flags": 0,
-          "Name": "ground",
-          "Position": "0,306.0388,0",
-          "Rotation": "0.5,-0.5,-0.5,0.5",
-          "Enabled": true,
-          "Components": [
-            {
-              "__type": "SpriteTools.SpriteComponent",
-              "__guid": "aafbebbd-b5e4-43ae-8a9b-a5107d6a9119",
-              "__version": 1,
-              "BroadcastEvents": {},
-              "CastShadows": "On",
-              "CreateAttachPoints": false,
-              "FlashTint": "1,1,1,0",
-              "PlaybackSpeed": 1,
-              "Sprite": "tilemap/ground.sprite",
-              "SpriteFlags": "None",
-              "StartingAnimationName": "default",
-              "Tint": "1,1,1,1",
-              "UpDirection": "YPositive",
-              "UsePixelScale": false
-            }
-          ]
-        },
-        {
-          "__guid": "bb2bbea7-3ec9-4f56-a57d-1ff49649d0b9",
-          "Flags": 0,
-          "Name": "ground",
-          "Position": "0,141.4158,0",
-          "Rotation": "0.5,-0.5,-0.5,0.5",
-          "Enabled": true,
-          "Components": [
-            {
-              "__type": "SpriteTools.SpriteComponent",
-              "__guid": "1ed1ab99-c047-4f10-afd3-cbc2c69822d1",
-              "__version": 1,
-              "BroadcastEvents": {},
-              "CastShadows": "On",
-              "CreateAttachPoints": false,
-              "FlashTint": "1,1,1,0",
-              "PlaybackSpeed": 1,
-              "Sprite": "tilemap/ground.sprite",
-              "SpriteFlags": "None",
-              "StartingAnimationName": "default",
-              "Tint": "1,1,1,1",
-              "UpDirection": "YPositive",
-              "UsePixelScale": false
-            }
-          ]
-        },
-        {
-          "__guid": "ca658127-23e7-48aa-9759-470f1e6eaa89",
-          "Flags": 0,
-          "Name": "ground",
-          "Position": "0,-29.53891,0",
-          "Rotation": "0.5,-0.5,-0.5,0.5",
-          "Enabled": true,
-          "Components": [
-            {
-              "__type": "SpriteTools.SpriteComponent",
-              "__guid": "e7889741-5397-4867-ae33-7be47d5ddcde",
-              "__version": 1,
-              "BroadcastEvents": {},
-              "CastShadows": "On",
-              "CreateAttachPoints": false,
-              "FlashTint": "1,1,1,0",
-              "PlaybackSpeed": 1,
-              "Sprite": "tilemap/ground.sprite",
-              "SpriteFlags": "None",
-              "StartingAnimationName": "default",
-              "Tint": "1,1,1,1",
-              "UpDirection": "YPositive",
-              "UsePixelScale": false
-            }
-          ]
-        },
-        {
-          "__guid": "b68b353f-d068-405b-ad94-41e867e59400",
-          "Flags": 0,
-          "Name": "ground",
-          "Position": "0,-192.0515,0",
-          "Rotation": "0.5,-0.5,-0.5,0.5",
-          "Enabled": true,
-          "Components": [
-            {
-              "__type": "SpriteTools.SpriteComponent",
-              "__guid": "0fe420e5-2707-47ef-9f95-9126fdefd772",
-              "__version": 1,
-              "BroadcastEvents": {},
-              "CastShadows": "On",
-              "CreateAttachPoints": false,
-              "FlashTint": "1,1,1,0",
-              "PlaybackSpeed": 1,
-              "Sprite": "tilemap/ground.sprite",
-              "SpriteFlags": "None",
-              "StartingAnimationName": "default",
-              "Tint": "1,1,1,1",
-              "UpDirection": "YPositive",
-              "UsePixelScale": false
-            }
-          ]
-        },
-        {
-          "__guid": "24f18adb-890e-4ff7-b8ec-6ac566a220f2",
-          "Flags": 0,
-          "Name": "ground",
-          "Position": "0,-348.2323,0",
-          "Rotation": "0.5,-0.5,-0.5,0.5",
-          "Enabled": true,
-          "Components": [
-            {
-              "__type": "SpriteTools.SpriteComponent",
-              "__guid": "2c82f794-c28f-49e6-af84-96605be0e303",
-              "__version": 1,
-              "BroadcastEvents": {},
-              "CastShadows": "On",
-              "CreateAttachPoints": false,
-              "FlashTint": "1,1,1,0",
-              "PlaybackSpeed": 1,
-              "Sprite": "tilemap/ground.sprite",
-              "SpriteFlags": "None",
-              "StartingAnimationName": "default",
-              "Tint": "1,1,1,1",
-              "UpDirection": "YPositive",
-              "UsePixelScale": false
-            }
-          ]
-        },
-        {
-          "__guid": "85c87924-1d0d-4643-a652-546ca403e1e7",
-          "Flags": 0,
-          "Name": "ground",
-          "Position": "0,-428.4333,0",
-          "Rotation": "0.5,-0.5,-0.5,0.5",
-          "Enabled": true,
-          "Components": [
-            {
-              "__type": "SpriteTools.SpriteComponent",
-              "__guid": "ecafeace-5f40-493b-9897-e361df6c3b5e",
-              "__version": 1,
-              "BroadcastEvents": {},
-              "CastShadows": "On",
-              "CreateAttachPoints": false,
-              "FlashTint": "1,1,1,0",
-              "PlaybackSpeed": 1,
-              "Sprite": "tilemap/ground.sprite",
-              "SpriteFlags": "None",
-              "StartingAnimationName": "default",
-              "Tint": "1,1,1,1",
-              "UpDirection": "YPositive",
-              "UsePixelScale": false
-            }
-          ]
-        },
-        {
-          "__guid": "0dd7c66c-5c4b-4610-9af2-e9fc18d4e13d",
-          "Flags": 0,
-          "Name": "ground",
-          "Position": "0,263.8278,0",
-          "Rotation": "0.5,-0.5,-0.5,0.5",
-          "Enabled": true,
-          "Components": [
-            {
-              "__type": "SpriteTools.SpriteComponent",
-              "__guid": "4b26b612-6e82-40a2-9e3e-5b3c1a03ce84",
-              "__version": 1,
-              "BroadcastEvents": {},
-              "CastShadows": "On",
-              "CreateAttachPoints": false,
-              "FlashTint": "1,1,1,0",
-              "PlaybackSpeed": 1,
-              "Sprite": "tilemap/ground.sprite",
-              "SpriteFlags": "None",
-              "StartingAnimationName": "default",
-              "Tint": "1,1,1,1",
-              "UpDirection": "YPositive",
-              "UsePixelScale": false
-            }
-          ]
-        },
-        {
-          "__guid": "e0bf3bdc-c757-49d7-84e5-c1ba99e66734",
-          "Flags": 0,
-          "Name": "ground",
-          "Position": "0,99.20479,0",
-          "Rotation": "0.5,-0.5,-0.5,0.5",
-          "Enabled": true,
-          "Components": [
-            {
-              "__type": "SpriteTools.SpriteComponent",
-              "__guid": "cbc2dd12-ce6b-4f19-a294-129471a2666c",
-              "__version": 1,
-              "BroadcastEvents": {},
-              "CastShadows": "On",
-              "CreateAttachPoints": false,
-              "FlashTint": "1,1,1,0",
-              "PlaybackSpeed": 1,
-              "Sprite": "tilemap/ground.sprite",
-              "SpriteFlags": "None",
-              "StartingAnimationName": "default",
-              "Tint": "1,1,1,1",
-              "UpDirection": "YPositive",
-              "UsePixelScale": false
-            }
-          ]
-        },
-        {
-          "__guid": "fd0ae974-1b45-4286-8e35-a0438ef511e6",
-          "Flags": 0,
-          "Name": "ground",
-          "Position": "0,-71.74992,0",
-          "Rotation": "0.5,-0.5,-0.5,0.5",
-          "Enabled": true,
-          "Components": [
-            {
-              "__type": "SpriteTools.SpriteComponent",
-              "__guid": "8cf7478d-43ff-40ee-bb66-0dd8a5eb8013",
-              "__version": 1,
-              "BroadcastEvents": {},
-              "CastShadows": "On",
-              "CreateAttachPoints": false,
-              "FlashTint": "1,1,1,0",
-              "PlaybackSpeed": 1,
-              "Sprite": "tilemap/ground.sprite",
-              "SpriteFlags": "None",
-              "StartingAnimationName": "default",
-              "Tint": "1,1,1,1",
-              "UpDirection": "YPositive",
-              "UsePixelScale": false
-            }
-          ]
-        },
-        {
-          "__guid": "2049f2d4-c19d-43a5-81dc-4d19e4179f38",
-          "Flags": 0,
-          "Name": "ground",
-          "Position": "0,-234.2625,0",
-          "Rotation": "0.5,-0.5,-0.5,0.5",
-          "Enabled": true,
-          "Components": [
-            {
-              "__type": "SpriteTools.SpriteComponent",
-              "__guid": "ebbffa71-5ccb-4595-b3da-2833301409cc",
-              "__version": 1,
-              "BroadcastEvents": {},
-              "CastShadows": "On",
-              "CreateAttachPoints": false,
-              "FlashTint": "1,1,1,0",
-              "PlaybackSpeed": 1,
-              "Sprite": "tilemap/ground.sprite",
-              "SpriteFlags": "None",
-              "StartingAnimationName": "default",
-              "Tint": "1,1,1,1",
-              "UpDirection": "YPositive",
-              "UsePixelScale": false
-            }
-          ]
-        },
-        {
-          "__guid": "f01960e7-2f57-4550-a861-8429ac1a7339",
-          "Flags": 0,
-          "Name": "ground",
-          "Position": "0,-390.4433,0",
-          "Rotation": "0.5,-0.5,-0.5,0.5",
-          "Enabled": true,
-          "Components": [
-            {
-              "__type": "SpriteTools.SpriteComponent",
-              "__guid": "fbfe6166-cfa4-4584-ae60-bd84439f27da",
-              "__version": 1,
-              "BroadcastEvents": {},
-              "CastShadows": "On",
-              "CreateAttachPoints": false,
-              "FlashTint": "1,1,1,0",
-              "PlaybackSpeed": 1,
-              "Sprite": "tilemap/ground.sprite",
-              "SpriteFlags": "None",
-              "StartingAnimationName": "default",
-              "Tint": "1,1,1,1",
-              "UpDirection": "YPositive",
-              "UsePixelScale": false
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "__guid": "79417acc-52ae-44c7-af34-f224be3ba133",
-      "Flags": 0,
-      "Name": "Coin",
-      "Position": "0.00002586452,522.7977,290",
-      "Rotation": "0.5,-0.5,-0.5,0.5",
-      "Tags": "coin",
-      "Enabled": true,
-      "__Prefab": "prefab/coin.prefab",
-      "__PrefabVariables": {}
-    },
-    {
-      "__guid": "88628a94-518e-4fe3-85c2-0b4bd0a46972",
-      "Flags": 0,
-      "Name": "wood2",
-      "Position": "0,617.7079,90",
-      "Rotation": "0.5,-0.5,-0.5,0.5",
-      "Scale": "0.6,0.6,1",
-      "Tags": "enemy",
-      "Enabled": true,
-      "__Prefab": "prefab/wood2.prefab",
-      "__PrefabVariables": {}
-    },
-    {
-      "__guid": "958334bb-0105-48d8-96c0-f0594bb3f49d",
-      "Flags": 0,
-      "Name": "wood1",
-      "Position": "0,608.2065,90",
-      "Rotation": "0.5,-0.5,-0.5,0.5",
-      "Tags": "enemy",
-      "Enabled": true,
-      "__Prefab": "prefab/wood1.prefab",
-      "__PrefabVariables": {}
-    },
-    {
-      "__guid": "cb015494-24bd-4be3-a7eb-ddfb73aaed57",
-      "Flags": 0,
-      "Name": "Jaba",
-      "Position": "-0.0001953417,370,85",
-      "Rotation": "0.5,-0.5,-0.5,0.5",
-      "Tags": "player",
-      "Enabled": true,
+      "NetworkMode": 2,
+      "NetworkFlags": 0,
+      "NetworkOrphaned": 0,
+      "NetworkTransmit": true,
+      "OwnerTransfer": 1,
       "Components": [
         {
-          "__type": "SpriteTools.SpriteComponent",
-          "__guid": "1c1c5e83-a65c-4cee-894a-dc5d0abdb648",
-          "__version": 1,
-          "BroadcastEvents": {},
-          "CastShadows": "On",
-          "CreateAttachPoints": false,
-          "FlashTint": "1,1,1,0",
-          "PlaybackSpeed": 1,
-          "Sprite": "characters/jaba.sprite",
-          "SpriteFlags": "None",
-          "StartingAnimationName": "Jump",
-          "Tint": "1,1,1,1",
-          "UpDirection": "YPositive",
-          "UsePixelScale": false
-        },
-        {
-          "__type": "Sandbox.Rigidbody",
-          "__guid": "5b2ab4ad-35df-494d-831c-2a85d881e1ce",
-          "AngularDamping": 0,
-          "Gravity": true,
-          "LinearDamping": 0,
-          "Locking": {
-            "X": true,
-            "Y": true,
-            "Pitch": true,
-            "Yaw": true,
-            "Roll": true
-          },
-          "MassCenterOverride": "0,0,0",
-          "MassOverride": 0,
-          "MotionEnabled": true,
-          "OverrideMassCenter": false,
-          "RigidbodyFlags": 0,
-          "StartAsleep": false
-        },
-        {
-          "__type": "Sandbox.BoxCollider",
-          "__guid": "998a5f45-e5b2-4b48-8785-1932903f549e",
-          "Center": "0,0,0",
-          "IsTrigger": false,
-          "Scale": "80,70,5",
-          "Static": false
+          "__type": "Sandbox.CharacterController",
+          "__guid": "e4ff8565-c343-4e19-be38-06acce62cff0",
+          "__enabled": true,
+          "Flags": 0,
+          "Acceleration": 10,
+          "Bounciness": 0.3,
+          "GroundAngle": 45,
+          "Height": 64,
+          "IgnoreLayers": "",
+          "OnComponentDestroy": null,
+          "OnComponentDisabled": null,
+          "OnComponentEnabled": null,
+          "OnComponentFixedUpdate": null,
+          "OnComponentStart": null,
+          "OnComponentUpdate": null,
+          "Radius": 16,
+          "StepHeight": 18,
+          "UseCollisionRules": false
         },
         {
           "__type": "Movement",
-          "__guid": "ab86fd97-885e-4332-850b-b528a19c0bec",
-          "rb": {
+          "__guid": "cf378e00-6b17-4aaa-8282-fd4e0c1c4b9e",
+          "__enabled": true,
+          "Flags": 0,
+          "animation": {
             "_type": "component",
-            "component_id": "5b2ab4ad-35df-494d-831c-2a85d881e1ce",
-            "go": "cb015494-24bd-4be3-a7eb-ddfb73aaed57",
-            "component_type": "Rigidbody"
+            "component_id": "e925d522-54a9-4b29-890e-099bb3e38098",
+            "go": "f4d15dda-4239-432c-b927-4c9b84d608d4",
+            "component_type": "SkinnedModelRenderer"
           },
-          "sprite": {
+          "Controller": {
             "_type": "component",
-            "component_id": "1c1c5e83-a65c-4cee-894a-dc5d0abdb648",
-            "go": "cb015494-24bd-4be3-a7eb-ddfb73aaed57",
-            "component_type": "SpriteComponent"
-          }
-        },
+            "component_id": "e4ff8565-c343-4e19-be38-06acce62cff0",
+            "go": "8a1a031e-d09a-479a-84db-4de4f83cb46c",
+            "component_type": "CharacterController"
+          },
+          "OnComponentDestroy": null,
+          "OnComponentDisabled": null,
+          "OnComponentEnabled": null,
+          "OnComponentFixedUpdate": null,
+          "OnComponentStart": null,
+          "OnComponentUpdate": null
+        }
+      ],
+      "Children": [
         {
-          "__type": "ScoreScript",
-          "__guid": "a9173d2e-80da-438d-9388-5ce13cd9d3a5",
-          "coin": {
-            "_type": "gameobject",
-            "go": "79417acc-52ae-44c7-af34-f224be3ba133"
-          },
-          "died": "scenes/restart.scene",
-          "player": {
-            "_type": "gameobject",
-            "go": "cb015494-24bd-4be3-a7eb-ddfb73aaed57"
-          },
-          "wood": {
-            "_type": "gameobject",
-            "go": "958334bb-0105-48d8-96c0-f0594bb3f49d"
-          }
+          "__guid": "f4d15dda-4239-432c-b927-4c9b84d608d4",
+          "__version": 2,
+          "Flags": 0,
+          "Name": "Body",
+          "Position": "0,0,0",
+          "Rotation": "0,0,0,1",
+          "Scale": "1,1,1",
+          "Tags": "",
+          "Enabled": true,
+          "NetworkMode": 2,
+          "NetworkFlags": 0,
+          "NetworkOrphaned": 0,
+          "NetworkTransmit": true,
+          "OwnerTransfer": 1,
+          "Components": [
+            {
+              "__type": "Sandbox.SkinnedModelRenderer",
+              "__guid": "e925d522-54a9-4b29-890e-099bb3e38098",
+              "__enabled": true,
+              "Flags": 0,
+              "AnimationGraph": null,
+              "BodyGroups": 65,
+              "BoneMergeTarget": null,
+              "CreateAttachments": false,
+              "CreateBoneObjects": false,
+              "LodOverride": null,
+              "MaterialGroup": "default",
+              "MaterialOverride": null,
+              "Materials": null,
+              "Model": "models/citizen/citizen.vmdl",
+              "Morphs": {},
+              "OnComponentDestroy": null,
+              "OnComponentDisabled": null,
+              "OnComponentEnabled": null,
+              "OnComponentFixedUpdate": null,
+              "OnComponentStart": null,
+              "OnComponentUpdate": null,
+              "Parameters": {
+                "bools": {
+                  "b_grounded": false
+                },
+                "ints": {},
+                "floats": {},
+                "vectors": {},
+                "rotations": {}
+              },
+              "PlaybackRate": 1,
+              "RenderOptions": {
+                "GameLayer": true,
+                "OverlayLayer": false,
+                "BloomLayer": false,
+                "AfterUILayer": false
+              },
+              "RenderType": "On",
+              "Sequence": {
+                "Name": null,
+                "Looping": true,
+                "Blending": false
+              },
+              "Tint": "1,1,1,1",
+              "UseAnimGraph": true
+            },
+            {
+              "__type": "Sandbox.Dresser",
+              "__guid": "686d59c7-65ac-497d-b5dd-c41a303c7b27",
+              "__enabled": true,
+              "Flags": 0,
+              "ApplyHeightScale": true,
+              "BodyTarget": {
+                "_type": "component",
+                "component_id": "e925d522-54a9-4b29-890e-099bb3e38098",
+                "go": "f4d15dda-4239-432c-b927-4c9b84d608d4",
+                "component_type": "SkinnedModelRenderer"
+              },
+              "Clothing": [],
+              "ManualAge": 0,
+              "ManualHeight": 0.95,
+              "ManualTint": 0,
+              "OnComponentDestroy": null,
+              "OnComponentDisabled": null,
+              "OnComponentEnabled": null,
+              "OnComponentFixedUpdate": null,
+              "OnComponentStart": null,
+              "OnComponentUpdate": null,
+              "RemoveUnownedItems": true,
+              "Source": "LocalUser",
+              "WorkshopItems": []
+            }
+          ],
+          "Children": [
+            {
+              "__guid": "6c0ae7ac-661b-4788-821e-189dc9c6f8a0",
+              "__version": 2,
+              "Flags": 0,
+              "Name": "Clothing - nerdy_glasses",
+              "Position": "0,0,0",
+              "Rotation": "0,0,0,1",
+              "Scale": "1,1,1",
+              "Tags": "clothing",
+              "Enabled": true,
+              "NetworkMode": 2,
+              "NetworkFlags": 0,
+              "NetworkOrphaned": 0,
+              "NetworkTransmit": true,
+              "OwnerTransfer": 1,
+              "Components": [
+                {
+                  "__type": "Sandbox.SkinnedModelRenderer",
+                  "__guid": "ea6c6c12-4d85-495c-a3d4-3981a50673ac",
+                  "__enabled": true,
+                  "Flags": 0,
+                  "AnimationGraph": null,
+                  "BodyGroups": 18446744073709551615,
+                  "BoneMergeTarget": {
+                    "_type": "component",
+                    "component_id": "e925d522-54a9-4b29-890e-099bb3e38098",
+                    "go": "f4d15dda-4239-432c-b927-4c9b84d608d4",
+                    "component_type": "SkinnedModelRenderer"
+                  },
+                  "CreateAttachments": false,
+                  "CreateBoneObjects": false,
+                  "LodOverride": null,
+                  "MaterialGroup": null,
+                  "MaterialOverride": null,
+                  "Materials": null,
+                  "Model": "models/citizen_clothes/glasses/nerdy_glasses/models/nerdy_glasses.vmdl",
+                  "Morphs": {},
+                  "OnComponentDestroy": null,
+                  "OnComponentDisabled": null,
+                  "OnComponentEnabled": null,
+                  "OnComponentFixedUpdate": null,
+                  "OnComponentStart": null,
+                  "OnComponentUpdate": null,
+                  "Parameters": {
+                    "bools": {},
+                    "ints": {},
+                    "floats": {},
+                    "vectors": {},
+                    "rotations": {}
+                  },
+                  "PlaybackRate": 1,
+                  "RenderOptions": {
+                    "GameLayer": true,
+                    "OverlayLayer": false,
+                    "BloomLayer": false,
+                    "AfterUILayer": false
+                  },
+                  "RenderType": "On",
+                  "Sequence": {
+                    "Name": null,
+                    "Looping": true,
+                    "Blending": false
+                  },
+                  "Tint": "1,1,1,1",
+                  "UseAnimGraph": true
+                }
+              ],
+              "Children": []
+            },
+            {
+              "__guid": "a903c8c0-e428-466d-912e-8f9ece861c98",
+              "__version": 2,
+              "Flags": 0,
+              "Name": "Clothing - eyebrows",
+              "Position": "0,0,0",
+              "Rotation": "0,0,0,1",
+              "Scale": "1,1,1",
+              "Tags": "clothing",
+              "Enabled": true,
+              "NetworkMode": 2,
+              "NetworkFlags": 0,
+              "NetworkOrphaned": 0,
+              "NetworkTransmit": true,
+              "OwnerTransfer": 1,
+              "Components": [
+                {
+                  "__type": "Sandbox.SkinnedModelRenderer",
+                  "__guid": "c1e20085-6871-41cd-8d1d-3b486b254a34",
+                  "__enabled": true,
+                  "Flags": 0,
+                  "AnimationGraph": null,
+                  "BodyGroups": 18446744073709551615,
+                  "BoneMergeTarget": {
+                    "_type": "component",
+                    "component_id": "e925d522-54a9-4b29-890e-099bb3e38098",
+                    "go": "f4d15dda-4239-432c-b927-4c9b84d608d4",
+                    "component_type": "SkinnedModelRenderer"
+                  },
+                  "CreateAttachments": false,
+                  "CreateBoneObjects": false,
+                  "LodOverride": null,
+                  "MaterialGroup": null,
+                  "MaterialOverride": null,
+                  "Materials": null,
+                  "Model": "models/citizen_clothes/hair/eyebrows/models/eyebrows.vmdl",
+                  "Morphs": {},
+                  "OnComponentDestroy": null,
+                  "OnComponentDisabled": null,
+                  "OnComponentEnabled": null,
+                  "OnComponentFixedUpdate": null,
+                  "OnComponentStart": null,
+                  "OnComponentUpdate": null,
+                  "Parameters": {
+                    "bools": {},
+                    "ints": {},
+                    "floats": {},
+                    "vectors": {},
+                    "rotations": {}
+                  },
+                  "PlaybackRate": 1,
+                  "RenderOptions": {
+                    "GameLayer": true,
+                    "OverlayLayer": false,
+                    "BloomLayer": false,
+                    "AfterUILayer": false
+                  },
+                  "RenderType": "On",
+                  "Sequence": {
+                    "Name": null,
+                    "Looping": true,
+                    "Blending": false
+                  },
+                  "Tint": "0,0,0,1",
+                  "UseAnimGraph": true
+                }
+              ],
+              "Children": []
+            },
+            {
+              "__guid": "31acc401-29d8-404c-8ca1-e0a0bd6ef2ce",
+              "__version": 2,
+              "Flags": 0,
+              "Name": "Clothing - sneakers",
+              "Position": "0,0,0",
+              "Rotation": "0,0,0,1",
+              "Scale": "1,1,1",
+              "Tags": "clothing",
+              "Enabled": true,
+              "NetworkMode": 2,
+              "NetworkFlags": 0,
+              "NetworkOrphaned": 0,
+              "NetworkTransmit": true,
+              "OwnerTransfer": 1,
+              "Components": [
+                {
+                  "__type": "Sandbox.SkinnedModelRenderer",
+                  "__guid": "60ff2ecc-5101-4b5b-aa96-84a23d9991d1",
+                  "__enabled": true,
+                  "Flags": 0,
+                  "AnimationGraph": null,
+                  "BodyGroups": 18446744073709551615,
+                  "BoneMergeTarget": {
+                    "_type": "component",
+                    "component_id": "e925d522-54a9-4b29-890e-099bb3e38098",
+                    "go": "f4d15dda-4239-432c-b927-4c9b84d608d4",
+                    "component_type": "SkinnedModelRenderer"
+                  },
+                  "CreateAttachments": false,
+                  "CreateBoneObjects": false,
+                  "LodOverride": null,
+                  "MaterialGroup": null,
+                  "MaterialOverride": null,
+                  "Materials": null,
+                  "Model": "models/citizen_clothes/shoes/sneakers/models/sneakers.vmdl",
+                  "Morphs": {},
+                  "OnComponentDestroy": null,
+                  "OnComponentDisabled": null,
+                  "OnComponentEnabled": null,
+                  "OnComponentFixedUpdate": null,
+                  "OnComponentStart": null,
+                  "OnComponentUpdate": null,
+                  "Parameters": {
+                    "bools": {},
+                    "ints": {},
+                    "floats": {},
+                    "vectors": {},
+                    "rotations": {}
+                  },
+                  "PlaybackRate": 1,
+                  "RenderOptions": {
+                    "GameLayer": true,
+                    "OverlayLayer": false,
+                    "BloomLayer": false,
+                    "AfterUILayer": false
+                  },
+                  "RenderType": "On",
+                  "Sequence": {
+                    "Name": null,
+                    "Looping": true,
+                    "Blending": false
+                  },
+                  "Tint": "1,1,1,1",
+                  "UseAnimGraph": true
+                }
+              ],
+              "Children": []
+            },
+            {
+              "__guid": "b23a7598-e172-4e05-a99e-6431be136d09",
+              "__version": 2,
+              "Flags": 0,
+              "Name": "Clothing - jeans",
+              "Position": "0,0,0",
+              "Rotation": "0,0,0,1",
+              "Scale": "1,1,1",
+              "Tags": "clothing",
+              "Enabled": true,
+              "NetworkMode": 2,
+              "NetworkFlags": 0,
+              "NetworkOrphaned": 0,
+              "NetworkTransmit": true,
+              "OwnerTransfer": 1,
+              "Components": [
+                {
+                  "__type": "Sandbox.SkinnedModelRenderer",
+                  "__guid": "ee03ee92-4442-4e7f-af8f-e281a9837f02",
+                  "__enabled": true,
+                  "Flags": 0,
+                  "AnimationGraph": null,
+                  "BodyGroups": 18446744073709551615,
+                  "BoneMergeTarget": {
+                    "_type": "component",
+                    "component_id": "e925d522-54a9-4b29-890e-099bb3e38098",
+                    "go": "f4d15dda-4239-432c-b927-4c9b84d608d4",
+                    "component_type": "SkinnedModelRenderer"
+                  },
+                  "CreateAttachments": false,
+                  "CreateBoneObjects": false,
+                  "LodOverride": null,
+                  "MaterialGroup": null,
+                  "MaterialOverride": null,
+                  "Materials": null,
+                  "Model": "models/citizen_clothes/trousers/jeans/models/jeans.vmdl",
+                  "Morphs": {},
+                  "OnComponentDestroy": null,
+                  "OnComponentDisabled": null,
+                  "OnComponentEnabled": null,
+                  "OnComponentFixedUpdate": null,
+                  "OnComponentStart": null,
+                  "OnComponentUpdate": null,
+                  "Parameters": {
+                    "bools": {},
+                    "ints": {},
+                    "floats": {},
+                    "vectors": {},
+                    "rotations": {}
+                  },
+                  "PlaybackRate": 1,
+                  "RenderOptions": {
+                    "GameLayer": true,
+                    "OverlayLayer": false,
+                    "BloomLayer": false,
+                    "AfterUILayer": false
+                  },
+                  "RenderType": "On",
+                  "Sequence": {
+                    "Name": null,
+                    "Looping": true,
+                    "Blending": false
+                  },
+                  "Tint": "1,1,1,1",
+                  "UseAnimGraph": true
+                }
+              ],
+              "Children": []
+            },
+            {
+              "__guid": "f2373d48-672e-41a2-b872-0056d994811e",
+              "__version": 2,
+              "Flags": 0,
+              "Name": "Clothing - raincoat_cap_navycheck",
+              "Position": "0,0,0",
+              "Rotation": "0,0,0,1",
+              "Scale": "1,1,1",
+              "Tags": "clothing",
+              "Enabled": true,
+              "NetworkMode": 2,
+              "NetworkFlags": 0,
+              "NetworkOrphaned": 0,
+              "NetworkTransmit": true,
+              "OwnerTransfer": 1,
+              "Components": [
+                {
+                  "__type": "Sandbox.SkinnedModelRenderer",
+                  "__guid": "39ed346e-0fea-4439-a8b6-8de107cb9d77",
+                  "__enabled": true,
+                  "Flags": 0,
+                  "AnimationGraph": null,
+                  "BodyGroups": 18446744073709551615,
+                  "BoneMergeTarget": {
+                    "_type": "component",
+                    "component_id": "e925d522-54a9-4b29-890e-099bb3e38098",
+                    "go": "f4d15dda-4239-432c-b927-4c9b84d608d4",
+                    "component_type": "SkinnedModelRenderer"
+                  },
+                  "CreateAttachments": false,
+                  "CreateBoneObjects": false,
+                  "LodOverride": null,
+                  "MaterialGroup": null,
+                  "MaterialOverride": null,
+                  "Materials": null,
+                  "Model": "raincoat_cap_green/checknavy/raincoat_cap_navycheck_citizen.vmdl",
+                  "Morphs": {},
+                  "OnComponentDestroy": null,
+                  "OnComponentDisabled": null,
+                  "OnComponentEnabled": null,
+                  "OnComponentFixedUpdate": null,
+                  "OnComponentStart": null,
+                  "OnComponentUpdate": null,
+                  "Parameters": {
+                    "bools": {},
+                    "ints": {},
+                    "floats": {},
+                    "vectors": {},
+                    "rotations": {}
+                  },
+                  "PlaybackRate": 1,
+                  "RenderOptions": {
+                    "GameLayer": true,
+                    "OverlayLayer": false,
+                    "BloomLayer": false,
+                    "AfterUILayer": false
+                  },
+                  "RenderType": "On",
+                  "Sequence": {
+                    "Name": null,
+                    "Looping": true,
+                    "Blending": false
+                  },
+                  "Tint": "1,1,1,1",
+                  "UseAnimGraph": true
+                }
+              ],
+              "Children": []
+            },
+            {
+              "__guid": "11e919ea-c2b1-4b1d-bda1-380df66d0323",
+              "__version": 2,
+              "Flags": 0,
+              "Name": "Clothing - sports_bandage",
+              "Position": "0,0,0",
+              "Rotation": "0,0,0,1",
+              "Scale": "1,1,1",
+              "Tags": "clothing",
+              "Enabled": true,
+              "NetworkMode": 2,
+              "NetworkFlags": 0,
+              "NetworkOrphaned": 0,
+              "NetworkTransmit": true,
+              "OwnerTransfer": 1,
+              "Components": [
+                {
+                  "__type": "Sandbox.SkinnedModelRenderer",
+                  "__guid": "fe6294c3-3453-4bc3-bbae-2f67b6340112",
+                  "__enabled": true,
+                  "Flags": 0,
+                  "AnimationGraph": null,
+                  "BodyGroups": 18446744073709551615,
+                  "BoneMergeTarget": {
+                    "_type": "component",
+                    "component_id": "e925d522-54a9-4b29-890e-099bb3e38098",
+                    "go": "f4d15dda-4239-432c-b927-4c9b84d608d4",
+                    "component_type": "SkinnedModelRenderer"
+                  },
+                  "CreateAttachments": false,
+                  "CreateBoneObjects": false,
+                  "LodOverride": null,
+                  "MaterialGroup": null,
+                  "MaterialOverride": null,
+                  "Materials": null,
+                  "Model": "sports_bandage/sports_bandage.vmdl",
+                  "Morphs": {},
+                  "OnComponentDestroy": null,
+                  "OnComponentDisabled": null,
+                  "OnComponentEnabled": null,
+                  "OnComponentFixedUpdate": null,
+                  "OnComponentStart": null,
+                  "OnComponentUpdate": null,
+                  "Parameters": {
+                    "bools": {},
+                    "ints": {},
+                    "floats": {},
+                    "vectors": {},
+                    "rotations": {}
+                  },
+                  "PlaybackRate": 1,
+                  "RenderOptions": {
+                    "GameLayer": true,
+                    "OverlayLayer": false,
+                    "BloomLayer": false,
+                    "AfterUILayer": false
+                  },
+                  "RenderType": "On",
+                  "Sequence": {
+                    "Name": null,
+                    "Looping": true,
+                    "Blending": false
+                  },
+                  "Tint": "1,1,1,1",
+                  "UseAnimGraph": true
+                }
+              ],
+              "Children": []
+            }
+          ]
         }
       ]
     },
     {
-      "__guid": "9f5c3805-de53-4844-82f0-422f7987957f",
+      "__guid": "8028e5d8-2cb0-4a17-bbdb-906a8d95b9c4",
+      "__version": 2,
       "Flags": 0,
-      "Name": "Ground",
-      "Position": "0,376.1102,10",
+      "Name": "Spawn Manager",
+      "Position": "0,0,0",
+      "Rotation": "0,0,0,1",
+      "Scale": "1,1,1",
+      "Tags": "",
       "Enabled": true,
-      "Components": [
+      "NetworkMode": 2,
+      "NetworkFlags": 0,
+      "NetworkOrphaned": 0,
+      "NetworkTransmit": true,
+      "OwnerTransfer": 1,
+      "Components": [],
+      "Children": []
+    },
+    {
+      "__guid": "980498f8-b353-4b54-aad8-a123aa6b5026",
+      "__version": 2,
+      "Flags": 0,
+      "Name": "End Zone",
+      "Position": "0,0,0",
+      "Rotation": "0,0,0,1",
+      "Scale": "1,1,1",
+      "Tags": "",
+      "Enabled": true,
+      "NetworkMode": 2,
+      "NetworkFlags": 0,
+      "NetworkOrphaned": 0,
+      "NetworkTransmit": true,
+      "OwnerTransfer": 1,
+      "Components": [],
+      "Children": [
         {
-          "__type": "Sandbox.BoxCollider",
-          "__guid": "1e6ad449-7104-44ed-9326-c725c7b623b1",
-          "Center": "0,0,0",
-          "IsTrigger": false,
-          "Scale": "100,100,50",
-          "Static": false
-        },
-        {
-          "__type": "Sandbox.PlaneCollider",
-          "__guid": "02135cfe-2c7c-4cd8-ac6a-9383fec3b616",
-          "Center": "0,0,0",
-          "IsTrigger": false,
-          "Scale": "50,50",
-          "Static": true
+          "__guid": "5ea04105-ddba-42b4-b2c5-3e39d2188618",
+          "__version": 2,
+          "Flags": 0,
+          "Name": "Zone",
+          "Position": "0,629.4746,268.3574",
+          "Rotation": "0,0,0,1",
+          "Scale": "1,1,10.75996",
+          "Tags": "zone",
+          "Enabled": true,
+          "NetworkMode": 2,
+          "NetworkFlags": 0,
+          "NetworkOrphaned": 0,
+          "NetworkTransmit": true,
+          "OwnerTransfer": 1,
+          "Components": [
+            {
+              "__type": "Sandbox.ModelRenderer",
+              "__guid": "4664aee1-2832-49ad-90c3-73ea7aedf517",
+              "__enabled": true,
+              "Flags": 0,
+              "BodyGroups": 18446744073709551615,
+              "CreateAttachments": false,
+              "LodOverride": null,
+              "MaterialGroup": null,
+              "MaterialOverride": null,
+              "Materials": null,
+              "Model": null,
+              "OnComponentDestroy": null,
+              "OnComponentDisabled": null,
+              "OnComponentEnabled": null,
+              "OnComponentFixedUpdate": null,
+              "OnComponentStart": null,
+              "OnComponentUpdate": null,
+              "RenderOptions": {
+                "GameLayer": true,
+                "OverlayLayer": false,
+                "BloomLayer": false,
+                "AfterUILayer": false
+              },
+              "RenderType": "On",
+              "Tint": "1,1,1,1"
+            },
+            {
+              "__type": "Sandbox.BoxCollider",
+              "__guid": "4431c0c7-5a1e-44e3-846a-e13e6a94866b",
+              "__enabled": true,
+              "Flags": 0,
+              "Center": "0,0,0",
+              "ColliderFlags": 0,
+              "Elasticity": null,
+              "Friction": null,
+              "IsTrigger": true,
+              "OnComponentDestroy": null,
+              "OnComponentDisabled": null,
+              "OnComponentEnabled": null,
+              "OnComponentFixedUpdate": null,
+              "OnComponentStart": null,
+              "OnComponentUpdate": null,
+              "OnObjectTriggerEnter": null,
+              "OnObjectTriggerExit": null,
+              "OnTriggerEnter": null,
+              "OnTriggerExit": null,
+              "RollingResistance": null,
+              "Scale": "50,50,50",
+              "Static": false,
+              "Surface": null,
+              "SurfaceVelocity": "0,0,0"
+            }
+          ],
+          "Children": []
         }
       ]
     },
     {
-      "__guid": "219e91b9-8a5b-4ec6-bff7-7b5a1c4b61f5",
+      "__guid": "bdcd4d0f-9d1a-4674-a4a5-a9b6f5499688",
+      "__version": 2,
       "Flags": 0,
-      "Name": "Score Table",
-      "Position": "256.9129,-22.68884,0",
+      "Name": "Coin",
+      "Position": "0,224.3071,317.3203",
+      "Rotation": "0,0,0,1",
+      "Scale": "1,1,1",
+      "Tags": "",
       "Enabled": true,
+      "NetworkMode": 2,
+      "NetworkFlags": 0,
+      "NetworkOrphaned": 0,
+      "NetworkTransmit": true,
+      "OwnerTransfer": 1,
       "Components": [
         {
-          "__type": "Sandbox.ScreenPanel",
-          "__guid": "535b951d-db9d-4dd1-b647-bf6d6f7152e6",
-          "AutoScreenScale": true,
-          "Opacity": 1,
-          "Scale": 1,
-          "ScaleStrategy": "ConsistentHeight",
-          "ZIndex": 100
-        },
+          "__type": "Rotate",
+          "__guid": "33f6513a-ae75-43cc-b17c-0b4fd59bfe7b",
+          "__enabled": true,
+          "Flags": 0,
+          "OnComponentDestroy": null,
+          "OnComponentDisabled": null,
+          "OnComponentEnabled": null,
+          "OnComponentFixedUpdate": null,
+          "OnComponentStart": null,
+          "OnComponentUpdate": null
+        }
+      ],
+      "Children": [
         {
-          "__type": "Score",
-          "__guid": "e89d0e74-2c21-4dfd-9231-96ec0d994532",
-          "score": {
-            "_type": "component",
-            "component_id": "a9173d2e-80da-438d-9388-5ce13cd9d3a5",
-            "go": "cb015494-24bd-4be3-a7eb-ddfb73aaed57",
-            "component_type": "ScoreScript"
-          }
-        },
-        {
-          "__type": "Sandbox.SoundPointComponent",
-          "__guid": "720b01f5-ba25-40a4-8566-4d130028c6f7",
-          "DistanceAttenuation": false,
-          "DistanceAttenuationOverride": false,
-          "Force2d": true,
-          "MaxRepeatTime": 1,
-          "MinRepeatTime": 1,
-          "Occlusion": false,
-          "OcclusionOverride": false,
-          "OcclusionRadius": 32,
-          "Pitch": 1,
-          "PlayOnStart": true,
-          "ReflectionOverride": false,
-          "Reflections": false,
-          "Repeat": false,
-          "SoundEvent": "sound/purpleweed - in game.sound",
-          "SoundOverride": true,
-          "StopOnNew": false,
-          "TargetMixer": {
-            "Name": "unknown",
-            "Id": "00000000-0000-0000-0000-000000000000"
-          },
-          "Volume": 1
+          "__guid": "d25cf125-8188-47b1-9ba2-5ae47d0ff2e0",
+          "__version": 2,
+          "Flags": 0,
+          "Name": "Body",
+          "Position": "0,0,0",
+          "Rotation": "0,0,0,1",
+          "Scale": "1,1,1",
+          "Tags": "",
+          "Enabled": true,
+          "NetworkMode": 2,
+          "NetworkFlags": 0,
+          "NetworkOrphaned": 0,
+          "NetworkTransmit": true,
+          "OwnerTransfer": 1,
+          "Components": [
+            {
+              "__type": "Sandbox.ModelRenderer",
+              "__guid": "37932716-1a9b-4a9f-8ce5-41098f566568",
+              "__enabled": true,
+              "Flags": 0,
+              "BodyGroups": 18446744073709551615,
+              "CreateAttachments": false,
+              "LodOverride": null,
+              "MaterialGroup": null,
+              "MaterialOverride": null,
+              "Materials": null,
+              "Model": "models/sterling/smodel_coin/smodel_coin.vmdl",
+              "OnComponentDestroy": null,
+              "OnComponentDisabled": null,
+              "OnComponentEnabled": null,
+              "OnComponentFixedUpdate": null,
+              "OnComponentStart": null,
+              "OnComponentUpdate": null,
+              "RenderOptions": {
+                "GameLayer": true,
+                "OverlayLayer": false,
+                "BloomLayer": false,
+                "AfterUILayer": false
+              },
+              "RenderType": "On",
+              "Tint": "1,1,1,1"
+            }
+          ],
+          "Children": []
         }
       ]
     },
     {
-      "__guid": "50901791-0580-4102-b619-2bd1c7e52334",
+      "__guid": "5559ba91-8995-42e7-a5fc-b816a3dbb352",
+      "__version": 2,
       "Flags": 0,
-      "Name": "SpawnCoin",
-      "Position": "0,-466.5637,226.3384",
-      "Rotation": "-0.5,-0.5,0.5,0.5",
+      "Name": "Binbag",
+      "Position": "0,7.930414,309.6374",
+      "Rotation": "0,0,0,1",
+      "Scale": "1,1,1",
+      "Tags": "",
       "Enabled": true,
-      "Components": [
+      "NetworkMode": 2,
+      "NetworkFlags": 0,
+      "NetworkOrphaned": 0,
+      "NetworkTransmit": true,
+      "OwnerTransfer": 1,
+      "Components": [],
+      "Children": [
         {
-          "__type": "Sandbox.BoxCollider",
-          "__guid": "64220e4e-7c68-4c9a-a6a4-76c28e47de35",
-          "Center": "0,0,0",
-          "IsTrigger": false,
-          "Scale": "50,5,50",
-          "Static": false
-        },
-        {
-          "__type": "CoinSpawn",
-          "__guid": "07620750-32d6-479a-be56-121d14a13fda",
-          "coin": {
-            "_type": "gameobject",
-            "go": "79417acc-52ae-44c7-af34-f224be3ba133"
-          },
-          "spawnPoint": {
-            "_type": "gameobject",
-            "go": "50901791-0580-4102-b619-2bd1c7e52334"
-          }
+          "__guid": "e7666940-ee29-4d82-ad65-406288e42f10",
+          "__version": 2,
+          "Flags": 0,
+          "Name": "Body",
+          "Position": "0,113.5586,-29.58109",
+          "Rotation": "0,0,0,1",
+          "Scale": "1,1,1",
+          "Tags": "",
+          "Enabled": true,
+          "NetworkMode": 2,
+          "NetworkFlags": 0,
+          "NetworkOrphaned": 0,
+          "NetworkTransmit": true,
+          "OwnerTransfer": 1,
+          "Components": [
+            {
+              "__type": "Sandbox.ModelRenderer",
+              "__guid": "33f843cf-4666-4223-a46e-ea2449f382a2",
+              "__enabled": true,
+              "Flags": 0,
+              "BodyGroups": 18446744073709551615,
+              "CreateAttachments": false,
+              "LodOverride": null,
+              "MaterialGroup": null,
+              "MaterialOverride": null,
+              "Materials": null,
+              "Model": "models/sbox_props/binbags/binbag_a2.vmdl",
+              "OnComponentDestroy": null,
+              "OnComponentDisabled": null,
+              "OnComponentEnabled": null,
+              "OnComponentFixedUpdate": null,
+              "OnComponentStart": null,
+              "OnComponentUpdate": null,
+              "RenderOptions": {
+                "GameLayer": true,
+                "OverlayLayer": false,
+                "BloomLayer": false,
+                "AfterUILayer": false
+              },
+              "RenderType": "On",
+              "Tint": "1,1,1,1"
+            }
+          ],
+          "Children": []
         }
       ]
     },
     {
-      "__guid": "3e97967f-1193-4941-8b71-38a9a00e9f67",
+      "__guid": "87abf81a-c7b2-4716-8c70-b739fbc9fea0",
+      "__version": 2,
       "Flags": 0,
-      "Name": "SpawnWood",
-      "Position": "0.00006626362,-555.8594,70.158",
-      "Rotation": "0.5,-0.5,-0.5,0.5",
+      "Name": "Park Bin",
+      "Position": "0,-33.39108,274.4977",
+      "Rotation": "0,0,0.7071068,0.7071068",
+      "Scale": "1,1,1",
+      "Tags": "",
       "Enabled": true,
-      "Components": [
+      "NetworkMode": 2,
+      "NetworkFlags": 0,
+      "NetworkOrphaned": 0,
+      "NetworkTransmit": true,
+      "OwnerTransfer": 1,
+      "Components": [],
+      "Children": [
         {
-          "__type": "Sandbox.BoxCollider",
-          "__guid": "055b291c-b396-4b74-954c-7bf7528f87d8",
-          "Center": "0,0,0",
-          "IsTrigger": false,
-          "Scale": "50,5,150",
-          "Static": false
-        },
-        {
-          "__type": "WoodSpawn",
-          "__guid": "aea64cd5-7291-4bb8-bc62-39e111dafa79",
-          "score": {
-            "_type": "component",
-            "component_id": "a9173d2e-80da-438d-9388-5ce13cd9d3a5",
-            "go": "cb015494-24bd-4be3-a7eb-ddfb73aaed57",
-            "component_type": "ScoreScript"
-          },
-          "spawnPoint": {
-            "_type": "gameobject",
-            "go": "3e97967f-1193-4941-8b71-38a9a00e9f67"
-          },
-          "wood1": {
-            "_type": "gameobject",
-            "go": "958334bb-0105-48d8-96c0-f0594bb3f49d"
-          },
-          "wood2": {
-            "_type": "gameobject",
-            "go": "88628a94-518e-4fe3-85c2-0b4bd0a46972"
-          }
-        }
-      ]
-    },
-    {
-      "__guid": "4b35064c-d296-4aee-a7ef-240dba33fc06",
-      "Flags": 0,
-      "Name": "ground",
-      "Rotation": "0.5,-0.5,-0.5,0.5",
-      "Enabled": true,
-      "Components": [
-        {
-          "__type": "SpriteTools.SpriteComponent",
-          "__guid": "3ede43d7-50a7-4208-90fd-e5153d534b9a",
-          "__version": 1,
-          "BroadcastEvents": {},
-          "CastShadows": "On",
-          "CreateAttachPoints": false,
-          "FlashTint": "1,1,1,0",
-          "PlaybackSpeed": 1,
-          "Sprite": "tilemap/ground.sprite",
-          "SpriteFlags": "None",
-          "StartingAnimationName": "default",
-          "Tint": "1,1,1,1",
-          "UpDirection": "YPositive",
-          "UsePixelScale": false
+          "__guid": "392530f6-0f78-47c9-989a-6a8051bd659f",
+          "__version": 2,
+          "Flags": 0,
+          "Name": "Body",
+          "Position": "0,0,0",
+          "Rotation": "0,0,0,1",
+          "Scale": "1,1,1",
+          "Tags": "",
+          "Enabled": true,
+          "NetworkMode": 2,
+          "NetworkFlags": 0,
+          "NetworkOrphaned": 0,
+          "NetworkTransmit": true,
+          "OwnerTransfer": 1,
+          "Components": [
+            {
+              "__type": "Sandbox.ModelRenderer",
+              "__guid": "139b8342-8178-4072-9f4f-52c3133770cc",
+              "__enabled": true,
+              "Flags": 0,
+              "BodyGroups": 18446744073709551615,
+              "CreateAttachments": false,
+              "LodOverride": null,
+              "MaterialGroup": null,
+              "MaterialOverride": null,
+              "Materials": null,
+              "Model": "models/sbox_props/metal_wheely_bin/metal_wheely_bin.vmdl",
+              "OnComponentDestroy": null,
+              "OnComponentDisabled": null,
+              "OnComponentEnabled": null,
+              "OnComponentFixedUpdate": null,
+              "OnComponentStart": null,
+              "OnComponentUpdate": null,
+              "RenderOptions": {
+                "GameLayer": true,
+                "OverlayLayer": false,
+                "BloomLayer": false,
+                "AfterUILayer": false
+              },
+              "RenderType": "On",
+              "Tint": "1,1,1,1"
+            }
+          ],
+          "Children": []
         }
       ]
     }
   ],
   "SceneProperties": {
-    "FixedUpdateFrequency": 50,
-    "MaxFixedUpdates": 5,
-    "NetworkFrequency": 30,
     "NetworkInterpolation": true,
-    "ThreadedAnimation": true,
     "TimeScale": 1,
-    "UseFixedUpdate": true,
+    "WantsSystemScene": true,
+    "Metadata": {
+      "Title": "jabarun"
+    },
     "NavMesh": {
       "Enabled": false,
       "IncludeStaticBodies": true,
@@ -862,12 +1272,26 @@
       "AgentStepSize": 18,
       "AgentMaxSlope": 40,
       "ExcludedBodies": "",
-      "IncludedBodies": ""
+      "IncludedBodies": "",
+      "CustomBounds": false
+    },
+    "GameObjectSystems": {
+      "Sandbox.Clutter.ClutterGridSystem": {
+        "Storage": {
+          "$blob": "83039876-136b-4448-8a26-67aebd56dde5"
+        }
+      }
     }
   },
+  "ResourceVersion": 3,
   "Title": "jabarun",
-  "Description": "",
-  "ResourceVersion": 1,
-  "__references": [],
-  "__version": 1
+  "Description": null,
+  "__references": [
+    "facepunch.binbag_a2#17182",
+    "facepunch.floor_dirt_b#116231",
+    "facepunch.floor_slick_asphalt#116208",
+    "facepunch.metal_wheely_bin#143867",
+    "smd.dontbeweird3#2280"
+  ],
+  "__version": 3
 }

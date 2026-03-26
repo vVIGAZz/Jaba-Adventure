@@ -1,0 +1,197 @@
+{
+  "LocalAssetBrowser.History": {
+    "Value": "[\u0022C:\\\\S\\u0026box Project\\\\Jaba-Adventure\\\\Assets\u0022,\u0022C:\\\\S\\u0026box Project\\\\Jaba-Adventure\\\\Assets\u0022,\u0022C:\\\\S\\u0026box Project\\\\Jaba-Adventure\\\\Assets\\\\scenes\u0022,\u0022C:\\\\S\\u0026box Project\\\\Jaba-Adventure\\\\code\u0022,\u0022C:\\\\S\\u0026box Project\\\\Jaba-Adventure\\\\code\\\\Game\u0022,\u0022C:\\\\S\\u0026box Project\\\\Jaba-Adventure\\\\code\\\\Game\\\\Player\u0022]",
+    "Timeout": 1777134507,
+    "DeleteAt": 0
+  },
+  "LocalAssetBrowser.HistoryIdx": {
+    "Value": "5",
+    "Timeout": 1777134507,
+    "DeleteAt": 0
+  },
+  "SceneView.Viewport0.Settings": {
+    "Value": "{\u0022CameraPosition\u0022:\u0022-500,0,0\u0022,\u0022CameraRotation\u0022:\u00220,0,0,1\u0022,\u0022View\u0022:0,\u0022RenderMode\u0022:0,\u0022WireframeMode\u0022:false,\u0022EnablePostProcessing\u0022:true,\u0022EnablePrefabLighting\u0022:true,\u0022ShowSkyIn2D\u0022:true,\u0022ShowGrid\u0022:true,\u0022GridOpacity\u0022:0.2,\u0022GridAxis\u0022:0,\u0022CameraOrthoHeight\u0022:1000}",
+    "Timeout": 1777135787,
+    "DeleteAt": 0
+  },
+  "Window.SboxSceneEditor.Dock": {
+    "Value": "{\u0022floatingWindows\u0022:[],\u0022mainWrapper\u0022:{\u0022geometry\u0022:\u0022AdnQywADAAAAAAAAAAAAAAAACfYAAAVrAAAAAAAAAAAAAAn2AAAFawAAAAAAAAAACgAAAAAAAAAAAAAACfYAAAVr\u0022,\u0022splitter\u0022:{\u0022items\u0022:[{\u0022currentIndex\u0022:0,\u0022objects\u0022:[{\u0022data\u0022:null,\u0022managedType\u0022:\u0022SceneTreeWidget\u0022,\u0022name\u0022:\u0022Hierarchy\u0022},{\u0022data\u0022:null,\u0022managedType\u0022:\u0022PanelInspectorWidget\u0022,\u0022name\u0022:\u0022UI Panels\u0022}],\u0022type\u0022:\u0022area\u0022},{\u0022items\u0022:[{\u0022items\u0022:[{\u0022currentIndex\u0022:2,\u0022objects\u0022:[{\u0022data\u0022:null,\u0022managedType\u0022:\u0022SceneDock\u0022,\u0022name\u0022:\u0022SceneDock:scenes/main menu.scene\u0022},{\u0022data\u0022:null,\u0022managedType\u0022:\u0022SceneDock\u0022,\u0022name\u0022:\u0022SceneDock:scenes/restart.scene\u0022},{\u0022data\u0022:null,\u0022managedType\u0022:\u0022SceneDock\u0022,\u0022name\u0022:\u0022SceneDock:scenes/jabarun.scene\u0022}],\u0022type\u0022:\u0022area\u0022},{\u0022currentIndex\u0022:0,\u0022objects\u0022:[{\u0022data\u0022:null,\u0022managedType\u0022:\u0022MainAssetBrowser\u0022,\u0022name\u0022:\u0022Asset Browser\u0022},{\u0022data\u0022:null,\u0022managedType\u0022:\u0022ConsoleWidget\u0022,\u0022name\u0022:\u0022Console\u0022},{\u0022data\u0022:null,\u0022managedType\u0022:\u0022MixerDock\u0022,\u0022name\u0022:\u0022Mixer\u0022},{\u0022data\u0022:null,\u0022managedType\u0022:\u0022LibraryManagerDock\u0022,\u0022name\u0022:\u0022Library Manager\u0022}],\u0022type\u0022:\u0022area\u0022}],\u0022state\u0022:\u0022AAAA/wAAAAEAAAACAAADpQAAAhYA/////wEAAAACAA==\u0022,\u0022type\u0022:\u0022splitter\u0022},{\u0022items\u0022:[{\u0022currentIndex\u0022:0,\u0022objects\u0022:[{\u0022data\u0022:null,\u0022managedType\u0022:\u0022Inspector\u0022,\u0022name\u0022:\u0022Inspector\u0022}],\u0022type\u0022:\u0022area\u0022},{\u0022currentIndex\u0022:0,\u0022objects\u0022:[{\u0022data\u0022:null,\u0022managedType\u0022:\u0022PerformanceDock\u0022,\u0022name\u0022:\u0022Performance\u0022}],\u0022type\u0022:\u0022area\u0022}],\u0022state\u0022:\u0022AAAA/wAAAAEAAAACAAAEuQAAAVEA/////wEAAAACAA==\u0022,\u0022type\u0022:\u0022splitter\u0022}],\u0022state\u0022:\u0022AAAA/wAAAAEAAAACAAAGnAAAAfkA/////wEAAAABAA==\u0022,\u0022type\u0022:\u0022splitter\u0022}],\u0022state\u0022:\u0022AAAA/wAAAAEAAAACAAABmwAACjQA/////wEAAAABAA==\u0022,\u0022type\u0022:\u0022splitter\u0022}},\u0022toolWindowManagerStateFormat\u0022:1}",
+    "Timeout": 1777135786,
+    "DeleteAt": 0
+  },
+  "scenes/main menu.scene.Viewport0": {
+    "Value": "{\u0022CameraPosition\u0022:\u0022-500,0,0\u0022,\u0022CameraRotation\u0022:\u00220,0,0,1\u0022,\u0022CameraOrthoHeight\u0022:1000}",
+    "Timeout": 1777135787,
+    "DeleteAt": 0
+  },
+  ".Viewport0": {
+    "Value": "{\u0022CameraPosition\u0022:\u0022-1006.848,11.13547,287.2348\u0022,\u0022CameraRotation\u0022:\u00220,0,0,1\u0022,\u0022CameraOrthoHeight\u0022:623.6464}",
+    "Timeout": 1777135784,
+    "DeleteAt": 0
+  },
+  "scenes/restart.scene.Viewport0": {
+    "Value": "{\u0022CameraPosition\u0022:\u0022-500,0,0\u0022,\u0022CameraRotation\u0022:\u00220,0,0,1\u0022,\u0022CameraOrthoHeight\u0022:1000}",
+    "Timeout": 1777135787,
+    "DeleteAt": 0
+  },
+  "scenes/jabarun.scene.Viewport0": {
+    "Value": "{\u0022CameraPosition\u0022:\u0022-1006.848,11.13547,287.2348\u0022,\u0022CameraRotation\u0022:\u00220,0,0,1\u0022,\u0022CameraOrthoHeight\u0022:623.6464}",
+    "Timeout": 1777135787,
+    "DeleteAt": 0
+  },
+  "expand.e4147fd1-b500-4c50-9428-1d73354e9ea7.CameraComponent": {
+    "Value": "false",
+    "Timeout": 1777120356,
+    "DeleteAt": 0
+  },
+  "gizmo.settings": {
+    "Value": "{\u0022EditMode\u0022:\u0022position\u0022,\u0022Selection\u0022:true,\u0022ViewMode\u0022:\u00223d\u0022,\u0022GizmosEnabled\u0022:true,\u0022GizmoScale\u0022:1,\u0022GridSpacing\u0022:32,\u0022SnapToGrid\u0022:false,\u0022SnapToAngles\u0022:true,\u0022AngleSpacing\u0022:15,\u0022GlobalSpace\u0022:false,\u0022DebugActionGraphs\u0022:false,\u0022DisabledGizmos\u0022:{}}",
+    "Timeout": 1777134506,
+    "DeleteAt": 0
+  },
+  "SceneView.Layout": {
+    "Value": "{\u0022Layout\u0022:0,\u0022SplitterState\u0022:[]}",
+    "Timeout": 1777135787,
+    "DeleteAt": 0
+  },
+  "LocalAssetBrowser.Model.History": {
+    "Value": "[\u0022C:\\\\S\\u0026box Project\\\\Jaba-Adventure\\\\Assets\u0022,\u0022C:\\\\S\\u0026box Project\\\\Jaba-Adventure\\\\Assets\u0022]",
+    "Timeout": 1777135469,
+    "DeleteAt": 0
+  },
+  "LocalAssetBrowser.Model.HistoryIdx": {
+    "Value": "1",
+    "Timeout": 1777135469,
+    "DeleteAt": 0
+  },
+  "EditorDisplayMode": {
+    "Value": "\u00221080p\u0022",
+    "Timeout": 1777135755,
+    "DeleteAt": 0
+  },
+  "expand.8a1a031e-d09a-479a-84db-4de4f83cb46c.CharacterController": {
+    "Value": "false",
+    "Timeout": 1777135595,
+    "DeleteAt": 0
+  },
+  "expand.f4d15dda-4239-432c-b927-4c9b84d608d4.Dresser": {
+    "Value": "false",
+    "Timeout": 1777121690,
+    "DeleteAt": 0
+  },
+  "expand.f4d15dda-4239-432c-b927-4c9b84d608d4.SkinnedModelRenderer": {
+    "Value": "false",
+    "Timeout": 1777121694,
+    "DeleteAt": 0
+  },
+  "expand.cb015494-24bd-4be3-a7eb-ddfb73aaed57.MissingComponent": {
+    "Value": "false",
+    "Timeout": 1777134695,
+    "DeleteAt": 0
+  },
+  "expand.cb015494-24bd-4be3-a7eb-ddfb73aaed57.Rigidbody": {
+    "Value": "false",
+    "Timeout": 1777134693,
+    "DeleteAt": 0
+  },
+  "expand.cb015494-24bd-4be3-a7eb-ddfb73aaed57.BoxCollider": {
+    "Value": "false",
+    "Timeout": 1777134693,
+    "DeleteAt": 0
+  },
+  "expand.cb015494-24bd-4be3-a7eb-ddfb73aaed57.Movement": {
+    "Value": "false",
+    "Timeout": 1777134694,
+    "DeleteAt": 0
+  },
+  "expand.5ea04105-ddba-42b4-b2c5-3e39d2188618.BoxCollider": {
+    "Value": "false",
+    "Timeout": 1777134918,
+    "DeleteAt": 0
+  },
+  "expand.5ea04105-ddba-42b4-b2c5-3e39d2188618.ModelRenderer": {
+    "Value": "false",
+    "Timeout": 1777134918,
+    "DeleteAt": 0
+  },
+  "CloudBrowser..ViewMode": {
+    "Value": "3",
+    "Timeout": 1777135735,
+    "DeleteAt": 0
+  },
+  "CloudBrowser..ShowJunkFiles": {
+    "Value": "false",
+    "Timeout": 1777135735,
+    "DeleteAt": 0
+  },
+  "CloudBrowser..HideNonAssets": {
+    "Value": "false",
+    "Timeout": 1777135735,
+    "DeleteAt": 0
+  },
+  "CloudBrowser..ShowRecursiveFiles": {
+    "Value": "false",
+    "Timeout": 1777135735,
+    "DeleteAt": 0
+  },
+  "CloudBrowser.Model..ViewMode": {
+    "Value": "3",
+    "Timeout": 1777135470,
+    "DeleteAt": 0
+  },
+  "CloudBrowser.Model..ShowJunkFiles": {
+    "Value": "false",
+    "Timeout": 1777135470,
+    "DeleteAt": 0
+  },
+  "CloudBrowser.Model..HideNonAssets": {
+    "Value": "false",
+    "Timeout": 1777135470,
+    "DeleteAt": 0
+  },
+  "CloudBrowser.Model..ShowRecursiveFiles": {
+    "Value": "false",
+    "Timeout": 1777135470,
+    "DeleteAt": 0
+  },
+  "expand.72f72f1d-6459-49d7-82a9-82761edf3ce1.MeshComponent": {
+    "Value": "false",
+    "Timeout": 1777135278,
+    "DeleteAt": 0
+  },
+  "LocalAssetBrowser.Material.History": {
+    "Value": "[\u0022C:\\\\S\\u0026box Project\\\\Jaba-Adventure\\\\Assets\u0022,\u0022c:\\\\program files (x86)\\\\steam\\\\steamapps\\\\common\\\\sbox\\\\core\\\\materials\\\\dev\u0022]",
+    "Timeout": 1777135368,
+    "DeleteAt": 0
+  },
+  "LocalAssetBrowser.Material.HistoryIdx": {
+    "Value": "1",
+    "Timeout": 1777135368,
+    "DeleteAt": 0
+  },
+  "CloudBrowser.Material..ViewMode": {
+    "Value": "3",
+    "Timeout": 1777135368,
+    "DeleteAt": 0
+  },
+  "CloudBrowser.Material..ShowJunkFiles": {
+    "Value": "false",
+    "Timeout": 1777135368,
+    "DeleteAt": 0
+  },
+  "CloudBrowser.Material..HideNonAssets": {
+    "Value": "false",
+    "Timeout": 1777135368,
+    "DeleteAt": 0
+  },
+  "CloudBrowser.Material..ShowRecursiveFiles": {
+    "Value": "false",
+    "Timeout": 1777135368,
+    "DeleteAt": 0
+  },
+  "MeshTool.ActiveMaterial": {
+    "Value": "\u0022materials/generic/floor_slick_asphalt.vmat\u0022",
+    "Timeout": 1777135395,
+    "DeleteAt": 0
+  }
+}
