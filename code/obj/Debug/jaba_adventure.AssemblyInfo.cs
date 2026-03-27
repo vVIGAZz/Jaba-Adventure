@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("jaba_adventure")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3202bedd90eed6b1542cf8e432e74357de9c1478")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0ea7ec0c90e805024ec42b7a2ce90226a272d9e2")]
 [assembly: System.Reflection.AssemblyProductAttribute("jaba_adventure")]
 [assembly: System.Reflection.AssemblyTitleAttribute("jaba_adventure")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

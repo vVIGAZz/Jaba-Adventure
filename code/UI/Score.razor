@@ -1,0 +1,15 @@
+@using Sandbox;
+@using Sandbox.UI;
+@inherits PanelComponent
+@namespace Sandbox
+
+<root>
+	<div class="title">@stats.Score</div>
+</root>
+
+@code
+{
+
+	[Property] public Player stats;
+	protected override int BuildHash() => System.HashCode.Combine( stats.Score );
+}

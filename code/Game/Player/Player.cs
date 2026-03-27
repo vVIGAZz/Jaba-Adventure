@@ -2,14 +2,9 @@ using Sandbox;
 
 public sealed class Player : Component, Component.ITriggerListener
 {
-	[Property] int Score { get; set; }
+	[Property] public int Score { get; set; }
 	[Property] public Movement playerMovement;
 	[Property] public ModelPhysics ragdoll;
-
-	protected override void OnUpdate()
-	{
-
-	}
 
 	private void Died()
 	{
