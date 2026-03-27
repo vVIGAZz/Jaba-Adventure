@@ -3,6 +3,8 @@ using Sandbox;
 public sealed class Player : Component, Component.ITriggerListener
 {
 	[Property] int Score { get; set; }
+	[Property] public Movement playerMovement;
+	[Property] public ModelPhysics ragdoll;
 
 	protected override void OnUpdate()
 	{
@@ -11,7 +13,8 @@ public sealed class Player : Component, Component.ITriggerListener
 
 	private void Died()
 	{
-		//Scene.GetComponent<Movement>().Enabled = false;
+		playerMovement.Enabled = false;
+		ragdoll.Enabled = true;
 
 	}
 	public void OnTriggerEnter(Collider other)
@@ -22,6 +25,7 @@ public sealed class Player : Component, Component.ITriggerListener
 		}
 		if (other.Tags.Has("coin")){
 			Score++;
+			other.GameObject.Destroy();
 		}
 	}
 }

@@ -6,7 +6,7 @@ public sealed class PropsMovement : Component
 	[Property] float Speed { get; set; }
 	protected override void OnFixedUpdate()
 	{
-		WishDir += Vector3.Left * Speed;
+		WishDir = Vector3.Left * Speed;
 		WorldPosition += WishDir;
 	}
 }
