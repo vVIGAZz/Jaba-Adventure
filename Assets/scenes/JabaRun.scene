@@ -492,6 +492,12 @@
           "__guid": "af55e6d0-532e-4c6d-828a-4c9fe4857e8d",
           "__enabled": true,
           "Flags": 0,
+          "DeathScreen": {
+            "_type": "component",
+            "component_id": "5d75350e-7c5c-4dc9-9e75-00697c3a652f",
+            "go": "9b4c114e-3fdc-439f-8b11-2042a4644cc5",
+            "component_type": "DeathScreen"
+          },
           "OnComponentDestroy": null,
           "OnComponentDisabled": null,
           "OnComponentEnabled": null,
@@ -640,7 +646,7 @@
           ],
           "Children": [
             {
-              "__guid": "8ce8a22c-4106-4dc7-9653-c95529cd6486",
+              "__guid": "a8cfc509-251f-4511-9eb5-decbf4793dad",
               "__version": 2,
               "Flags": 0,
               "Name": "Clothing - nerdy_glasses",
@@ -657,7 +663,7 @@
               "Components": [
                 {
                   "__type": "Sandbox.SkinnedModelRenderer",
-                  "__guid": "40fe4444-5377-4d59-9a7b-275def08a332",
+                  "__guid": "a8909001-5d94-4ae8-8d07-d26f507f0615",
                   "__enabled": true,
                   "Flags": 0,
                   "AnimationGraph": null,
@@ -709,7 +715,7 @@
               "Children": []
             },
             {
-              "__guid": "ab8fd461-799a-4c0e-b09e-e27bf835c1b7",
+              "__guid": "6286c63a-5dca-490d-b34a-7580df3d3b8d",
               "__version": 2,
               "Flags": 0,
               "Name": "Clothing - eyebrows",
@@ -726,7 +732,7 @@
               "Components": [
                 {
                   "__type": "Sandbox.SkinnedModelRenderer",
-                  "__guid": "379db49a-6c52-4fe1-b8dc-c84fc845aa4a",
+                  "__guid": "3020f37a-36a3-48ef-844c-cb3640f79220",
                   "__enabled": true,
                   "Flags": 0,
                   "AnimationGraph": null,
@@ -778,7 +784,7 @@
               "Children": []
             },
             {
-              "__guid": "f59fd26c-d65c-476d-9dc5-51e77ad6319b",
+              "__guid": "55796610-ffd3-4ec1-8f29-2eeb100669b2",
               "__version": 2,
               "Flags": 0,
               "Name": "Clothing - sneakers",
@@ -795,7 +801,7 @@
               "Components": [
                 {
                   "__type": "Sandbox.SkinnedModelRenderer",
-                  "__guid": "edfaba94-9e59-4252-8e42-cbd6c22e1df1",
+                  "__guid": "88af4c2c-aefe-48b3-9dac-43e1eb3b3bfc",
                   "__enabled": true,
                   "Flags": 0,
                   "AnimationGraph": null,
@@ -847,7 +853,7 @@
               "Children": []
             },
             {
-              "__guid": "a3eba3f9-c06c-4507-b4be-375149ddddf9",
+              "__guid": "5f260944-5c95-4fd7-a8ac-347b7c290fd4",
               "__version": 2,
               "Flags": 0,
               "Name": "Clothing - jeans",
@@ -864,7 +870,7 @@
               "Components": [
                 {
                   "__type": "Sandbox.SkinnedModelRenderer",
-                  "__guid": "77bad0e3-4cbf-4b26-9c47-6f1f8dc2c38b",
+                  "__guid": "5fde765b-6d73-4840-9b7a-6c80abf0366e",
                   "__enabled": true,
                   "Flags": 0,
                   "AnimationGraph": null,
@@ -916,7 +922,7 @@
               "Children": []
             },
             {
-              "__guid": "7ad00147-ffc8-4b8e-8117-d4bb8ece61d1",
+              "__guid": "68d0f10a-3fb9-4bd5-bed8-e6ad26ff0afb",
               "__version": 2,
               "Flags": 0,
               "Name": "Clothing - raincoat_cap_navycheck",
@@ -933,7 +939,7 @@
               "Components": [
                 {
                   "__type": "Sandbox.SkinnedModelRenderer",
-                  "__guid": "b2f7fac1-8a7e-4c46-a993-f67a05eee194",
+                  "__guid": "190350eb-31b3-4ca7-8095-3fac58dbcb8b",
                   "__enabled": true,
                   "Flags": 0,
                   "AnimationGraph": null,
@@ -985,7 +991,7 @@
               "Children": []
             },
             {
-              "__guid": "fbe0ae2d-5c6e-4d31-be7d-7c16ace1e629",
+              "__guid": "02025e2e-0a6d-4bc3-be9f-c83ea3cf3bf9",
               "__version": 2,
               "Flags": 0,
               "Name": "Clothing - sports_bandage",
@@ -1002,7 +1008,7 @@
               "Components": [
                 {
                   "__type": "Sandbox.SkinnedModelRenderer",
-                  "__guid": "b1574016-06da-4de0-819f-ec539b9eaaec",
+                  "__guid": "1f380d5b-e2cc-4e3d-a735-5956fe1a17e7",
                   "__enabled": true,
                   "Flags": 0,
                   "AnimationGraph": null,
@@ -1335,6 +1341,75 @@
         }
       ],
       "Children": []
+    },
+    {
+      "__guid": "ee8265df-1e96-401a-8e79-405dcf1ba697",
+      "__version": 2,
+      "Flags": 0,
+      "Name": "UI Panels",
+      "Position": "0,0,0",
+      "Rotation": "0,0,0,1",
+      "Scale": "1,1,1",
+      "Tags": "",
+      "Enabled": true,
+      "NetworkMode": 2,
+      "NetworkFlags": 0,
+      "NetworkOrphaned": 0,
+      "NetworkTransmit": true,
+      "OwnerTransfer": 1,
+      "Components": [],
+      "Children": [
+        {
+          "__guid": "9b4c114e-3fdc-439f-8b11-2042a4644cc5",
+          "__version": 2,
+          "Flags": 0,
+          "Name": "Death Screen",
+          "Position": "0,0,0",
+          "Rotation": "0,0,0,1",
+          "Scale": "1,1,1",
+          "Tags": "",
+          "Enabled": true,
+          "NetworkMode": 2,
+          "NetworkFlags": 0,
+          "NetworkOrphaned": 0,
+          "NetworkTransmit": true,
+          "OwnerTransfer": 1,
+          "Components": [
+            {
+              "__type": "Sandbox.ScreenPanel",
+              "__guid": "119f02ea-b147-454b-9fb0-4a934259e919",
+              "__enabled": true,
+              "Flags": 0,
+              "AutoScreenScale": true,
+              "OnComponentDestroy": null,
+              "OnComponentDisabled": null,
+              "OnComponentEnabled": null,
+              "OnComponentFixedUpdate": null,
+              "OnComponentStart": null,
+              "OnComponentUpdate": null,
+              "Opacity": 1,
+              "Scale": 1,
+              "ScaleStrategy": "ConsistentHeight",
+              "TargetCamera": null,
+              "ZIndex": 100
+            },
+            {
+              "__type": "Sandbox.DeathScreen",
+              "__guid": "5d75350e-7c5c-4dc9-9e75-00697c3a652f",
+              "__enabled": true,
+              "Flags": 0,
+              "MyStringValue": "Hello World!",
+              "OnComponentDestroy": null,
+              "OnComponentDisabled": null,
+              "OnComponentEnabled": null,
+              "OnComponentFixedUpdate": null,
+              "OnComponentStart": null,
+              "OnComponentUpdate": null
+            }
+          ],
+          "Children": []
+        }
+      ]
     }
   ],
   "SceneProperties": {
@@ -1360,7 +1435,7 @@
     "GameObjectSystems": {
       "Sandbox.Clutter.ClutterGridSystem": {
         "Storage": {
-          "$blob": "32714b37-49e8-4fff-a3a7-07c6af8bfca5"
+          "$blob": "30d27020-8561-4949-84ee-bbca7e5fc296"
         }
       }
     }

@@ -3,16 +3,28 @@
   "WorkspaceRootPath": "C:\\S\u0026box Project\\Jaba-Adventure\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3E23C584-5D38-ECD6-F532-4EE65C9C4C86}|code\\jaba_adventure.csproj|c:\\s\u0026box project\\jaba-adventure\\code\\game\\propsmovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3E23C584-5D38-ECD6-F532-4EE65C9C4C86}|code\\jaba_adventure.csproj|solutionrelative:code\\game\\propsmovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\S\u0026box Project\\Jaba-Adventure\\code\\UI\\DeathScreen.razor.scss||{181FE41B-5A5D-479F-9F8F-BF665F4EBC2A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:code\\UI\\DeathScreen.razor.scss||{181FE41B-5A5D-479F-9F8F-BF665F4EBC2A}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3E23C584-5D38-ECD6-F532-4EE65C9C4C86}|code\\jaba_adventure.csproj|c:\\s\u0026box project\\jaba-adventure\\code\\game\\data\\spawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3E23C584-5D38-ECD6-F532-4EE65C9C4C86}|code\\jaba_adventure.csproj|solutionrelative:code\\game\\data\\spawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3E23C584-5D38-ECD6-F532-4EE65C9C4C86}|code\\jaba_adventure.csproj|c:\\s\u0026box project\\jaba-adventure\\code\\game\\player\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E23C584-5D38-ECD6-F532-4EE65C9C4C86}|code\\jaba_adventure.csproj|solutionrelative:code\\game\\player\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\S\u0026box Project\\Jaba-Adventure\\code\\Game\\Player\\Player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:code\\Game\\Player\\Player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3E23C584-5D38-ECD6-F532-4EE65C9C4C86}|code\\jaba_adventure.csproj|c:\\s\u0026box project\\jaba-adventure\\code\\ui\\deathscreen.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3E23C584-5D38-ECD6-F532-4EE65C9C4C86}|code\\jaba_adventure.csproj|solutionrelative:code\\ui\\deathscreen.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E23C584-5D38-ECD6-F532-4EE65C9C4C86}|code\\jaba_adventure.csproj|c:\\s\u0026box project\\jaba-adventure\\code\\ui\\score.razor.scss||{181FE41B-5A5D-479F-9F8F-BF665F4EBC2A}",
+      "RelativeMoniker": "D:0:0:{3E23C584-5D38-ECD6-F532-4EE65C9C4C86}|code\\jaba_adventure.csproj|solutionrelative:code\\ui\\score.razor.scss||{181FE41B-5A5D-479F-9F8F-BF665F4EBC2A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E23C584-5D38-ECD6-F532-4EE65C9C4C86}|code\\jaba_adventure.csproj|c:\\s\u0026box project\\jaba-adventure\\code\\ui\\score.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3E23C584-5D38-ECD6-F532-4EE65C9C4C86}|code\\jaba_adventure.csproj|solutionrelative:code\\ui\\score.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E23C584-5D38-ECD6-F532-4EE65C9C4C86}|code\\jaba_adventure.csproj|c:\\s\u0026box project\\jaba-adventure\\code\\game\\data\\spawnmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E23C584-5D38-ECD6-F532-4EE65C9C4C86}|code\\jaba_adventure.csproj|solutionrelative:code\\game\\data\\spawnmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,45 +34,80 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Spawner.cs",
-              "DocumentMoniker": "C:\\S\u0026box Project\\Jaba-Adventure\\code\\Game\\Data\\Spawner.cs",
-              "RelativeDocumentMoniker": "code\\Game\\Data\\Spawner.cs",
-              "ToolTip": "C:\\S\u0026box Project\\Jaba-Adventure\\code\\Game\\Data\\Spawner.cs",
-              "RelativeToolTip": "code\\Game\\Data\\Spawner.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAA7AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-27T08:58:35.116Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "PropsMovement.cs",
-              "DocumentMoniker": "C:\\S\u0026box Project\\Jaba-Adventure\\code\\Game\\PropsMovement.cs",
-              "RelativeDocumentMoniker": "code\\Game\\PropsMovement.cs",
-              "ToolTip": "C:\\S\u0026box Project\\Jaba-Adventure\\code\\Game\\PropsMovement.cs",
-              "RelativeToolTip": "code\\Game\\PropsMovement.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-26T19:36:43.827Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
               "Title": "Player.cs",
               "DocumentMoniker": "C:\\S\u0026box Project\\Jaba-Adventure\\code\\Game\\Player\\Player.cs",
               "RelativeDocumentMoniker": "code\\Game\\Player\\Player.cs",
               "ToolTip": "C:\\S\u0026box Project\\Jaba-Adventure\\code\\Game\\Player\\Player.cs",
               "RelativeToolTip": "code\\Game\\Player\\Player.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAYAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAACAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-27T08:53:13.78Z",
+              "WhenOpened": "2026-03-28T16:18:34.435Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Score.razor.scss",
+              "DocumentMoniker": "C:\\S\u0026box Project\\Jaba-Adventure\\code\\UI\\Score.razor.scss",
+              "RelativeDocumentMoniker": "code\\UI\\Score.razor.scss",
+              "ToolTip": "C:\\S\u0026box Project\\Jaba-Adventure\\code\\UI\\Score.razor.scss",
+              "RelativeToolTip": "code\\UI\\Score.razor.scss",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002663|",
+              "WhenOpened": "2026-03-27T14:45:35.325Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Score.razor",
+              "DocumentMoniker": "C:\\S\u0026box Project\\Jaba-Adventure\\code\\UI\\Score.razor",
+              "RelativeDocumentMoniker": "code\\UI\\Score.razor",
+              "ToolTip": "C:\\S\u0026box Project\\Jaba-Adventure\\code\\UI\\Score.razor",
+              "RelativeToolTip": "code\\UI\\Score.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-27T14:44:01.586Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "SpawnManager.cs",
+              "DocumentMoniker": "C:\\S\u0026box Project\\Jaba-Adventure\\code\\Game\\Data\\SpawnManager.cs",
+              "RelativeDocumentMoniker": "code\\Game\\Data\\SpawnManager.cs",
+              "ToolTip": "C:\\S\u0026box Project\\Jaba-Adventure\\code\\Game\\Data\\SpawnManager.cs",
+              "RelativeToolTip": "code\\Game\\Data\\SpawnManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-27T14:40:43.533Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DeathScreen.razor",
+              "DocumentMoniker": "C:\\S\u0026box Project\\Jaba-Adventure\\code\\UI\\DeathScreen.razor",
+              "RelativeDocumentMoniker": "code\\UI\\DeathScreen.razor",
+              "ToolTip": "C:\\S\u0026box Project\\Jaba-Adventure\\code\\UI\\DeathScreen.razor",
+              "RelativeToolTip": "code\\UI\\DeathScreen.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-28T13:06:45.231Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DeathScreen.razor.scss",
+              "DocumentMoniker": "C:\\S\u0026box Project\\Jaba-Adventure\\code\\UI\\DeathScreen.razor.scss",
+              "RelativeDocumentMoniker": "code\\UI\\DeathScreen.razor.scss",
+              "ToolTip": "C:\\S\u0026box Project\\Jaba-Adventure\\code\\UI\\DeathScreen.razor.scss",
+              "RelativeToolTip": "code\\UI\\DeathScreen.razor.scss",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002663|",
+              "WhenOpened": "2026-03-28T18:34:32.886Z",
               "EditorCaption": ""
             }
           ]

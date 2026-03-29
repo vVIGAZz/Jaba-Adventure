@@ -22,6 +22,10 @@ build_property._RazorSourceGeneratorDebug =
 build_property.EffectiveAnalysisLevelStyle = 10.0
 build_property.EnableCodeStyleSeverity = 
 
+[C:/S&box Project/Jaba-Adventure/code/UI/DeathScreen.razor]
+build_metadata.AdditionalFiles.TargetPath = VUlcRGVhdGhTY3JlZW4ucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/S&box Project/Jaba-Adventure/code/UI/Score.razor]
 build_metadata.AdditionalFiles.TargetPath = VUlcU2NvcmUucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
