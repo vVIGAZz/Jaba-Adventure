@@ -40,6 +40,76 @@
       "Children": []
     },
     {
+      "__guid": "668c4f23-2b69-49c1-bd61-517b5d3fa9ca",
+      "__version": 2,
+      "Flags": 0,
+      "Name": "Game Manager",
+      "Position": "0,0,0",
+      "Rotation": "0,0,0,1",
+      "Scale": "1,1,1",
+      "Tags": "",
+      "Enabled": true,
+      "NetworkMode": 2,
+      "NetworkFlags": 0,
+      "NetworkOrphaned": 0,
+      "NetworkTransmit": true,
+      "OwnerTransfer": 1,
+      "Components": [
+        {
+          "__type": "GameManager",
+          "__guid": "ed0c46c9-8050-4a42-a381-c6629d5a6cc6",
+          "__enabled": true,
+          "Flags": 0,
+          "OnComponentDestroy": null,
+          "OnComponentDisabled": null,
+          "OnComponentEnabled": null,
+          "OnComponentFixedUpdate": null,
+          "OnComponentStart": null,
+          "OnComponentUpdate": null,
+          "Player": {
+            "_type": "gameobject",
+            "go": "8a1a031e-d09a-479a-84db-4de4f83cb46c"
+          },
+          "SpawnManager": {
+            "_type": "gameobject",
+            "go": "8028e5d8-2cb0-4a17-bbdb-906a8d95b9c4"
+          }
+        }
+      ],
+      "Children": []
+    },
+    {
+      "__guid": "080f2826-5498-4bfc-9a34-40bfd811e749",
+      "__version": 2,
+      "Flags": 0,
+      "Name": "Event Manager",
+      "Position": "0,0,0",
+      "Rotation": "0,0,0,1",
+      "Scale": "1,1,1",
+      "Tags": "",
+      "Enabled": true,
+      "NetworkMode": 2,
+      "NetworkFlags": 0,
+      "NetworkOrphaned": 0,
+      "NetworkTransmit": true,
+      "OwnerTransfer": 1,
+      "Components": [
+        {
+          "__type": "EventManager",
+          "__guid": "e0de4931-bbee-49cc-9a50-166bdcc0831a",
+          "__enabled": true,
+          "Flags": 0,
+          "OnComponentDestroy": null,
+          "OnComponentDisabled": null,
+          "OnComponentEnabled": null,
+          "OnComponentFixedUpdate": null,
+          "OnComponentStart": null,
+          "OnComponentUpdate": null
+        }
+      ],
+      "Children": []
+    },
+    {
       "__guid": "21aefa04-1e2a-4346-a95e-80c6cedf0e17",
       "__version": 2,
       "Flags": 0,
@@ -646,7 +716,7 @@
           ],
           "Children": [
             {
-              "__guid": "a8cfc509-251f-4511-9eb5-decbf4793dad",
+              "__guid": "cd29092b-d118-4161-8602-7c0a5ef51c8e",
               "__version": 2,
               "Flags": 0,
               "Name": "Clothing - nerdy_glasses",
@@ -663,7 +733,7 @@
               "Components": [
                 {
                   "__type": "Sandbox.SkinnedModelRenderer",
-                  "__guid": "a8909001-5d94-4ae8-8d07-d26f507f0615",
+                  "__guid": "fca3ba39-c7b5-47b2-a963-1d39cbeb405a",
                   "__enabled": true,
                   "Flags": 0,
                   "AnimationGraph": null,
@@ -715,7 +785,7 @@
               "Children": []
             },
             {
-              "__guid": "6286c63a-5dca-490d-b34a-7580df3d3b8d",
+              "__guid": "f8e35ac0-2a66-4e9b-91d9-1433350a866d",
               "__version": 2,
               "Flags": 0,
               "Name": "Clothing - eyebrows",
@@ -732,7 +802,7 @@
               "Components": [
                 {
                   "__type": "Sandbox.SkinnedModelRenderer",
-                  "__guid": "3020f37a-36a3-48ef-844c-cb3640f79220",
+                  "__guid": "767d6592-3280-4928-9611-25632763e98b",
                   "__enabled": true,
                   "Flags": 0,
                   "AnimationGraph": null,
@@ -784,7 +854,7 @@
               "Children": []
             },
             {
-              "__guid": "55796610-ffd3-4ec1-8f29-2eeb100669b2",
+              "__guid": "be45ae81-9260-4bed-bb71-5ec2ccd0eda7",
               "__version": 2,
               "Flags": 0,
               "Name": "Clothing - sneakers",
@@ -801,7 +871,7 @@
               "Components": [
                 {
                   "__type": "Sandbox.SkinnedModelRenderer",
-                  "__guid": "88af4c2c-aefe-48b3-9dac-43e1eb3b3bfc",
+                  "__guid": "17acd334-ed98-4f65-b27b-e09a0748c0eb",
                   "__enabled": true,
                   "Flags": 0,
                   "AnimationGraph": null,
@@ -853,7 +923,7 @@
               "Children": []
             },
             {
-              "__guid": "5f260944-5c95-4fd7-a8ac-347b7c290fd4",
+              "__guid": "898bf038-5bdc-48ff-9d60-701d2e54dd12",
               "__version": 2,
               "Flags": 0,
               "Name": "Clothing - jeans",
@@ -870,7 +940,7 @@
               "Components": [
                 {
                   "__type": "Sandbox.SkinnedModelRenderer",
-                  "__guid": "5fde765b-6d73-4840-9b7a-6c80abf0366e",
+                  "__guid": "3785f1b0-f20e-4aef-b5c1-84b827dfd3fa",
                   "__enabled": true,
                   "Flags": 0,
                   "AnimationGraph": null,
@@ -922,7 +992,7 @@
               "Children": []
             },
             {
-              "__guid": "68d0f10a-3fb9-4bd5-bed8-e6ad26ff0afb",
+              "__guid": "1ef8a47b-1d4d-4207-b6cf-03cecfc3ce4f",
               "__version": 2,
               "Flags": 0,
               "Name": "Clothing - raincoat_cap_navycheck",
@@ -939,7 +1009,7 @@
               "Components": [
                 {
                   "__type": "Sandbox.SkinnedModelRenderer",
-                  "__guid": "190350eb-31b3-4ca7-8095-3fac58dbcb8b",
+                  "__guid": "5be127d0-7d01-48a5-95b8-a7ede7945f7c",
                   "__enabled": true,
                   "Flags": 0,
                   "AnimationGraph": null,
@@ -991,7 +1061,7 @@
               "Children": []
             },
             {
-              "__guid": "02025e2e-0a6d-4bc3-be9f-c83ea3cf3bf9",
+              "__guid": "610995ed-7245-465d-bb3f-3b168b731f61",
               "__version": 2,
               "Flags": 0,
               "Name": "Clothing - sports_bandage",
@@ -1008,7 +1078,7 @@
               "Components": [
                 {
                   "__type": "Sandbox.SkinnedModelRenderer",
-                  "__guid": "1f380d5b-e2cc-4e3d-a735-5956fe1a17e7",
+                  "__guid": "7c58a5af-2ac1-405a-a008-1967d4b9cc85",
                   "__enabled": true,
                   "Flags": 0,
                   "AnimationGraph": null,
@@ -1084,6 +1154,7 @@
           "__guid": "c2546cd6-9bbc-4766-af3e-2307dae94f98",
           "__enabled": true,
           "Flags": 0,
+          "GameIsStart": false,
           "OnComponentDestroy": null,
           "OnComponentDisabled": null,
           "OnComponentEnabled": null,
@@ -1100,7 +1171,7 @@
               "go": "7d208759-ade9-415e-a6ca-c97ac5f7c4c0"
             }
           ],
-          "Seconds": 3
+          "Timer": 3
         }
       ],
       "Children": [
@@ -1398,13 +1469,14 @@
               "__guid": "5d75350e-7c5c-4dc9-9e75-00697c3a652f",
               "__enabled": true,
               "Flags": 0,
-              "MyStringValue": "Hello World!",
+              "level": "scenes/jabarun.scene",
               "OnComponentDestroy": null,
               "OnComponentDisabled": null,
               "OnComponentEnabled": null,
               "OnComponentFixedUpdate": null,
               "OnComponentStart": null,
-              "OnComponentUpdate": null
+              "OnComponentUpdate": null,
+              "sceneName": "scenes/jabarun.scene"
             }
           ],
           "Children": []
@@ -1435,7 +1507,7 @@
     "GameObjectSystems": {
       "Sandbox.Clutter.ClutterGridSystem": {
         "Storage": {
-          "$blob": "30d27020-8561-4949-84ee-bbca7e5fc296"
+          "$blob": "d417a53b-61bf-43bc-b2b5-fa502389ce90"
         }
       }
     }

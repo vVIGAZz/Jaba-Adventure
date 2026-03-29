@@ -11,6 +11,7 @@ public sealed class Player : Component, Component.ITriggerListener
 		playerMovement.Enabled = false;
 		ragdoll.Enabled = true;
 		DeathScreen.IsVisible = true;
+		EventManager.PlayerDie();
 	}
 	public void OnTriggerEnter(Collider other)
 	{
